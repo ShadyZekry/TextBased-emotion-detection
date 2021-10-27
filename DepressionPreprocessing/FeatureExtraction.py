@@ -1,9 +1,7 @@
 
 import pandas as pd
-import nltk
 from sklearn.feature_extraction.text import TfidfTransformer
-from sklearn.feature_extraction.text import CountVectorizer
-from empath import Empath 
+from sklearn.feature_extraction.text import CountVectorizer 
 
 preprocessed_df = pd.read_csv('PreprocessedTweets.csv', usecols=["target", "tokenized_tweet"])
 
@@ -22,6 +20,10 @@ tfidf_transformer.fit(word_count_vector)
 df_idf = pd.DataFrame(tfidf_transformer.idf_, index=cv.get_feature_names(),columns=["idf_weights"]) 
  
 print(df_idf.sort_values(by=['idf_weights']))
+
+
+
+
 
 
 

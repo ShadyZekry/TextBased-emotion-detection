@@ -17,8 +17,8 @@ def time_convert(sec):
 
     
 #read the dataset into df
-cols_names = ["id","target","tweet"]
-df = pd.read_csv('tweets.csv', usecols=cols_names)
+cols_names = ["target","id","date", "flag", "user", "tweet"]
+df = pd.read_csv('tweets.csv', usecols=cols_names, encoding="utf-8")
 
 #extract tweets column and prepare for preprocessing
 tweets = df["tweet"]
@@ -40,7 +40,6 @@ for i in range(len(tweets)):
     
 tweet_tokenizer_end = time.time()
 print("Tweet tokenizer elapsed time:", time_convert(tweet_tokenizer_end - tweet_tokenizer_start))
-time.sleep(3)
 
 
 #list of stopwords to remove from tweets tokens
@@ -62,6 +61,11 @@ for tokenized_tweet in tokenized_tweets:
     i += 1
     if i % 100000 == 0:
         print("Url and stopwords removal is " , i / len(tweets) * 100, "% done")
+        
+for tweet in tokenized_tweets:
+    for token in tweet:
+        if token.startswith('http') or token.startswith('https'):
+            tweet.remove(token)
 
 i = 0
 for tokenized_tweet in tokenized_tweets:
@@ -76,7 +80,6 @@ for tokenized_tweet in tokenized_tweets:
 
 remove_urls_end = time.time()
 print("url, punctuation and stopwords removal elapsed time:", time_convert(remove_urls_end - remove_urls_start))
-time.sleep(3)
 
 porter_start = time.time()
 #Normalize tokenized tweets using Porter Stem
@@ -88,6 +91,7 @@ i = 0
 for tweet_index in range(len(tokenized_tweets)):
     for token_index in range(len(tokenized_tweets[tweet_index])):
         tokenized_tweets[tweet_index][token_index] = porter_stem.stem(tokenized_tweets[tweet_index][token_index])
+
     i += 1
     if i % 100000 == 0:
         print("Porter normalization is " , i / len(tweets) * 100, "% done")
@@ -97,7 +101,7 @@ print("Normalization elapsed time:", time_convert(porter_end - porter_start))
 
 writing_start = time.time()
 
-for tweet_index in range(len(tokenized_tweets)):
+for tweet_index in range(len(tokenized_tweets)): 
     tokenized_tweets[tweet_index] = " ".join(tokenized_tweets[tweet_index])
 
 
