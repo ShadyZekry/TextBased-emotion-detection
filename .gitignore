@@ -1,2 +1,3 @@
-
 *.csv
+*social engineering\englishPCFG.caseless.ser.gz
+*social engineering\stanford-parser-4.2.0.zip
