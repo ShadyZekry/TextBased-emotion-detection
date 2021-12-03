@@ -1,33 +1,23 @@
-
+from empath import Empath
 import pandas as pd
-from sklearn.feature_extraction.text import TfidfTransformer
-from sklearn.feature_extraction.text import CountVectorizer 
 
-preprocessed_df = pd.read_csv('PreprocessedTweets.csv', usecols=["target", "tokenized_tweet"])
+empath = Empath()
 
+psych_attrs = ['weakness', 'family', 'friends', 'suffering', 'death', 'nervousness', 'sadness', 'horror', 'irritability'
+               ,'negative_emotion', 'positive_emotion', 'shame', 'pain', 'love', 'emotional', 'help', 'torment'
+               'fear', 'anger', 'body', 'violence', 'hate', 'envy', 'swearing_terms', 'sleep', 'kill', 'dispute']
 
-preprocessed_tweets = preprocessed_df[pd.notnull(preprocessed_df["tokenized_tweet"])]["tokenized_tweet"].astype("string")
+features_df = pd.read_csv('./Result/tfidf-result.csv', encoding='utf-8', usecols=['words', 'weights'])
+features_df.sort_values(by=['weights'], inplace=True, ascending=False)
 
+for word in features_df['words']:
+    analysis_dict = empath.analyze(word, categories=psych_attrs)
+    belongs = False
+    for attr in analysis_dict:
+        if analysis_dict[attr] > 0:
+            belongs = True
+    if not belongs:
+        indices = features_df.index[features_df['words'] == word]
+        features_df.drop(labels=indices, axis=0, inplace=True)
 
-cv = CountVectorizer()
-
-word_count_vector = cv.fit_transform(preprocessed_tweets)
-
-tfidf_transformer=TfidfTransformer(smooth_idf=True,use_idf=True) 
-tfidf_transformer.fit(word_count_vector)
-
-
-df_idf = pd.DataFrame(tfidf_transformer.idf_, index=cv.get_feature_names(),columns=["idf_weights"]) 
- 
-print(df_idf.sort_values(by=['idf_weights']))
-
-
-
-
-
-
-
-
-
-
-
+features_df.to_csv('./Result/features.csv', encoding='utf-8', columns=['words', 'weights'], index=False)
