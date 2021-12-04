@@ -7,7 +7,7 @@ users_df = pd.read_csv('./Result/processed_tweets.csv', encoding='utf-8', usecol
 
 users_df = users_df.drop_duplicates(subset=['username']).loc[users_df['target'] == 1]
 
-cv = CountVectorizer(max_features=100)
+cv = CountVectorizer()
 
 tfidf_transformer = TfidfTransformer(smooth_idf=True, use_idf=True)
 

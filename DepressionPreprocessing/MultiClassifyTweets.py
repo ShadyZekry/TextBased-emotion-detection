@@ -32,7 +32,7 @@ for tweet_index in range(user_tweets_df['tweets'].shape[0]):
     medium = 0
     high = 0
     for word_index in range(features_df['words'].shape[0]):
-        if features_df['words'][word_index] in str(user_tweets_df['tweets'][tweet_index]):
+        if str(features_df['words'][word_index]) in str(user_tweets_df['tweets'][tweet_index]):
             word_weight = features_df['weights'][word_index]
             if word_weight >= 1 and word_weight <= 3.9:
                 high += 1
