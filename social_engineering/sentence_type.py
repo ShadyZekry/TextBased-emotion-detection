@@ -26,20 +26,22 @@ def is_not_question(trees):
                 return False
     return True
 
-def extract_phrase(trees, labels):
+def extract_verb_object(trees):
     phrases = []
     for tree in trees:
         for subtree in tree.subtrees():
-            if subtree.label() in labels :
+            if subtree.label() =='NN' :
                 t = subtree
                 t = ' '.join(t.leaves())
                 phrases.append(t)
+            if subtree.label() in ['VB', 'VBZ']:
+                t = subtree
+                t = ' '.join(t.leaves())
+                phrases.insert(0,t)
 
     return phrases
-
-verbObject=['VB','VBZ','NN']
 
 for sentence in sentences:
     for tree in sentence:
         if(is_not_question(tree)):
-            print(extract_phrase(tree,verbObject))
+            print(extract_verb_object(tree))
