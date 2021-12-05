@@ -1,5 +1,7 @@
 import os
+from nltk import parse
 from nltk.parse import stanford
+from nltk.tree import Tree
 
 # Download this file https://nlp.stanford.edu/software/stanford-parser-4.2.0.zip 
 # Extract "stanford-parser-full-2020-11-17/stanford-parser-4.2.0-models.jar" and "stanford-parser-full-2020-11-17\stanford-parser.jar" in a new folder called "jar".
@@ -14,9 +16,23 @@ os.environ['JAVAHOME'] = 'C:\\Program Files\\AdoptOpenJDK\\jdk-15.0.1.9-hotspot\
 
 parser = stanford.StanfordParser(model_path=projectPath+"englishPCFG.caseless.ser.gz")
 sentences = parser.raw_parse_sents(("Hello, My name is Melroy.", "What is your name?","please, reset the router."))
-print(sentences)
 
-# GUI
-for line in sentences:
-    for sentence in line:
-        sentence.draw()
+
+def extract_phrase(trees, label):
+    phrases = []
+    for tree in trees:
+        for subtree in tree.subtrees():
+            if subtree.label() == label:
+                t = subtree
+                t = ' '.join(t.leaves())
+                phrases.append(t)
+
+    return phrases
+
+
+# print (sentences)
+# u'(ROOT\n  (SBARQ\n    (WHNP (WP Who))\n    (SQ\n      (VP (VBZ drives)\n        (NP (DT a) (NN tractor))))\n    (. ?)))'
+
+for sentence in sentences:
+    for shit in sentence:
+        print(extract_phrase(shit,'NP'))
