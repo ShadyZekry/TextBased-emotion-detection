@@ -15,24 +15,31 @@ os.environ['STANFORD_MODELS'] = projectPath+'jars\\stanford-parser-4.2.0-models.
 os.environ['JAVAHOME'] = 'C:\\Program Files\\AdoptOpenJDK\\jdk-15.0.1.9-hotspot\\bin\\java.exe'
 
 parser = stanford.StanfordParser(model_path=projectPath+"englishPCFG.caseless.ser.gz")
-sentences = parser.raw_parse_sents(("Hello, My name is Melroy.", "What is your name?","please, reset the router."))
+sentences = parser.raw_parse_sents(("Hello, My name is Melroy.", "What is your name?","please, can you reset the router."))
 
 
-def extract_phrase(trees, label):
+def is_not_question(trees):
     phrases = []
     for tree in trees:
         for subtree in tree.subtrees():
-            if subtree.label() == label:
+            if subtree.label() == '.' and subtree[0]=='?':
+                return False
+    return True
+
+def extract_phrase(trees, labels):
+    phrases = []
+    for tree in trees:
+        for subtree in tree.subtrees():
+            if subtree.label() in labels :
                 t = subtree
                 t = ' '.join(t.leaves())
                 phrases.append(t)
 
     return phrases
 
-
-# print (sentences)
-# u'(ROOT\n  (SBARQ\n    (WHNP (WP Who))\n    (SQ\n      (VP (VBZ drives)\n        (NP (DT a) (NN tractor))))\n    (. ?)))'
+verbObject=['VB','VBZ','NN']
 
 for sentence in sentences:
-    for shit in sentence:
-        print(extract_phrase(shit,'NP'))
+    for tree in sentence:
+        if(is_not_question(tree)):
+            print(extract_phrase(tree,verbObject))
