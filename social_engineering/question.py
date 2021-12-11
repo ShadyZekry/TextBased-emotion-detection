@@ -1,14 +1,16 @@
-def extract_verb_object(trees):
-    phrases = []
-    for tree in trees:
-        for subtree in tree.subtrees():
-            if subtree.label() == 'NN':
-                t = subtree
-                t = ' '.join(t.leaves())
-                phrases.append(t)
-            if subtree.label() in ['VB', 'VBZ']:
-                t = subtree
-                t = ' '.join(t.leaves())
-                phrases.insert(0, t)
+verb_tags = ["VB", "VBD", "VBN", "VBP", "VBZ"]
+noun_tags = ["NN", "NNS"]
 
+
+def extract_verb_noun(sentence_trees):
+    phrases = []
+    for subtree in sentence_trees[0].subtrees():
+        if subtree.label() in noun_tags:
+            t = subtree
+            t = ' '.join(t.leaves())
+            phrases.append(t)
+        if subtree.label() in verb_tags:
+            t = subtree
+            t = ' '.join(t.leaves())
+            phrases.insert(0, t)
     return phrases
