@@ -1,11 +1,14 @@
-def is_not_question(trees):
-    phrases = []
-    for tree in trees:
-        for subtree in tree.subtrees():
-            if subtree.label() == '.' and subtree[0]=='?':
-                return False
-    return True
+closed_question_tag = 'SQ'
+opened_question_tag = 'SBARQ'
+sentence_tag = 'S'
 
-# S     => ordinary sentence
-# SQ    => Yes or No question
-# SBARQ => Open questions
+
+def is_sentence(sentences_trees):
+    if sentences_trees[0].label() == sentence_tag:
+        return True
+    return False
+
+def is_closed_question(sentences_trees):
+    if sentences_trees[0].label() == closed_question_tag:
+        return True
+    return False
