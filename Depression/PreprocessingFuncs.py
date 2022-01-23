@@ -63,6 +63,7 @@ def remove_punctuation(tokens):
     puncts += '’'
     puncts += '“'
     puncts += '”'
+    puncts += '•'
     translator = str.maketrans('', '', puncts)
     return [t.translate(translator) for t in tokens]
 
