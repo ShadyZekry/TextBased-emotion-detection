@@ -6,17 +6,10 @@ from tensorflow.keras.metrics import Precision, Recall, AUC
 
 dataset_df = pd.read_csv('./Result/numerical_docs.csv', encoding='utf-8')
 
-num_classes = 4
-
 y = dataset_df['target']
 x = dataset_df.iloc[:, 1:] 
 
 x, y = shuffle(x, y)
-
-#convert to binary classes 1 for medium depression and 0 for remaining classes
-for record_index in range(len(y)):
-        if y[record_index] == 2:
-            y[record_index] = 1
 
 y = to_categorical(y, dtype='int32')
 
