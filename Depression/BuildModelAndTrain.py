@@ -38,9 +38,7 @@ model_checkpoint_callback = tf.keras.callbacks.ModelCheckpoint(
     mode='max',
     save_best_only=True)
 
-print("Training model start:")
 model.fit(x=x_train, y=y_train_encoded, batch_size=1, epochs=50, verbose=2, callbacks=model_checkpoint_callback)
-print("Training model ended.")
 
 model.load_weights('./Temp/checkpoint')
 

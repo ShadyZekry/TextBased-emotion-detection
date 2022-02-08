@@ -20,7 +20,7 @@ model_json.close()
 loaded_model = model_from_json(loaded_model_json)
 loaded_model.load_weights("./Model/weights.h5")
 
-loaded_model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=[AUC(), Precision(), Recall()])
+loaded_model.compile(loss='binary_crossentropy', optimizer='adam', metrics=[AUC(), Precision(), Recall()])
 loaded_model.evaluate(x, y, verbose=2)
 
 
