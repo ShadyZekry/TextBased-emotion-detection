@@ -1,0 +1,5 @@
+subtask A : detecting offensive tweets
+tfidf model Conv1D without resampling : val_precision: 0.7185 val_recall: 0.7202 val_auc: 0.7672 f1-measure:0.719
+tfidf model Conv1D with resampled (smote) : val_precision: 0.6800 val_recall:0.6757 val_auc:7092 f1-measure:0.675
+embedding model Conv1D without resampling: val_precision:0.7559 val_recall:0.7583 val_auc:0.8026 f1-measure:0.757
+embedding model Conv1D with resampling: val_precision:0.7490 val_recall:0.7520 val_auc:0.7941 f1-measure:0.7504
