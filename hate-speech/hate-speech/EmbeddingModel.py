@@ -10,8 +10,8 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import ModelCheckpoint
 from HandleImbalances import use_smote
 
-train_dataset_df = pd.read_csv('./Result/OSACT2022-taskA-train.csv', usecols=['tweet', 'off_label'], encoding='utf-8')
-val_dataset_df = pd.read_csv('./Result/OSACT2022-taskA-dev.csv', usecols=['tweet', 'off_label'], encoding='utf-8')
+train_dataset_df = pd.read_csv('./Result/OSACT2022-taskA-train.csv', usecols=['tweet', 'hs_label'], encoding='utf-8')
+val_dataset_df = pd.read_csv('./Result/OSACT2022-taskA-dev.csv', usecols=['tweet', 'hs_label'], encoding='utf-8')
 
 tokenizer = Tokenizer()
 
@@ -27,14 +27,14 @@ vocab_size = len(tokenizer.index_word) + 1
 
 x_train = pad_sequences(encoded_dataset, maxlen=max_length, padding='post')
 
-y_train = to_categorical(train_dataset_df['off_label'], 2)
+y_train = to_categorical(train_dataset_df['hs_label'], 2)
 
 x_train, y_train = shuffle(x_train, y_train)
 
 encoded_val_dataset = tokenizer.texts_to_sequences(val_dataset_df['tweet'])
 
 x_val = pad_sequences(encoded_val_dataset, maxlen=max_length, padding='post')
-y_val = to_categorical(val_dataset_df['off_label'], 2)
+y_val = to_categorical(val_dataset_df['hs_label'], 2)
 
 model = Sequential()
 model.add(Embedding(vocab_size, 300, input_length=max_length))
@@ -69,7 +69,7 @@ print("Saving model and weights ended")
 
 #training on smote over sampling technique 
 
-x_train_resampled, y_train_resampled = use_smote(x_train, train_dataset_df['off_label'])
+x_train_resampled, y_train_resampled = use_smote(x_train, train_dataset_df['hs_label'])
 y_train_resampled = to_categorical(y_train_resampled, num_classes=2)
 
 model_checkpoint_callback = ModelCheckpoint(
