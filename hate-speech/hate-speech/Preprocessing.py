@@ -3,37 +3,44 @@ import pandas as pd
 import arabicstopwords.arabicstopwords as stp
 import unicodedata as ucd
 
-testing_dataset_df = pd.read_csv('../dataset/OSACT2022-sharedTask-dev.csv', usecols=['id', 'tweet', 'hs_label', 'hs_label', 'vlg_label', 'violence_label'],encoding='utf-8')
-training_dataset_df = pd.read_csv('../dataset/OSACT2022-sharedTask-train.csv', usecols=['id', 'tweet', 'hs_label', 'hs_label', 'vlg_label', 'violence_label'],encoding='utf-8')
+preprocessed_value='hs_label'
+
+usedColumns=  ['id', 'tweet']
+usedColumns.append(preprocessed_value)
+
+testing_dataset_df = pd.read_csv('hate-speech\hate-speech\dataset\OSACT2022-sharedTask-dev.csv', usecols = usedColumns,encoding='utf-8')
+training_dataset_df = pd.read_csv('hate-speech\hate-speech\dataset\OSACT2022-sharedTask-train.csv', usecols = usedColumns,encoding='utf-8')
 
 def append_to_csv(file_name, row):
-    with open(file_name, 'a', encoding='utf-8') as file:
+    with open(file_name, 'a', encoding='utf-8', ) as file:
             id = row['id']
             tweet = row['tweet']
-            hs_label = row['hs_label']
-            hs_label = row['hs_label']
-            vlg_label = row['vlg_label']
-            violence_label = row['violence_label']
-            line = f'{id},{tweet},{hs_label},{hs_label},{vlg_label},{violence_label}\n'
+            # off_label = row['off_label']
+            # hs_label = row['hs_label']
+            label = row[preprocessed_value]
+            # vlg_label = row['vlg_label']
+            # violence_label = row['violence_label']
+            # line = f'{id},{tweet},{off_label},{hs_label},{vlg_label},{violence_label}\n'
+            line = f'{id},{tweet},{label}\n'
             file.write(line)
             
 def save_progress(curr_index, is_train):
     if is_train:
-        with open('./train_progress.txt', 'w') as file:
+        with open('hate-speech\hate-speech\\train_progress.txt', 'w') as file:
             line = f'progress:{curr_index}'
             file.write(line)
     else:
-        with open('./test_progress.txt', 'w') as file:
+        with open('hate-speech\hate-speech\\test_progress.txt', 'w') as file:
             line = f'progress:{curr_index}'
             file.write(line)
 
 def retrieve_progress(is_train):
     if is_train:
-        with open('./train_progress.txt', 'r') as file:
+        with open('hate-speech\hate-speech\\train_progress.txt', 'r') as file:
             line = file.read()
             return int(line.split(':')[1])
     else:
-        with open('./test_progress.txt', 'r') as file:
+        with open('hate-speech\hate-speech\\test_progress.txt', 'r') as file:
             line = file.read()
             return int(line.split(':')[1])
 
@@ -55,7 +62,7 @@ for index in range(train_saved_progress, training_dataset_df.index.shape[0]):
     progress = '{:.2f}'.format(progress)
     print(f"Preprocessing training dataset is {progress}% done.")
     processed_span = training_dataset_df.iloc[index]
-    append_to_csv('./result/OSACT2022-sharedTask-train.csv', processed_span)
+    append_to_csv('hate-speech\hate-speech\\result\OSACT2022-taskA-train.csv', processed_span)
     save_progress(index, True)
 print("Preprocessing training dataset ended")
 
