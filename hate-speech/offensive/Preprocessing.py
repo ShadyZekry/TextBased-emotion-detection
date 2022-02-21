@@ -3,8 +3,8 @@ import pandas as pd
 import arabicstopwords.arabicstopwords as stp
 import unicodedata as ucd
 
-testing_dataset_df = pd.read_csv('./dataset/OSACT2022-sharedTask-dev.csv', usecols=['id', 'tweet', 'off_label', 'hs_label', 'vlg_label', 'violence_label'],encoding='utf-8')
-training_dataset_df = pd.read_csv('./dataset/OSACT2022-sharedTask-train.csv', usecols=['id', 'tweet', 'off_label', 'hs_label', 'vlg_label', 'violence_label'],encoding='utf-8')
+testing_dataset_df = pd.read_csv('../dataset/OSACT2022-sharedTask-dev.csv', usecols=['id', 'tweet', 'off_label', 'hs_label', 'vlg_label', 'violence_label'],encoding='utf-8')
+training_dataset_df = pd.read_csv('../dataset/OSACT2022-sharedTask-train.csv', usecols=['id', 'tweet', 'off_label', 'hs_label', 'vlg_label', 'violence_label'],encoding='utf-8')
 
 def append_to_csv(file_name, row):
     with open(file_name, 'a', encoding='utf-8') as file:
