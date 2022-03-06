@@ -151,7 +151,7 @@ class BertUtilities:
             returns: ndarray or none.\n
         """
         if self.__is_memapped:
-            return np.memmap(self.__get_embeddings_holder_path(), mode='r', dtype=np.float64, shape=(self.__dataset.shape[0], self.__seq_length, self.__features_length))
+            return self.read_embeddings_from_disk()
         else:
             if self.__embeddings_holder == None:
                 print('dataset not forwarded to bert returning none\nuse forward_to_bert method to be able to get the embeddings')
