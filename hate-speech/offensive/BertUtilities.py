@@ -1,4 +1,3 @@
-from ctypes import ArgumentError
 from transformers import AutoTokenizer, TFAutoModel
 import pandas as pd
 import numpy as np
@@ -8,14 +7,13 @@ import tensorflow as tf
 from tqdm import tqdm
 
 class BertUtilities:
-    __sequence_length_modes = ['default', 'mean', 'max']
     __bert_input_cols = ['input_ids']
     __input_ids_col_index = 0
     __features_length = 768
-    __default_seq_length = 128
+    __seq_length = 128
     __is_memapped = False
 
-    def __init__(self, task: str, dataset_name: str, bert_path: str, tokenizer_path: str, sequence_length_mode: str, dataset_path: str, text_col : str, label_col : str, memory_threshold_percentage = 1.0, save_embeddings = False, encoding='utf-8') -> None:
+    def __init__(self, task: str, dataset_name: str, bert_path: str, tokenizer_path: str, dataset_path: str, text_col : str, label_col : str, memory_threshold_percentage = 1.0, save_embeddings = False, encoding='utf-8') -> None:
         """BertUtilities\n
         Parameters:\n
             task: str required\n
@@ -38,12 +36,6 @@ class BertUtilities:
 
             tokenizer_path: str required\n
             similar to bert_path this is the path to the bert tokenizer you're using and will be used to load the tokenizer\n
-
-            ----------------
-
-            sequence_length_mode: str required\n
-            a string that can be one of these 3 values [default, mean, max] where default will be 128
-            and mean will take the mean length of the datasets text sequences and max will take the max sequence length\n
 
             ----------------
 
@@ -99,16 +91,7 @@ class BertUtilities:
         self.__memory_threshold = memory_threshold_percentage * psutil.virtual_memory().total * 1e-9
         self.__save_embeddings = save_embeddings
         self.__embeddings_holder = None
-        if sequence_length_mode == self.__sequence_length_modes[0]:
-            self.__seq_length = self.__default_seq_length
-        elif sequence_length_mode == self.__sequence_length_modes[1]:
-            self.__seq_length = self.__mean_seq_length()
-        elif sequence_length_mode == self.__sequence_length_modes[2]:
-            self.__seq_length = self.__max_seq_length()
-        else:
-            exception = ValueError()
-            exception.strerror = f"provided sequence length mode is not supported, received {sequence_length_mode} and expected one of the following: {self.__sequence_length_modes}"
-            raise exception
+
 
     def tokenize_dataset(self) -> None:
         """tokenize_dataset:\n
@@ -212,20 +195,6 @@ class BertUtilities:
             self.__embeddings_holder = np.empty(shape=(self.__dataset.shape[0], self.__seq_length, self.__features_length), dtype=np.float64)
             self.__is_memapped = False
             print(f'Required memory to allocate {req_mem_aloc} doesnt exceed specified memory threshold {self.__memory_threshold} the bert embeddings will be stored in ram.')
-                
-    def __max_seq_length(self) -> int:
-        max_len = 0
-        for text in self.__dataset[self.__text_col]:
-            max_len = max(max_len, len(self.__tokenizer.tokenize(text)))
-        return max_len
-    
-    def __mean_seq_length(self) -> int:
-        seq_lengths = np.empty(shape=(self.__dataset.shape[0], 1))
-        i = 0
-        for text in self.__dataset[self.__text_col]:
-            seq_lengths[i] = len(self.__tokenizer.tokenize(text))
-        mean_length = np.mean(seq_lengths, axis=1, dtype=np.int64)
-        return mean_length
     
          
 
