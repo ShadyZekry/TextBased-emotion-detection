@@ -56,7 +56,7 @@ class BertUtilities:
             memory_threshold_percentage: float optional\n
             percentage of the total virtual memory size, if the allocation required for the bert embeddings exceeds
             this percentage it'll be saved on disk producing a memory mapped numpy array\n
-            default value is 0.5\n
+            default value is 0.4\n
 
             ----------------
 
