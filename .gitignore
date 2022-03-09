@@ -12,4 +12,6 @@ hate-speech/tfidf_temp
 hate-speech/tfidf_resampled_temp
 hate-speech/embedding_resampled_temp
 hate-speech/embedding_resampled_model
+hate-speech/offensive/taskA
+hate-speech/offensive/marbert-model
 __pycache__
