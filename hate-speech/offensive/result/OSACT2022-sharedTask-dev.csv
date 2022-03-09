@@ -1,0 +1,1271 @@
+id,tweet,off_label,hs_label,vlg_label,violence_label
+8888,فطر عقق ثنن فرخ لجن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8889,ودر ليش قرف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8890,وبد سنب جدد حوس نوس حوس حوس شوف شهر ضفن ضفن شهر وبع يمت يمت وبد رهن سنب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8891,هوه لهه ودد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8892,وكد خسس ش,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8893,وبي ش ولح فرش,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8894,قسم لهه عيب ولل صير,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8895,ه ووش عند زود,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8896,ذكر لهه ملل حتس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8897,بلش قرد قرد ردد عءل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+8898,ومو سحب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8899,صدق ذبب لعب شعر علق حبب حظر حطط وجع قلب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8900,حون,OFF,NOT_HS,NOT_VLG,NOT_VIO
+8901,حوج غرف فضو ونو حظظ نعل مردغ مردغ مردغ رجء حدد دخل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8902,ولو لحج ولل مبتتعضش,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8903,نبغ فكك نصر شرك كوف دهر طبل ضلل دره جهل سبق حوس نصر ضعف نتت نتت ضلل كبر خلص عبدلعزز رتت حرق فرض تتر نصر قبل جمع,OFF,HS3,NOT_VLG,NOT_VIO
+8904,ونو قرر توب طلع طرو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8905,شكل ولل طلع علم قول ونو سعد سفف علم سعد نوم كبر لسد خلل روح مثل وطن شكل صحح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8906,هلتنس طقطق هلق علش مون وجل هور,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8907,نتت فرش قهر عشن نطط شنن قول قلع ههههههههههههههههههههههههههههههههه خلل منو خلف,OFF,NOT_HS,NOT_VLG,NOT_VIO
+8908,قسم لهه شبه رجل هذو نهم ملح,OFF,NOT_HS,NOT_VLG,NOT_VIO
+8909,ملت لقص,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8910,مدر شفن ولو صدق همم سلف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8911,طرح مشش مشش يوم شكل مشش معد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8912,فود وطح قلع نقر عن لهه,OFF,NOT_HS,NOT_VLG,NOT_VIO
+8913,سبب حمد حمد لهه هول ثنن,OFF,NOT_HS,NOT_VLG,NOT_VIO
+8914,ونو نتت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8915,بوب ونو نجح هتفرح دهه ونو همت فرح وون سقط عشن قدرش عيش,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8916,ويش قلل ولح,OFF,NOT_HS,NOT_VLG,NOT_VIO
+8917,خرف,OFF,NOT_HS,NOT_VLG,NOT_VIO
+8918,غفر لهه بنن بدو شغل هلصبح حسب تنز نشد لمل سلم نجز ش دوم قلب بكر طلع ل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8919,هند,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8920,ووو عنهه للل علهمم حسب قفل حلق ولل فوو فشل ورب فلس ورب عند  حسس فنن نتج,OFF,NOT_HS,NOT_VLG,NOT_VIO
+8921,خير لءك نمو ولو بضع سوع يقظ جتهد طلب علم عزز نءم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8922,تعل خوص فهمتس ش رتس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8923,ستر طوق لهه كرم نعم جدد قول ولل حضر يود قسم  خير لهه رحم جمع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8924,شوف عجب هدرج وبق حوء حوء شهرت ولد جبت سمه ولح هشتق ععع جدد خلف,OFF,NOT_HS,NOT_VLG,NOT_VIO
+8925,سول لوه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8926,ركض ضحك وذو جمع حول شخص معق نجر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8927,عوش نتت شرك حيو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8928,لهه صدق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8929,خير د ذكر ملع خقق لهد ع عرو قلل خقق ولد لدن م نتم خقق شوء رخص رخص,OFF,HS6,NOT_VLG,NOT_VIO
+8930,حسي ن ش غلط وذن سمع سمع ولو ن دور كلم ولق قول حرص زين قوه فصح لجل جدد جدد بعد قدر حمل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8931,قول وكل خرر لهه حشرج قحب صدم خنزر قبر تتفلسف طلع حلجج زقق فوه فلسف سمه م عرف ترر سمه شعب كلم سور كوي سور لهد ولل هدد ضوف حلق حسست ن رنمج كشش  دور سمم قدم كشش,OFF,NOT_HS,VLG,NOT_VIO
+8932,لهه رزق لبن ن سحو فعل شءت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8933,شوف فور,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8934,لسن د مشش سول لهه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8935,ونو تعب نظف لدث جلس حلب زبب جسم طيب قول ونك تبب طزو حسن حلب روح علفض,OFF,NOT_HS,VLG,NOT_VIO
+8936,سفف ظرر وسف جدو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8937,هههههههههههههههههههههههههه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8938,ونو حبب يوم خمس ووي وجي ولس بلق موم عمل وكل ولل حبب حمد لهه هضم يوم جمع نزل لفف صحب رجع ومو وجي ولس وني,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8939,تسبدددد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8940,سقط روس نتت جسم جمل ورد ن نتت قصد دعو رجع لون لهه ستجب دعو ظلم ظلم لهه رده جني جهل ههههههه ويل خذذ لوك كعب جزم قلب وجه,OFF,NOT_HS,NOT_VLG,VIO
+8941,مشش عرف ذكر نتت قلق مصر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8942,رند,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8943,,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8944,غرب حثل لبن جيت روض يمن شفف عجب ولو حدد صور سلف عمم حثل,OFF,HS6,NOT_VLG,NOT_VIO
+8945,لهه فرج همم حلل شكل خير سفف ن قضض مءو لبن زهو صيب ن مطل سلط لقض زيد عند رجل جهد مره ولل روح عمر سنو نتظر ن لمح همش عمل نفس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8946,ليه يول  لهه نتت حشن,OFF,NOT_HS,NOT_VLG,NOT_VIO
+8947,نتت جوب هههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8948,لهه فضح عرض ولي خرع تركم جرس,OFF,NOT_HS,NOT_VLG,NOT_VIO
+8949,قبض لجج,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8950,كلي ٩ حقق ركز لول نتءج مست نجو نقص لزن ثبت وعل جدر نتت نظر ضوع وحل سنن عمر لسم ودع قلق جمع كلي ٩ نقص لزن كلي ٩ نقص لزن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8951,وول نور جهه حدش عتل هلع لكن ولل بقر لتت د لوق,OFF,NOT_HS,NOT_VLG,NOT_VIO
+8952,ويه همم ولت فره د وعد رمم صوف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8953,لسم ش يبي,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8954,لهه حفظ وهل وين وحل خطو خرف نتت رمب ووو كلو بنن مسو عنن,OFF,HS6,NOT_VLG,NOT_VIO
+8955,حيل سور لمم ش نمر حءل حمد عكك عول لخم ضدد سور وذو نوف قرن طرد سور جلد كلب بلو جمجم سور خطط حمر,OFF,NOT_HS,NOT_VLG,NOT_VIO
+8956,حقق دود لمل نسب تحد كره,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8957,هههههههههههههه جبل مرر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8958,وون غفر لهه بيع زقق لزق حلل صحح ن غير طوق لحق لهه جمل كلب شفف وون رهن حسف دفع رول قيم حلق وجه,OFF,NOT_HS,NOT_VLG,NOT_VIO
+8959,د ثقف د قلل ربب د,OFF,NOT_HS,NOT_VLG,NOT_VIO
+8960,حبي خيل وني شفف شمخ ونو عزز ونو جمل عرب ونو لهه دره,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8961,بكك فزع جعل مغص شوف ش قول,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8962,خطر خذذ قرب بنن نكش برر صيد نخذ يوم نبي نفل وهم نقط نطق تكك شبب نتت عشن ضمن لبن مسك جول نعش ولج,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8963,حضر كسل نزل شفت منعرفش حضر وجو وجو ترح نتت حضر كتب وجو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8964,د نظم ونو رقد رزز ندد عول طرح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8965,دهه دبب حسن بجح ركب قطر نوح,OFF,NOT_HS,NOT_VLG,NOT_VIO
+8966,لهه غثث عدو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8967,مره حطط صور وحد طله رقص مشش ليه مره حطط صور وحد مرء مشش عرف د مين رسل حلل نبي,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8968,ذكر لهه لوم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8969,مسك مرت تبب,OFF,HS1,NOT_VLG,NOT_VIO
+8970,جسم كسر سير,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8971,معل ذول شرف مرض نوس جمع بحث هتمم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8972,حجز ذكر حوج لهه وفق دنو خرر,OFF,NOT_HS,NOT_VLG,NOT_VIO
+8973,هذل يوم صبح نور  نور,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8974,ستذ شعل نفس ولح نفس وحد زوج ربع دور شهر,OFF,NOT_HS,NOT_VLG,NOT_VIO
+8975,قدر ضفن خصص وضع وحد حبب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8976,عمل شرح عزب خرف صدق ذبح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8977,حقق لدم لدم ودي مرر عطط وكز وبق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8978,بوه نوس حبن فرغ بوه نوس فرغ حبب فرق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8979,بسم خرب خرب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8980,صعب فره عمر مرر نتت سنه ثون جمع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8981,وبي خرف خرف نوب كلب كلب قحب خنث عمه عمت رسس سدو دفع كوش,OFF,NOT_HS,VLG,NOT_VIO
+8982,بعر عرر خدع كشف خبو خبث عمل صهو لمس تلل بعر سذج لغب وبع عرف قرن طلع حقق فهم ذجج غلل,OFF,HS3,NOT_VLG,NOT_VIO
+8983,عطن ش وهف عرب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8984,نسء فكه مره طعم ولن ميز شكل رجل حبو سلط كهه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8985,سلم خربط نتت كلم وتر حدد معط وجه لون نتت ونك نقش حترم طلع متس,OFF,HS2,NOT_VLG,NOT_VIO
+8986,مدر شدخل رقق لنث خوف بسس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8987,ههههههههههههههههههههههههههههههههه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8988,وضح حبب ظهر علم ونو حدث خلق تسذ قصد وصب فلس خربط نتت حدد ذكك ش وبي,OFF,NOT_HS,NOT_VLG,NOT_VIO
+8989,كره ولل جلس جمع نوس وذن عني مكن وضع نبي حدد عرف  شيء حدد درس دوم تسو حرك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8990,هذه عقل ولي هشتق بنن رءي ملك عقل دلل مزر هرج جندر عرف روث جدد لمع طرق عيش صبر نتج صرو ركز سفف مور وبع وجه وعل سلم عقل شرر بله مضح,OFF,NOT_HS,NOT_VLG,NOT_VIO
+8991,زمن عجب خلل كلب شخر لدب,OFF,NOT_HS,VLG,NOT_VIO
+8992,ولل شرك حدد عبر عني سبب ولغ سءل قنع بتت نقش نقش,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8993,لوم رحح جمع زهر زعل ودن دكتر شبب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8994,جعل فكر ءهه سطر على ونك يده فكر عكس سوء حبب قوه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8995, وخن نطق بور كبر صبح لوم ذوع درس معاذ عدو شغل خلل نوم تهن عطل ليش شغل يوم عطل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8996,هيد غرد يلي كبر خسس روس لون جدل لبء نسب ل غذو كبر كتر كتر كتر نوج حكك روس طلع ريح,OFF,NOT_HS,NOT_VLG,NOT_VIO
+8997,شمس طلع خبر ب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8998,ونو قول قوم هدء يول كدد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+8999,وري ضغط حضر خلل صرخ,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9000,ولح بصر شهر عشن حلل طيب ونو حلل تعل صرو نشهر قسم لهه نظم زبل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9001,كره حرك قهر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9002,لهه رزق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9003,شوء لهه ونو صلت ربع بعد خلص,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9004,بشر خلق غبب مدد ولح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9005,شبك بغغ بكي حشر روح جبو ضفدع نقع سوس وخد دور رجل لهه خلل حمد عيد لمم دور وتر صبب حقق طمح ههههههههههههههههههههههههههههههههههه,OFF,HS3,NOT_VLG,NOT_VIO
+9006,هسس حمد ذنب شنن شيل حلو لقص د,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9007,دهه نتت شكل شكل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9008,عنت عود وجد عدو شوف صيب رءس لهء فقه روي ش خلي نصر حمق ردد,OFF,HS3,NOT_VLG,NOT_VIO
+9009,كبر نصب وبل,OFF,HS5,NOT_VLG,NOT_VIO
+9010,كره للي يعط معد خرت ممش لوق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9011,ختر ختر دثن ولس خور تون لمل دلقت جرب لسد خضع طبع فيش دخل,OFF,NOT_HS,VLG,NOT_VIO
+9012,فرض كتب ولب فقد بدل نقد,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9013,مشر كوي عول,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9014,ظهر حوج فكك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9015,لهه توه قوم ضمر بلح حشم ترر لحي حصر مره جنس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9016,لهه هدد عيب ولل عجب ذكر ربك ملك حقق صرو وصل جوت جرر صرو رجل عدو لهه حرم,OFF,HS6,NOT_VLG,NOT_VIO
+9017,جبب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9018,صحح ونه وسم م درج رزز عشن صور ليه وون جنن بوع عمر لحمدلل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9019,لفد صفف لقع لقع تعلق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9020,زهر حفد بني صهو لدن ذهب عوش عبد بمت عبد عبد دعس روس كرم,OFF,HS1,NOT_VLG,VIO
+9021,ولل صرح خلل ذكر شبه ذكر ولو كسر حبب علو,OFF,HS6,NOT_VLG,NOT_VIO
+9022,,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9023,ولح قول شفو تحف فنن ولي طلع فلكس عرب دول سلسل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9024,٢بتد خذذ كفف خدد يسر رعع نتت مسك رسم خدد دخل طرف رسم سبب وني وحل لجب لجب سبب ستذ جمل طرق,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9025,دمر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9026,محق خمم,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9027,ثقل لدم طلع نشب,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9028,٨ خ كلب,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9029,شهد بدو لقن سخف,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9030,حول لهه قعد سلف معو ولب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9031,وضع لسع دهه مشش نفع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9032,عنجد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9033,سمم لهه  نتت هيل قول حظظ طور عني فحط عني رعو فحي كحس وتر برس عني سرع قدر لحق رعو دور,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9034,ش ولف دعع ربب رزق لبن رزق حلل جهه رجل جمل نتت فكر وسخ نعل سلف,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9035,عصر عذب حسس نصص يوم روح طرق لمل عبدلعزز ختبر صبر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9036,سول ومس مرد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9037,شسو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9038,وحل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9039,شوف شفت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9040,عنجدد يوم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9041,عرف وحد قرن ونو وحد كتر منو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9042,لوم ولث وضع طلب غلق لبب مرر لعن لجء برد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9043,مزو موش لهه ولل مسو هلبن شفح وفر لهه قلل حوء,OFF,HS6,NOT_VLG,NOT_VIO
+9044,حرم صلت عشر لوف رمي لقن حدد قبل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9045,نفس حوج حدد جلس شوي صفق كفف وقل رضك ولل هوه رضك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9046,وون قول ليه هلزحمه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9047,ونو بءو نطق وعك د عرفش,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9048,ضحك ولل قول صبح ونو نتت رود,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9049,لهه نوس مبب بهم عقل قود كلل هوه طرح جرب جرب عيل ولل ملو غلل غلب طبب خصص عني وجد جيد شرف سفف كثر خبث,OFF,HS5,NOT_VLG,NOT_VIO
+9050,غفر لهه عظم جدد جدد ش خزي فشل وون شوف قطع لوي حول صلل صلل مره شوف وحد وسم ش صور لدن لدن م صدق ولي قعد صير ترح عرق شوف جمل ش سوو لهه ولو لهه خجل خزي وصل رند,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9051,قنفذ غبرررر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9052,ن قزع مكر وجز وجز شوف وشل شكل ضحك قزز ييع,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9053,خوض عرك ضدد جيش وطن همم طرو حلف سند حثو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9054,نتظر جبه عمم ججل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9055,ههههههههههههههههههههههههههههههههههههههههههههه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9056,ﻫﻲﻲ ﺑﺘﺤﺐ ﺍﻟﻤﻨﻘﺔ ﻭﺍﻧﺖ ﺑﺘﺤﺐ ﺍﻟﻤﻨﻘﺔ ﺩﻩﻩ ﺩﻟﻴﻞ ﻋﻠﻰ ﺍﻧﻮ ﺍﻟﻤﻨﻘﺔ ﺣﻠﻮﺓ ﻣﺎﺎ ﺍﻧﺘﻮﺍ ﺍﺗﺨﻠﻘﺘﻮﺍ ﻟﻲﻲ ﺑﻌﺾ ﺑﻼﺀ ﻳﺎﺧﺪﻛﻢ,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9057,جكو رقم صبغ بقل سوق مهن ووي رقم عرف حتي ولل عرف عقب ل ضوح يبي,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9058, هلشعب سلب قرف,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9059,عول,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9060,قوه ولو لهه وحن زوو حللف مسخ شكل دهه مشش حوس,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9061,ليش دعم غرد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9062,قبض فور,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9063,عكم حرم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9064,ش دخل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9065,وضح بلر لهه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9066,وكد لدك لدك جنس ظلل حنن صلل بلغ كرم ضلل قلب علق طنن بعض عبر,OFF,HS5,NOT_VLG,NOT_VIO
+9067, بله سمع فلم مصر كتب ش فهم بعد زعل لكم زعل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9068,هوه حدد يبي حجز قول بدع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9069,لهه لبن لزم عود حون لهه لحي لعف حول لبن سعد لجل تهه,OFF,HS6,NOT_VLG,NOT_VIO
+9070,تقع هلقرر سلم تقع وقص لوس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9071,وفه حدد لعن خير ذول ترر حنن جهز ندس بطط لحد,OFF,NOT_HS,NOT_VLG,VIO
+9072,وعد ردد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9073,جوز ونو مهر لفف جنن حوو بنت وسخ ليه وشك يضل بحر حوت مكك,OFF,HS6,VLG,NOT_VIO
+9074,  نتت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9075,ليه ليه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9076,لعب كره وحن صغر نتت جرو ووذ برر قلو سلم عيب طيب رقن ضوع روح روض خلص,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9077,كمن لبن فشل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9078,كره مثل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9079,حبن قلب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9080,عجل شهد هبل نسو ثلث,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9081, وهي شدع بلن هلكبر وفخ,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9082,ثجج بثث,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9083,يلي قنن نتخب رفع وده,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9084,ش هلشفحه روح صور خير طير ووذ وسم سحو لبن ولل صرو سحو,OFF,HS6,NOT_VLG,NOT_VIO
+9085,جعل بلل مون قول,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9086,عذبلله وني طلع جمع طفش ولق هلتق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9087,وذو وخر وكل وون مته جوع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9088,ونو تعب درج وني دخل لبب لزز,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9089,,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9090,ش هلممممغص ظهر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9091, توح  علم  رزق  ريم صبح خلف ردر عبكر صبح وكل يوم جمع شرف هلق صور علتلف حدد قلل سعد صبح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9092,ههههههههعه مسك هلل جلس قلب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9093,حرم مضو وذو شفف بزر هلق,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9094,رقم جدد نست لحمددلله نكم وجي سعد مهي عود نبي ١٠٠ لفف قطع حدد منش ولي قدر لهه سعد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9095,عبد شوق ونس  جمع قتل عشم برد ز حمض بقي رءس حكم حزب لهم يور حبب ل فيش حبب قول خلل وكس د حتي بلد ل ضيع عرف بقر للل دفع تنل نهق بعد عنن ملع,OFF,HS1,NOT_VLG,NOT_VIO
+9096,عطط قلب شخص ستهل عطت رده بقر كلت عجب شبه,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9097,حدش عرف شفل شغل صدل مسء  صبح مشش هتفرق حدش سءل شمع صدل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9098,وشي دكر,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9099,حسس جوز كبر عرف ولل كلم ونو ذوب سكت وعد خرر قفل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9100,عععع رضض,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9101,تعل لوو عشن بقو حفل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9102,خلل لحد عصب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9103,يمم لبد ولي,OFF,HS5,NOT_VLG,NOT_VIO
+9104,حقو ضيق خلق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9105,سلط م لحح سحب سيف قطع عرق سيح دمم ز بقل فكن بصر ش رطغرل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9106,لهه خذذ,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9107,قول ولو لهه هدد ولد ولد جبر درس جمع خخخر ز,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9108,بععععععد عني,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9109,صيغ بلغ وخي ثقل لهه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9110,بخر خمس موش ولع وحش ولم دول,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9111,ونو طمح هبق حوج گيد بني نتت مصر عني عني طمح تيج سلم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9112,لهه جدد عود حدد قدر وقف ولت نظم حجم رجع حجم طبع ءنت ظلم قدر طلع نوس,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9113, ذمم سوس سوس طفل فكر فكر حقد حسد فعل فعل لخو ومر دعم رهب,OFF,HS1,NOT_VLG,NOT_VIO
+9114,لوم نهرد هبق ملل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9115,قلت نور جبب طرو خير,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9116,لهه لتت قطع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9117,ههههههههه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9118,مجل دور بطل نوس مشش مبرس معو قرش قدر عمل فلم وكن طلل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9119,نتت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9120,شنن حوت ولو كلم قطر توج روس روس طوف,OFF,HS3,NOT_VLG,NOT_VIO
+9121,علفكر عني ربنﻋﺎلم ﻥ ﻗﻠﺒﻚ ﺗﻌب ﻭﻋﺎلم وﻧﻚ ﻣﺤﺘﺎج ﻟﻔﺮﺣ ﻭﻋﺎلم ﺍﻧﻚ ﺑﺘﻘﻮل يﺭﺏ نجه قلهﻣﻦ ﺟﻮﺍ,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9122,خكر,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9123,عجب كثر فنز حقق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9124,شوء لهه,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9125,صبر ,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9126,ش غرب ستذ عمر سمح هذو دور لحد فركس منع ش ضحك قسم لهه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9127,دمه خير كشف حضر نلغ برح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9128,خخخ  سرج بيه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9129,ليش شوف عدم حسس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9130,ونو هلفتر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9131,نتت نتت لكم بلح بدد عشن قبر جنز يخي نحر فكن مزحمنن دنو ششششش,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9132,جمم توي بله كفف ودل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9133,مكك قحب لوع لزب رضع زبي لحس خيص تبب ركك قحب,OFF,NOT_HS,VLG,NOT_VIO
+9134,روم رنز فزز فجن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9135,قلت ندم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9136,ونو كنتش كدد رمم لول ونو نتت يوم كلي ويه ولل حصل مشش همم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9137,خرج طله قصر صرر غصب وبع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9138,مسو طلع,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9139,بطل دبب بقي,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9140,ع,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9141,شفف قطع مقل لهه هدد حسف ربت هلل بعد ويش كلج,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9142,قصف جبه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9143,زوج خرب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9144,ترن لتب فسب وتر نستڤرم لوق وحد كلم لذع قلل حطل وغن روز,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9145,خطب ورخ ظلل وصم عور جبي علم جمهر قزم وسي وهل نصر لحمدلل نعم سفر,OFF,HS3,NOT_VLG,NOT_VIO
+9146,نتت لحظ لحظ فره هبب هند ولح كلج ورب هلشعب شغل شغل فشل,OFF,HS5,NOT_VLG,NOT_VIO
+9147,ههههههههههههههههههههههههههههههههههههههههههه ش هللحج لهه صبح خير تقع ونو لبن لحد ولل مخق مخق جمل جدو عدو نتت نوس فرر وفر مخذ وضع بجد ترر دعو طقطق هبل مع نتن خفو لهه صلح,OFF,HS6,NOT_VLG,NOT_VIO
+9148,نتت كلب فصل ودر بنن سقط لقم خءن بنن ضعف سلم سلم بنن ومر خبث تكك قعد مطء قدم روب كوي حرر دوم وبد كوي سلم زنن لقم لحق,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9149,ردد رجل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9150,جرب قفل هتعرف ن زعل رحل جمل جدو نتت سفف جوز,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9151,ضحت لهه فضح ش قلل ولح مزو طيب ليه لزق ش حسن قلل ربب ولح صفر,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9152,ريح شفف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9153,هههههههه كرف لعع كلم غلب قره,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9154,بشر قصص وفز علفح ظمن بطل ونك معن صحكء,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9155,وري,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9156,صدق علم درر ليش كلم حقءق سند مبب طلب ل ١٤٤ ولي وله  دلل بدو زمه رمض صور سعد وجه دفع لبق سحب عمر شوي شوي نتت سكت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9157,نصر وبو سعد عطن ودر لوك وقف طرر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9158,وبي وكل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9159,ونو عمل فلو مبترجعش لبك ليه شغل هلك وحن,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9160,سمم دمغ لهه عشن ككب زوي,OFF,NOT_HS,VLG,NOT_VIO
+9161,ورب تكك قدر وقع غضض نظر علق زبل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9162,حبن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9163,وضح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9164,لحد غثث ونه عطل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9165,سمه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9166,لعببببب كمن خلل توب لود,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9167,ولت كلم عدو طنش ولو كفخ كفخ ختت لهه رعببببب يوم روح درس نبك نفس زقق عنف ولل حصل قدم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9168,لغف خوف ظلم ونو دعت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9169,رجل نكد وخن كدب نحط كدب د خطط,OFF,HS6,NOT_VLG,NOT_VIO
+9170,طلق نجح زلل منع نسو روض شطء ربن شرشف سود لهه لعن عمر ولل ضوع بقن همج,OFF,HS3,NOT_VLG,NOT_VIO
+9171,حتجججج م قتت خلص نصص حمس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9172,نتت ملك قرفف,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9173,لهه نفس سلط كون فضل نعل حقق حمد زود حمد سلم همم مرر نعل عقبل نحذف تنته صلح,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9174,هههههههه سست فوت حول,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9175,ولح نظم شرف ورك فجو صطلب رجعل عقل سحو عنفس ندم روض نفذ ندد هذل رزق لهم كرع وين يسر همم بكل نعل نتت كرم قبل لبق,OFF,HS1,NOT_VLG,NOT_VIO
+9176,يوم دعل نتت طلو لغب صبح هلضرب هههههههه شوف دعع ضرب هههههههه مزح عون نسك دعع نتت عرف قيم بره لسم رضض رضض علك فرح قلب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9177,طيب حفر لبط غبرررررررررررررررررررررررررر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9178,طقق كبد ولح ههههف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9179,هرجن سفف حطط حطط,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9180,نتت مشش وحل حوج حيو حدد نتت حبه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9181,وذو كنو نوس قلل حيو صرو,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9182,بنن وعد شفف روح هدل بوي دخل غبب نور طوح ميس حرر ربع بنن خلص جلت وعد طيب روح قهو كوف هدل ونو نور ونو ميس ونو لهه بنت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9183,ههههههههههههههههههههههههههههههههههههههههههه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9184,ودي وصد صصم هلصر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9185,نيه سلم مين  خيي علم ليء مرض ونو بدد نشر عمم سنه علم قلل حسن مضض حفظ لوم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9186,حدد حبك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9187,ييب طرو هلزعطط وغب شخص عرف,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9188,حلت صدق مكو دمع عجز صفف  رول قرب صفف نتت كرم,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9189,ونو كلب ولل سول هلشكل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9190,كره لهه بيع رشمل ووص,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9191,ذكر خرف حلم بنت رمب مفشششل هلشكل عني جمتع بعد ش فود,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9192,خرت  خشب طلع موس برد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9193,زين سكن وول مرو شفو رجل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9194,ضدد حمس ضدد قوم ضدد عرب سلم ضدد  سلم نوه ولل قتل شرد ملو سلم عمل نهم طبو سلم لهد خلل جرب حنن فين,OFF,HS2,NOT_VLG,NOT_VIO
+9195,شبب ركد سفه ترر عند لحرررر جعل حرر ولل قمن بنن كلب قسم لهه يجه شوف ولو غبر شرد خذذ فرص صفف حسب لزر وول لقع ملل ملل هلشكل طلق قسم لهه ومي شوف تفو تفو لهه محك,OFF,HS6,NOT_VLG,NOT_VIO
+9196,ونو كره حضر لسع بكر صحح بدر كره صحح وصل بكر كلي وعز نوم وعز عيط ونو صحي,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9197,رحو صرو صدق صلح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9198,نسب طفش ولل سءل سول ولل حبن قول حبك ولل يبو لوس رسل نقط ولل رسل نقط حظر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9199,بنن سجد ترر عمر خفف عرف سمن لدن سمه كمل سكت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9200,شعر نصر وبر حمد نصر حرب شفف قدم فضل شعر ورب سحو صور شهر هلمخف صور غزل وين لحي,OFF,HS6,NOT_VLG,NOT_VIO
+9201,حول هنو صلت قسسم لهه قلل حيو رجل روح رزق ربه وفه شغل عشق ملع وضح ونه تضق صور ش فهم بقر ولي,OFF,HS6,NOT_VLG,NOT_VIO
+9202,ولل صصل حتو بوس قفو رحم,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9203,ل   فهم شنن شنن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9204,يبس لحح مخذ دلز زيد شهر عشن كسر كسر وول ش جون وكس هنقل لحح شون لهه خذذ,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9205,جوت غثث,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9206,طرد وجم وجم جلس خدم سمه شكل بشر سوق لعب جوح,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9207,فوق فوق ولل دون شركهبعش تبع عقدهلذنب ظلم نصر دين عسو نبي لهه لهه لهه قتل صلب لوه لوه كفر سءو تلد ذنب رغم تلد رضع برء عكو ذنب جرم فسد برح دهف حوت حوت كدهكدهمغفر,OFF,HS2,NOT_VLG,NOT_VIO
+9208,مضو كلم زين دلع تغر صوت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9209,حرم رجل بوي حرج سحو لبن ولل هجم صرو وول مره شوف وحد حلل حلل خلل رزق لهه تتسبب قفل رزق خلل حول خوذ خرر مرح زوج حدد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9210,وفر  جمع لهه حححل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9211,شعع لهه خلت ش عيش تبب نشب شعن,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9212,شتت لهه برت صغن بقت كلي قول شتت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9213,قدد هوت خرر لزم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9214,قوه ولو لهه فوه بني هتدمر صحح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9215, لهه جعل لمو لهه نزع روح شلل طرف جعل حدث شنع نذل نجس وجه سلق,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9216,سلم صحح ونه حلل م درج وفر مرو ترر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9217,مشش فضو بعد جمد كده نتت رجل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9218,طبج جمل وون عشق صحح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9219,رغت موت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9220,طبب عمل ويه طوه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9221,س خبر مره ولح روح لجم عشن طلع حرت لعن حظظ طرق صحح عدد ختبر ولل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9222,ولي مول عقرب عجب حبب جدي لقس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9223,تضق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9224,دخل ولن حرم كتب ش ترر حسب لمم صور علق قذف ورو ريل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9225,خطر وين دقل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9226,دور شكل وين عدل لعب كرف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9227,ويش رضض حقق د,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9228,ووف ويش ملع سكت,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9229, ربك منش حسب سمر قول ترر عول خوق لهه صلك,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9230,وبي سمع سمه غتث غتث وجد وجد صيد حرج,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9231,همم ش ذكر شعب شرف نزل دوه خلق حشم,OFF,HS6,NOT_VLG,NOT_VIO
+9232,حمدلل شكر لهه وبل ورب علم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9233,وحن مصر بنشتغل عشن جيب لوس روح بهو شغل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9234,صدق حقق قرو كرم نفع بوذ لهه لدن خرر ورب قصر هتت جول ريم جعل هلل قرو لبس ومه لوج بوذ لهه قلو مون,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9235,تلل عدن معن مشش حتقدر غمض عين شوف رجل كون قدم سكم كتو كعد ش كون وضع ذلل خنع متل,OFF,HS6,NOT_VLG,NOT_VIO
+9236,سكك مصجم طلق وحد حوط وغن عرق عيد وطن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9237,غبب وول بسس جيش مبب بسن شكل مبب مرت وثن حنن نقل ويه بغم لعب,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9238,هيد نور,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9239,ورق عنب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9240,ههههههههههه نتم وذو حدد نقد قلل خرف عني وذو ردي وضح صرر خرف,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9241,مون حون كذذ مون مجد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9242,عزل ءذن ءذن نفق صلح شوه بقو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9243,زتك بسس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9244,شكو لهه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9245,ملو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9246,دهه سوس ونه مشش شول همك علك مكك بوك وعل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9247,ههههههههههههههههههههههههههههههههه لممممممم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9248,وغب ش كلم حدد قول عيب  حرم قول سوو شهد ضعف سذج وغب سفف كثر نعو بهلق,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9249,خلل ربك ونو مره علم عول وحد ولو لحح وبي سجد ركب سور,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9250,ننننننن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9251,حوو سرم  فضل,OFF,HS1,NOT_VLG,NOT_VIO
+9252,ولح عرب ستضف بيع كلج كلج نتت بيع عند سلف هلق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9253,علش وصل غبب شوه,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9254,بقو نتت مشش حفل فلن عشن بدع مول ونو عنن ولل نجل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9255,صبر مسك جول لوخ قرء,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9256,طير حبب خنق صبح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9257,سفف حوج لحد حبه علق بهو روح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9258,قوم رسم حجب وطس جمع,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9259,غصب  بيض,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9260,وبي ضمك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9261,جدو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9262,ثقل بنت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9263,قرب فلم وسم رقص لجج,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9264,عءل زمم كون ١ هلر ٢ عرف ٣ ربح صقر ٤ ستر ٥ سلم كذب تطلع نتت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9265,طلو,OFF,HS1,NOT_VLG,NOT_VIO
+9266,وخي كثر سمع وخي وين عقل ذول,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9267,مبععععععع,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9268,حدد صفر ونو جهز  قوم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9269,طلب لصف لول جلو عرب طبق برمج,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9270,علش,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9271,ععع ولق ولو عدن برهم,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9272,تقع رجل كره حوت كبر جمهر ولل صور قلل حيو,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9273,ربه لهم مين ن شوء لهه هنن زددد فرح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9274,ع عول صخخ وحد رسلتله نوب لبن خول لمح ونه بغغ ونو لوق,OFF,HS6,NOT_VLG,NOT_VIO
+9275,قسسمم لهه هزل ولل صور صور شيء قرف قزز لبن شيء ذكر ونك سلم حجب حجب زمم منع هلتصرف ولل زيل حءك حءك نثو صفف لحي,OFF,HS6,NOT_VLG,NOT_VIO
+9276,ظهر جرب شرع مرت شرع حمد زود,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9277,منن وجب لحظ لحظ نحس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9278,لعب جون شتر مترسكل حقق درب لدم زحم شرع ولب وتب لوع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9279,لبن ولل صور شفح ومب شوف حوت زين يعع وقح,OFF,HS6,NOT_VLG,NOT_VIO
+9280,ريح طول عمر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9281,فرض عدد حمس شيء وني ودر ونه خير تكنسل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9282,لمك معن ويد حرك لبن ولي سهو جمهر ووذ عقل فكر لهه عين ولي,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9283,فا طرق ولو قهر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9284,زمن لهه كفن شره ولل شوف خجل جدو جدو جدو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9285,مشش فضو طول هور هول حلك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9286,خلل نوس ونس وخي ليش مثل وحن عرف نتت عرف كمم زهم وذو شفت حدد حلل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9287,جهز ذكر ورم ججو عدد وكل عيش بقو نفس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9288,هشم شيم صبح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9289,خلل عضض قرب قطن حذف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9290,نتت تنرفز قول  ولد قحب عصب نكلم تصدق ن مكك قحب ولو رسل يدي قعد زبي وخض,OFF,NOT_HS,VLG,NOT_VIO
+9291,ءلم ن تري فوه ملد لعب شعر بغل ملد,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9292,ونك م حمد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9293,طبب قسم لهه ونو حدد شخخل حتو,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9294,وكد رضض وجل رسل برض ن لبن زوج كره  منع شغل فره فره حبس لبت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9295,ن شوء لهه خرر عيد ملد معن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9296, زبل لمل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9297,محن هلعلم هلنتف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9298,وقف ترل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9299,فعل جعر,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9300,طرق حتفل كوي مشش وكل هلمطعم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9301,كون تلكل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9302,فول لهه فلك لهه حسن ختم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9303,ووك حلل قلل جمل خلق جمل جمل روح بعد خفف لبن وشو وشو ثقل  بنن بعد خلص هرج يوم طلع وحد هبت طلع رند,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9304,وقل خرف قسم لهه نهم بقر,OFF,HS6,NOT_VLG,NOT_VIO
+9305,خصص موث عرف ضرب جمع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9306,مهو زمم فهم ن ربن بعد شخص غير حسن بقو شخص دهه زبل بلش قرف عصبت,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9307,دسس لوك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9308,حذر فهه دخخ نوع سلم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9309,مشف لسم ونه هههههههه سمم لهه فضل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9310,لفت فوز مغص,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9311,ونو لبن لحد ولي شوف بوع كلج جكر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9312,عقل فين لول  سكر نتت قدر سعد فلح لبد غلط,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9313,مبب عشن رجل برر غلط غلط صحح وهل كلم ولل جوه لوق ول٢ ولل معو قلو دبب طنز شكل زين وحد نتف ولث لهه وضع كبر مصخ حرك هول عمر ذول,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9314,جدل لوم روح لبن عمت بلك وغر ج رتب غرف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9315,تبب خلص كرش جمع خلص كرش طبع  ثور جنب وءج بوذ لهه طلب فسر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9316, ثثثره كره عمق,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9317,ونو كنو سرق سندش درس عمم كرر سرق دلل طعم وكل ومي,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9318,علم قرد بكي لحت موت وذو ورق حبب زوج قرد خرر لهم قرد شبب شعر شكل لون,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9319,زوج طرد لهه ستر ستر لهه دنو نخف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9320,خير ولل دوع رقد ليل لهه سمح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9321,م تبب تنم ليه وصل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9322, ريت نفع كلي حظظ نتت عندكش كلي,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9323,ولي جبب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9324,قترح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9325,يعع مره فرر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9326,ربر دوم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9327,دخل شنن لهه عنك سنن وحن لبن,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9328,هيه جهد د لتت هتعدش خير,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9329,لعن م غشش مرض مرض جلس كوف سلف وفل حدد قول ش وون شفن شغل جلد لفف جلد سجن سنو حور,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9330,خنن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9331,ءسف ن وتر لسس شكل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9332,وتر سدد نفس هلهشتق سخف دنء,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9333,لهه لحرررررر ولي طلع هوط وجه ضفدع شءلل رجل جنن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9334,هيه لحمدلل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9335,عقل ولد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9336,شكل كلم جرح شيف,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9337,سوج كسس وون رفع سبع ولل بغغ يجي خوص بصر ولب وجب بدل محو حنن نيك سكك,OFF,NOT_HS,VLG,NOT_VIO
+9338,ششش حسس حسس دوخ وون جلس لطف لطف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9339,لحد م عرف شبد شخر ختبر ختبر قرر قرر وجب وول وله خرر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9340,هند قعد ثبت عزب خرف صدق ذبح ذكر لبن ولي خرف بغغ فرط,OFF,HS1,NOT_VLG,NOT_VIO
+9341,ترجش سمع قلت م جوي,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9342,شرتس روح نجع جلد مصخ,OFF,NOT_HS,NOT_VLG,VIO
+9343,ش رررض,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9344,ههههههههههههههههههههههههههههههههههههههههههههههه مهه ليش همم ش ووو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9345,بقو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9346,وبل جبو ربع  خمس يوم كسر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9347,تجي مون كرف خيل صير,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9348,صحح ن قصم جمل حنن وحن بنن قصم مسو رجل شوه حيو دبب كفف رجل مضح ونه عقل ثقل شفف بنن روض ش هستر,OFF,HS6,NOT_VLG,NOT_VIO
+9349,ضبط لوك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9350,ندر نهد عفف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9351,ويه لهه هود برف زفت بعي كلل لتن كره مره فوت عند يضل عمم سبن عكل شيء دءم ونو لضح بعو,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9352,وحد نيت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9353,خنن ولل عمل عشن كده لهه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9354,ونو عرف نهم قوم جطل غرف,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9355,شيخ قول جدع مين حرم علك حطمت عصب علش كمل ربن صبر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9356,لوق كره وني كلم وجه لوج حسس حدد جوي وهل وني سلف ووذ رتح عود سكت سرع تغر مزج ملل تضق طلب كلم صوت عجز فهم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9357,لعن م خلف ولل درس,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9358,ردد عيش سجد طبخ عني لهه وقع حكم هلق رتب فرر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9359,وين بهه ولي شحن كهرب عمل شنن كشف حسك نسو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9360,وتم لعب نهء ردن هلعه علم,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9361,ونو رقد متح دترم ملق عذر نتت نحر هون,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9362,بعد حقق لنستقرم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9363,خلف ولل جتت ش وضع رفت عني,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9364,سءل طرح وده فتر شنن ودر نظم لوم وجد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9365,ل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9366,يكه سنب نجح  گدع مكن بيض كوب ربع سكر كوب زيت كوب حلب لعق فنل لعق بره كنج ودر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9367,ههههههههههههههههههه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9368,ف يوخ,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9369,دقق قول ويش حلو حرج طقطق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9370,فتح كوب ذكر فتح ش ولس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9371,همت برد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9372,عمل حبن حبب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9373,تبن قلج سرر شنن عني,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9374,حسب مزر لمدرعم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9375,ومد نجج درس مرق يجي صدع زقق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9376,تسءل لهه مضو ورن ترك ثوب لهه قدر كثر كثر علم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9377,تصل دير سءل جمع صحح وتم مرت وحد شهد عبدلعزز دهش فصل سعد سعد ن تصل بجل وبو زيد نتت منو زور سءل لعب قدم زور وءب رءس وصل دير سءل جمع طرق وصل بشر غرد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9378,لهه لهه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9379,زود هلصدمه سلف فضح حرش ولل صور كرو خوف طلع ولل حبب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9380,نشب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9381,وذو شوف جمل لهه شكل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9382,عشن صدق وذو قلت كمم خوف هلدكتر خوف مكن عبث,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9383,دهه خزق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9384,ععع تمو كنغ ديد ترر كفف وني غثث,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9385,لهم وني سلك صبر ورب ش هلبرد ولي,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9386,لهه هدد كتمن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9387,ولد جلس رزق ربه مسء ش غلط لبن ولي صرو ويش قلل ولح ولي عيب لهه عيب قلل حيو م طبع لعن م خفف,OFF,HS6,NOT_VLG,NOT_VIO
+9388,شفف كلم لهه حدد عرف نخب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9389,جرب شعر عول ولل شتر حمض جلس بوب بقل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9390,جلط سبب سهر سهر ليل شجع نمم دمع هقق هقق لعب قول رول حظظ خنق وطف لفز غضب عبس سرخ رمس كلم رعو جلط كزز كتءب شجع قطع قذر,OFF,HS3,NOT_VLG,NOT_VIO
+9391,نظف ترر همم ورك ولل لبس,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9392,لهه ورك صوت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9393,قهر روز قول حبب لصف تعل شرق ظهر خير حبب ضحك ترر لدن لبق قرب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9394,ورب فهم ورب عقل ورب قدر بقو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9395,سكت لهه تردد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9396,ه ز موم صرم بشر كلب مهي رقب كمن  عبد سفح تفه رجل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9397,وضح ونو طوق خلص,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9398,يجو سند هحل ميد يرم برد هعض فنل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9399,شلل لهه,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9400,حضر ولل كون عذر فجو رسل ونه حضر حضر وون نتت خطط دوم عشن حضر خور ويش هبل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9401,كشر تضق وشل بسم ش تسو مول ولل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9402,ولو هلخر صءح يجن غثو,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9403,لحد كوس حدد شوف وعل رمض,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9404,ضفدع شكل تقع,OFF,HS3,NOT_VLG,NOT_VIO
+9405,نتت ولذ بيع دبل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9406,وون فيش لوم مكن كتب وصف ولل ج لهه لهه فيش حوج حسن وني زمم صمت صمت يلو بهر كمن كمن فعل فعل ورن يلو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9407,منو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9408, رعع ش دخل تحد وضع كدد حرق,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9409,هيه شفج مبب ش سحو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9410,هيه صدر حقن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9411,مدر ش لزن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9412,شيل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9413,عنف قلب شعر شجع ندو وهل نكم  حقق نسو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9414,لهه فتح وون وحل قدر ليش عععششششششششش ولح نتخر نظر فتح عشن ذكر حدد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9415,عدو ٩ شهر م ش,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9416,وهل طعع رجل بطط نطح م خرف ذيه,OFF,NOT_HS,NOT_VLG,VIO
+9417,كره يوم علق وغن مخي,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9418,فنن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9419,سور ختت هههههههه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9420,قول خوص طيب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9421,عني ولح قلل صحح نظر صفق نسء مرح يعط وجه وثب ودر,OFF,HS6,NOT_VLG,NOT_VIO
+9422,سمم لهه ويش ليه دله ركك عقب حلق لحح نزل بشش,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9423,خ قلبج شنن نتت حدد قبس حدد لبس درع لون زيت,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9424,لهه هلفتر ولذ حوج عذر حوج بررل خدد فكر ءهه قلع,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9425,شرف عفف نقق نقق قلب ونو وشك كده,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9426,ربب روض,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9427,نعج كلج,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9428,صحح بون عطط ذكر برو كمل جمهر عود بلي,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9429,عقد ٩٠٠ ٩٠٠ شعب عرق صوت حلل ١٠٠ ١٠٠ ءهه شعب غنن ولل م غني صوت حلل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9430,محل شلل فتح وضع كعع سرو عترف شعر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9431,هههههههه بكر كمن فزز,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9432,مسو ضجج قلت خلل شوف زوج مين وول فقه حوت ولن دخل مرك بوس قدم خلق لهه كون عدو نسبل ولن طوح نتت سعد فرض تسو كدد,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9433,درر ليش مره رسل كثر مره كيف لهه صبح ونو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9434,ليش غزل حرم ثنن ثلث م ولن حطط بول تخخ زوج ترر زوج تخخ مفررر لدن لفف دين غزل حلو دوم خرت زوج خون زيك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9435,شفف قهر لعب كره دور,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9436,ربع وكل سبق قيد ولح ثلث ربع لبق بقي دكتر قيد ولح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9437,خرت لحب دهه ويه خزق شفف عمر تشف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9438,زلل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9439,خرر يسو عمل خير سعد ضهر خرر درس صحب زرع فتح بوب ثون فعل خير عمل زبل لوق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9440,سقط لقط نتت جزم,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9441,لهه وفه حلل ش شوف شخص عدو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9442,لول وين فكر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9443,كره نتت نوم شغل جمع,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9444,سفف علم قذر,OFF,HS1,NOT_VLG,NOT_VIO
+9445,مون عدد كلم جون غثو طرو جعل فدد بوب سلم طرو تود روح ولي ردد روح طرو عهد حمد,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9446,ضحت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9447,روح وخد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9448,صته كلم يعع,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9449,نتت وكد وعر هتقل كدد بعد ييه عمق د,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9450,دحح ذمم وذو ذمم لوك ووذ دحح لوك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9451,خرت صبح,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9452,ذكر وذت قول لهه عقد خلل كره فصل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9453,صحح وله غلب م لثم كون حور,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9454,سفف وصل شخص دخل ندو حلو ن سور حتمل كبر جدو جدو جدو مرر تحد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9455,نتت ولي ش دخل صدق نتت نسب ش عشن قول فضل ذلح نتت فضل ولي ذبح شوي نوط غرد قول حبب رجء بعد زوج وبع توه ملك فهم ودم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9456,شوف حسب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9457,جدد,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9458,لهه سمح درس ضرب كثر جمل نقل ليش صير دفر ز وخن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9459,لهه حبب روح وسو لول وهو هدد حلل برر ذمم ولي يسو نفل وني شفف وبل طور لحم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9460,شتت يور موث,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9461,لوم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9462,شعر صقق مهه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9463,شهر ولد وجل نظر صلح علن صير همر شكل كمم خوق ش جمل جمل حمت كبد كنن سعد شهر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9464,ههههههههههههههههههه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9465,شطر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9466,ورد لسم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9467,عني خرب لنس حسب سعد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9468,وقع ضيم ظهر قرب سكك عمر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9469,عيب لحح خلق ربن م مكج صنع بشر وكد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9470,فرح لوم خرر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9471,نتت ز ل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9472,حبب ولش وذو هبب كلل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9473,ونو قرح قدم بطلل حكم خذذ حقق حضر حوم وجل لسم وول ءمم  بره  طلل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9474,عبت ونو دور حدد حلل وفه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9475,كره وبد ءبد نتظر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9476,ليه بعد نفل خلق عشن ويش ويش منه منه ليه جمع جمع صغر  فهه نتت وهو وخي هلنع حول جمع نقذ نقع يعط ثقق علم علم رجع قنع فضل كوث هنء فوه,OFF,HS6,NOT_VLG,NOT_VIO
+9477,قوه ولو لهه شوف منو سلف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9478,شدخل زوج ولل زوج بعد ش عبد ع صلل ٢٠١٨ وبق نوس عقل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9479,يوم قوم صبح مته نوم ولي خلق دوم قول ستقل عضض رضض فلس نزل رتب حرم ترجع قرر ضرب فلس ش بزل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9480,قلتل خلل صور ررفض,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9481,نفس ونو حرء لهب نور حسس وكد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9482,شيل بول فكر حدد حبب ش عبك جدد جمل رحح سمع حمل كور,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9483,طرق قطع ل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9484,نظم دفع عشن شبك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9485,لعف خوي حرر هوي روق ولل حيل وكل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9486,عقب عقب خلف عقب نمر خلف بهذل رشل ولن خوف درد لطو,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9487,حلت سول قلت بله حلل قلت ونو قلت نوج صحح طرق مكن وني وبغ نتبه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9488,صبح عود نشق رءح قهه يده ولق عرف عقب عشق سهو علم قهه غير زوج سرق لهف فنج بدد قلق رشف هدء متع لحظ جبب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9489,سلسل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9490,ونو نوم طبع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9491,هههههههههههههههههههههههههههههههههههههههههههههههههههه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9492,شبب زعلن ترر لبن جكر نسي م غمز هند ولل لوع كبد ووم قوب ولل درج صور طلع خشم نظر قنو وفه م س ضيف شهر زود توم كرر قصم,OFF,HS6,NOT_VLG,NOT_VIO
+9493,لهه عمل شرك وظف ولد لذم لسع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9494,سول لهه ن خفف حنن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9495,شفف صخخ,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9496,عبت لزن زءد ريد نحف رسل خوص وبع زنن طول حلل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9497,ليش قول,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9498,عني تخل ثون نسو ونه وجر دوم تقم ذكر لهه سمح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9499,عرف وني مشش هستفد حوج جمع د فيش مكن شطط هبسط عدو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9500,رهه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9501,ونو كمن غثو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9502,وبو كلج غذب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9503,ليش,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9504,هههههههههههههه شهد ن وطط قدم هبد لعن رسو رسس,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9505,خلف لهه خلف عقل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9506,وون وين مرح ولق سير رعو كلج لدم لبن كلم خلص,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9507,ويه حضر ولج دكتر صلح عزب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9508, علم وتق لهه سمم بنن ش لسم جدد دخل وضع حنن نبع لمض شوف حنن قسم لهه سمم حوم كبد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9509,قول ترك جول نبه شرح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9510,بيع ضعد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9511,قلت حدد قعد بيت شور بقت م عون وحر وقه وله شفف سلسل نتج نتج قلت  سلسل حلل وتم وفق شيء لوع چبد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9512,غفر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9513,ونو ش ذنب طلعل نوب زين كرز وون مشش ضفه مشش حكك بدد رجع لبد قدم قدم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9514,ترر شرر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9515,سسسسسسسسستغفرل مبب خقق,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9516,نتت  م ونو مشش سبك مشمش مبرح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9517,سفف طبع تغر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9518,عنن لطف وكت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9519,لهه حرق,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9520,دخل علم شوش صغر درم عرض لفز,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9521,عزز مون عصب مشش طوق طلعل لوف دهه هجبل شلل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9522,خطر هههههههههههههههههههههههههههههه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9523,مشش دبح نور,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9524,لزم سوو قلل دبب لهه,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9525,حبب صرح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9526,ونو همم عني عدو ترش طلع كيف كيف وكل شرب شوء ضرر ضرر خطر وون عرف نوج نوج وذو هتم تسس لهه عفتس قدر ﻻهتمم ﻻ هفتس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9527,لهه عظم كفف وجج همج ولل ستح,OFF,NOT_HS,NOT_VLG,VIO
+9528,ع ولل عدد صلح,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9529,ش ظرر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9530,ضلل شهر برر خلص,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9531,نتت فرز نور وتر خير قول فرز لزن ودر ليش حوط عدو حوط ولم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9532,,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9533,ع برطم نفخ ع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9534,فيش حوج سمه غبﻋ دلل غمبل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9535,خيل جوز حدد حنن قول حبب مون زوج صحب لهه مسك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9536,صدق وسم لهه عيب ولي سنه لبن قلل لحي ومس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9537,حمد هند توك حشر وقف حدد نرض حين صور نتن نتن شهلتنقض ولل نتت نتت مبب نتت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9538,ورد وزر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9539,جدو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9540,لوق وبق غطو رجل عشن فتك شرر,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9541,ذوق حدر,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9542,سءل نوس عمل ز زرر لتح فا نوس مشش عرف حرر ربط جبر نوس وني جبل فهمهش صحح ربش برم حدد  نسو ءنت لزج كمن برم وبق جزء كبر سءل طبب روح فين ووج منن,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9543,مين نتت علش حتو قفف علگ شرم مثل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9544,ععععع عععععع عععععع هذل حرم هذل,OFF,HS6,NOT_VLG,NOT_VIO
+9545,جرء تخذ لكن مسخ قدس ضيق كنءس هدف ضعف وجد مسح مدي قدس خرق لتزم دله قرر غلق قفل بوب كنس لقم شعر خرر,OFF,HS1,NOT_VLG,NOT_VIO
+9546,ضرر طقس جمع قءم نفق جتمع,OFF,HS1,NOT_VLG,NOT_VIO
+9547,وصل درس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9548,هلبحر ولذ ترخ رمه حوت نهب وبق,OFF,HS1,NOT_VLG,NOT_VIO
+9549,وين حلل لهه زيد عقل حلل وشي,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9550,روي روي,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9551,خيل ركب وحد وحل سوق قلہ نبہ ريل ولل قدم قول دخل هههههههه,OFF,HS4,NOT_VLG,NOT_VIO
+9552,مكل جكس ميت حطو هدو قبر عشه مدر ش قول خنق عبر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9553,عزز طلع مين شوي ولح حيف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9554,لهه وكل لهه وكل لهه وكل لقن حمي غفل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9555,سمحل ختت تمثل بتت مثل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9556,ولل رزق لهب رجل ثبت رغم لهه شفه شخص عدو فتت عقل كبر جهل خرف ولل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9557,هههههههههههههههههههههههههههههههههههههههههههههههههههههه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9558,برد بدد ولي سطر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9559,ترر ترش غسل سنن حجز حبن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9560,مشش نوم عمر,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9561,لهه خرب بيت ولل خرب بوت سلم فتن,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9562,نثو وقف عذب سءل ترر فعل خلل غيب  خمد  عبب رشش  جلس,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9563,فرض يتم كرم صبر لون وضح وزم وضع قرف ولل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9564,ثبت رسم وهل ودي ضفدع عترف شفو لعب ولل يسر نقع طحلب,OFF,HS3,NOT_VLG,NOT_VIO
+9565,رجل لسد قلت ليه سدد فرح قلت ليه حون زعل حتمل جيك وكس طيب فرق لسد ولح شنن ل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9566,حطو زعفر قهو ش جهم هلمصر قهو زعفر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9567,وري تجن كلم تلف مشش طرق ر يدي رقد زقب خوي رشن خطر شكط عصر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9568,هههههههههههههههههههههههههههههه عترف حقق ضيل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9569,حلف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9570,جلط هلصبح,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9571,فتح عدس وهي شوش قدم طور شول ربع مكن عدس بصم نزل شول فذذ سمع زود سعر حبط,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9572,ويو لهه للل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9573,مكن فهم د وضع عرف ومس عرف  سرح حسن حوج فضح حرم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9574,ذوق جمع دحدر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9575,خير,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9576,وبو جهل عوش,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9577,قسسسسم لهه صصصضخره,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9578,لهه نتم ررررر فخم حدد قدد حبب ولف ورب ويش نتم نوس ذوق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9579,خلص  طمم مبب صوح سوع فحص,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9580,ونو عند جهه ظرر خلف ربن خلهل  بوش ربن خلهل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9581,ذهب عشن قرد ولي زيك ريح فوح,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9582,مضح لمضع حدد خقق شهر خلل شتو ذوق صوع دشر لدشر قصد لقطع,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9583,لهه ونو سحو وون ولي دخل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9584,هدء هدء ونو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9585,شبك خلص وكل مرس ووي عرف يجي ش بطط,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9586,خرررررررررررر عون لحظ دقق صفف عشن عرف فرش لمل ردح خوف مرر صيد رجع روح مكن نطر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9587,يوو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9588,بنن لوم قلل دبب ضحت,OFF,HS6,NOT_VLG,NOT_VIO
+9589,حدد جرب خذذ ولي وقف جمع سلط عبر حسس ش حلل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9590,عمر ١٣٣ سنه كتب ولخ وتي قرب نوس ولي شكل وبه مسح قنو طور لجن,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9591,شكل ولل م شوف خير شخص عدو قلل دبب درن سبب برر صوخ وول مره شوف بنن جمع رجل حجج ونه جمل وجع,OFF,HS6,NOT_VLG,NOT_VIO
+9592,ععع كره لوث سمع مدر ويش فود,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9593,لوج كان عبت,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9594,عوم نتت روح جمل زقق حتو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9595,شبب جلد وهل لقن فلملعب فلمدرج ترك لعب كتب قذر,OFF,HS3,NOT_VLG,NOT_VIO
+9596,شكر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9597,ذكر وبد ورق ش خوف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9598,بستغرب نوس زعل عشن برد سرع حتمل شغل  وفض ردد لون عند حجو همم  حتمل عند نفس ردد وسي سنه جوه صدق ردد فرق عوك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9599,همت ضحك  منو لحق قلل قلش حجو ضحك تون عشن مكن نمو ترر ضحك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9600,ررب رسم قرف معو ليه كشش لحد ولل وخر وخد حضر جدل يوم وني نسي ن علي رسم نسي ولد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9601,دوم ورب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9602,هدرج صلت قلل لحي,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9603,مهو نتت سبش ردد دبل سقي حدد زعل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9604,شكل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9605,وبع عشن زود وبع رررب صلخ بوم خلل تعرف وين وكل شهلنس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9606,خسر وثق حسب,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9607,رحح وسو روض حدد حدءق وحي روض شفف ظرر عفت لمك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9608,هلمستر خلن حلل كمل كوب جلس شوف عرف ش لوب بذبببحهه ونو حضر مسل بسن كلب ههه فرر,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9609,قدر قول ولو لهه بلل بتل ندر بعد ولو نصر لحق شخص عشن شكل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9610,هوي كلب طيع رقم للي عوز وصل معو شرط,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9611,خير شوف غرد حلطم هلل لفق خصص قول قلل ويش ذنب ولل حقق هوه هذذ ولم هلل لفق وصل ولل قول غلظ فءد شرر شرر كرم كرم لهه رفع قدر قدر سعد سعد لهه جبر خطر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9612,طلع تسكر لبب عدو لحق لين صول سحب لين غرف عشن سكر قلل دبب,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9613,فزز,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9614,ونو شعرف حوج,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9615,غثث ختبر وجه رضض,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9616,قلل دبب كتب لهه حمد خلق زفت,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9617,حلل بطط حلل بطط وجل درب تفر قبر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9618,لهه وفه نقط جمل عشن همج سوو لهه وبل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9619,,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9620,جيت وبي وسب طعن قلب جعل لهه د لبلستششن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9621,عدشبكك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9622,مممم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9623,لزن لهه همج جمع حدق حون,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9624,وتم يرو كلم وصل تقق لهه فرر دين صحب وسف لهه عظم لوم سقط ندد لجب روي عرض رخص قبل قلت غنم طلع شبب لتم دور شغل زبن رجل حطط نقل معل متن,OFF,HS6,NOT_VLG,NOT_VIO
+9625,ومس رفع ضغظ حلق لفت لغب ولث سلط,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9626,علش خفو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9627,كفخ صطر جوب وده طلع فوق حفظ جدل ضرب لمم فرنج ذسس وند ذسس دور صرر خرج جمع  صطر فضو,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9628,روع بدع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9629,نبح نبح نبح طرب,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9630,لهه ثبت عقل شفت خير وجي بتت فهر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9631,قول حبك قلت ش دلل قول قدم بيت جوي خطب صلو حمد ولد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9632,ليش ترر رسل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9633,مدح ولح ولح زعج,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9634,لهه عطن كبر قوس رحو رقل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9635,دهن عمم حسن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9636,لعنم لقح عيب عيب سحو,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9637,خرر سيز ١٠٠ ١٠٠ نوح ولح عكس ضبط خلص وبي فرج,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9638,طلب سقط وله طلب جنس جنس وبغ جنس جمع جنب حقد حسد بغغ شوف نسء عوذ لهه,OFF,HS1,NOT_VLG,NOT_VIO
+9639,شكل جمل م ش شفف حوط لوح شتر صور غسل يدي شخص تهز غلل شكل عطت كبر حجم غبب,OFF,HS6,NOT_VLG,NOT_VIO
+9640,لعن م شرف ولل فقع كبد  نوس قول بدد شفن  بنن كفن وون حرر دفع مره ختصر لبن عطط وجه جهه ظرر خرر شبب شفن جرد خرف عبث حزل  خرف سوق  خرف,OFF,HS6,NOT_VLG,NOT_VIO
+9641,نتت كلب فصل ودر بنن سقط لقم خءن بنن ضعف سلم سلم بنن ومر خبث,OFF,HS6,NOT_VLG,NOT_VIO
+9642,لهه لعن ورب لكككككك خسس وعي ذول,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9643,لهه رهق وعد ركو رجل حول يلو شبب نتبه نفس عدم خلق ربب صرو وهم ش لوع روس رجل لهه خذذ ضحتن عسس لمح,OFF,HS6,NOT_VLG,NOT_VIO
+9644,كمنت وتر صور منت نست دعو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9645,ونو عرف منن ونو قول قرب شوف نتت ووك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9646,وله شفف بنت ثقل حلو وجه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9647,لهه قلل حيو قلل دبب ولي صرو رجل حرم خفف عقل,OFF,HS6,NOT_VLG,NOT_VIO
+9648,لحمدلل عشق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9649,جدن منو يبي مصل لوم سرع سرع مكن دفع جود حلل كوي توب كوي بوث كوي دثن هين بتم كوي ولب كوي خنث كلب محو دوث كوي,OFF,NOT_HS,VLG,NOT_VIO
+9650,شكل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9651,عدو حطط علشلل منع حوض رفز,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9652,صير زقق فدي زقق وول جيك زقق روح ودر ويش شوف,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9653,علتشم سلم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9654,حشو مون حسف دله مين لفف مين,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9655,لهه وتم خير طلب وكل روب حسب جرر,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9656,قلو نسو قلت نسو رجء ثرن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9657,خبر عجل ركم غثت وعد غرد حسب حقق خبر وطن عني م عقل نقر خبر ستت مره شفو حلل شكل وول ترر غلب وبع طفش علن حسب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9658,وول قول شون جهه شون خلق شهب وبو رطم سود يبي موت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9659,دهه حور دهه عمل عبط بستهبل قصد,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9660,سمع خوس خلي روب,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9661,هيد صور جمع مدن فوق جمع مدن مشش شوف عدد حرر بوج,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9662,مطق لزن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9663,هزم ولم دور هلل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9664,ظرر قرف جدو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9665,ورد وجه نصح غوي لهم شوب عقل حرص شدد حرص نتق مره صفف بلح بلح دعع شرط جمل لبق ف جمل لهه ظرر حلت بلح ف زمن قلل لنث,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9666,شدد حلك كبس جلد رسو لول رجو كده فهم,OFF,HS1,NOT_VLG,NOT_VIO
+9667,دير سبع صبح يعط علم حتي حفتر عزز عزز حرب حكش هكك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9668,شفن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9669,سبل قعد غضب لهه جهه ودر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9670,نتت وول بتد صكك بله كفف وجه وون سرح عشن لتت طبر حقق وقف زبط ولو ولن منس تقع ها وول حدد بلح صكك كفف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9671,للل م نعل سجد عني صقق خلف قلت نعم سجد هين م لدم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9672,لهه نوس تجر روه شهر نوس تجر ر شهر علم تعع وكس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9673,كوف ولي منب صير هين,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9674,ش يسو جول,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9675,ونو لحظ ونك شرت وتر ولم دول زود وهد شوه حببت ميد قرب درج هنتحسب لهه بره ووو عود زعرر عتر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9676,ونو لبن رفع قضض ولد نعج,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9677,هوه رقن وجه سمح كذب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9678,شدخل كلج ولح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9679,وين حضر ثقف نظف ولم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9680,مبب خبر هلش,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9681,شفه عدو ز لبن زود فشل عيب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9682,صوح درم لفت نظر عجز ثبت ونك وعب ءثر مست مست صوح مرس طقس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9683,شرك خدم وتر محدد ضعف نتت وتر وبق برمج نتت قوي ليش,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9684,قصد هههههههه وني فهم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9685,وذو رغب ن ذكر جعرب ونه عبد سعد عبد ذكر هشتج لوق قلب حمر صفر,OFF,HS1,NOT_VLG,NOT_VIO
+9686,صور,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9687,علم علم سرق غوز شعب فلسط خسس,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9688,ههه لكك خنث صغر,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9689,ليش م عجب لحب حقق طوح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9690,هوج هوج خذي,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9691,لهه هشتق جيب غثو وضع لبن خزي خرر فره بلش همج حطط ليز,OFF,HS6,NOT_VLG,NOT_VIO
+9692,طفل صغر سوت صيب قلت مزح رمم فوح شبب شبب ليش يبب قلت مزح رمم معج لسن ليش  بوب قلت مزح زعل قلت روب صدم مدر فين جوب هلكلمه قلت ويش ويش قلت مزح هههههههههههه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9693,دكتر توع نهرد د كون عوز طلق سنه عود لسن كدد حرم علك شيخ دون حشن عرب سبب,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9694,طبب حدد ذكر لعب ضفدع ولي كون سور ومي طرق هكو لزم خطو عشن فوز ورب وعق شرح وكد ذكر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9695,حرم كون رجل ومن خكر,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9696,وضح ونه مرض م شيء ترر ضحك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9697,نتت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9698,فرع د كبر دوم زحم  مكن قهه خرب وفي وظف وحد دون دنتس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9699,لقم عرب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9700,حرر متح كمن بجج ههه لهه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9701,هههههههههههههههه خلل حمر خلص سوس وكف ولو حمر حمر م  ش لقم,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9702,ورط وذو نتت حلل وتب كسر سعر حدد صرخ صير ولد طلل صدق شيل بقو وفي شكل عشن كذذ طفر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9703,نتت جرء عوذ لهه,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9704,ولح قول م نسو لوك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9705,ربع وبق بدد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9706,ضحت لهه خذذ,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9707,شكل حدد قعد جيب لهم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9708,لهه جبب شنن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9709,وعم ونو حسس دلل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9710,فرض هلل جبن لبن عزز دعم دعم معن عشن حمس لون نظف غبر كسر ظهر لهه قول لمم طيب قلل قول غبر طرق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9711,حمدلل عمر بسس ععع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9712,لهه نوس صور ولل غلط ولل زعل شلل مدر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9713,وفر مره وضع مكن رتت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9714,مرض حطط,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9715,قلل فلو كره نضح فكر لمو توع درس كنن كره دير صحح نشف ندر لصف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9716,حسن  م غمز,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9717,كنن وعم شيء عجب عجب وكن وصم شيء جرح جرح وكن بلد ش ءلم عيش سعد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9718,عرفش,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9719,وحر مير هوت سكك ههههههههههههههههههههههههههههههههههههههههههههه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9720,زهق حرق لدم توع يوم د,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9721,عند ش قول ضعف قدم مطر نزل روس ورع نتت لهه عزز وطن عزز مطر خلل مطر زبب جلو لمل سلم خوف نتت دره مطر غبن غبب كثر ههههههههه سمع صوح ,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9722,حبگ حبب عدن لين ؏ شقگ ؏ شقق زتنﻬﮧ لبب غلگ غلل طرز لقردﮪﮧ گفو ؏ ذبب لهه شلل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9723,منع هرب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9724,كره شعر خلص,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9725,بتت خلك كده دوم هتبقلظ,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9726,هههههههههههه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9727,عقل شرك عرق ورم ن نتج عطر قرف بعد حدد قيم رول عطر لوم عود بصل خلط عجز شوه شري ستر علم,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9728,ولب ونو ن رحح حرم شتر كرو ولل خلل سبد بسط ورب ونه خرف صرح,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9729,طبع جرد دعب سلم ولي لهه نوس مكن ردد قلب م شرط كتب دعو ضحك نسه حترم طبع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9730,حتو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9731,هود ضرءب لسم موء,OFF,HS2,NOT_VLG,NOT_VIO
+9732,جدي حمت كبد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9733,شوف بوك مضق مسك خدد وقل جرب مكن سفر علج فقه دله,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9734,وعن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9735,صحب رضض لهه كنو سفر حرم بقر هرف عرف وجد كنو جهل بهم لهه صلح حول,OFF,HS5,NOT_VLG,NOT_VIO
+9736,دفع ولل نتت بعد عزم خلق لهه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9737,لهه رضض عصص لصو تقع ملك دخل خقق مين مدح مين نكت نتت ش دخل قبل حمد مطر خرف ونس مثل قبل مطر لهه لعن يوم نبح كمن,OFF,HS1,NOT_VLG,NOT_VIO
+9738,كرس قعد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9739,خرب عءل ش دوم نحح سمم لهه نقص صير فهه ريش,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9740,قوم بهه بسم ش حلل مبب عدو سمم لهه رحم رحم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9741,متت ستن لحد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9742, ستت  ستت  عمم لوو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9743,وخي كلس ملل فففففف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9744,ههه س,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9745,مشت ترر لصق حلق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9746,لهه شغل شغلت هبو فضح نتت رمب ولن عقل سحو,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9747,ويف سون مذج لوم عرب لقح منك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9748,موم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9749,قعععد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9750,حنن طبو بغل وحد يسو حفر حطط روب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9751,فرغ,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9752,شكل حلل ونو رءس عصب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9753,جخر عدو بل ولل حسد نفخ حسب وقر ثلث ولل ولع ذكر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9754,ذبب مور ورث لسن ولج خلل شرك ويش تبب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9755,١٩٦٨ خوف وكل زقق,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9756,فلل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9757,ونو قول طلع هدم لصف سبب حرر دهه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9758,شوف غرد  مسك جول كلم مكك فهم قلع ذكر نفع نتت,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9759,ونو عرف منو ولل زعل ولل خلل لبس نور سكن طله لون خضر تشر لون حمر جكت لون عنب رفع ضغط ظرر لهه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9760,رجع سعر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9761,لهه خذذ قبح قبح عنصر,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9762,صور عرض مره حلل غفر لهه كذب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9763,وسخ,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9764,صرح قلل حيو حرك وله دوع رخص لحق ورو رجل قعد رزق لهه لهلدرجه وصل عوك زجو فكك نوس شرر حنن عوذ لهه نوس تستح صدق,OFF,HS6,NOT_VLG,NOT_VIO
+9765,لهه فشلكمم غبء وعع ورب فشلت قسم بلل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9766,كشف ن غلب شعب هتمم فهه شطر هلنقص لحق مزز شبب هبل لحق رخص,OFF,HS5,NOT_VLG,NOT_VIO
+9767,لهه رحم رحم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9768,خمر برج ملك رمك رقص خمر دعر,OFF,HS1,NOT_VLG,NOT_VIO
+9769,سبع غثث ورب يجي ربع وصب كرم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9770,سلسل نيه تبع طفش قلت يلو شفه دبن خلص وول ثلث حلق مره هبل ومه يوم دعس رطغرل بلر فيد رهت زود فزز ومو صطف وسي زين علم ثون شهد ضحك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9771,كفف رتت بنت قرت ولو وول غرد قرف,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9772,وفر لهه فشل بنن,OFF,HS6,NOT_VLG,NOT_VIO
+9773,لهه بثر زود,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9774,وضح نتس خرف م لهه خرف ولو نوع طيب ههههههههههههههههههههههههههههههههههههههههههه,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9775,هوش,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9776,لحج ولل لمم كور عرف ونه بلش,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9777,يمم وخي نصح برح مشط شعر روع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9778,رنز ثبت روم ولل ثبت خمس قبل وقو ضخم رنز بور زنر منو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9779,عطل عطل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9780,ونه فصل هجي مكن فصل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9781,عني عقل هذل كمل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9782,ش جءز,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9783,تبر رحم مهو بنت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9784,مدر ويش شوف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9785,ولت زين,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9786,زده سلف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9787,عند عند لسس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9788,صحح حنن سعد تسس جنس ولل حرق ولل قطعه جنس ودر لهم حنن وني م همت هلجنس حقق ودي وني ولد مرك فرنس طله رسو جزر لقق عدو ضوع عمر حقق سنو شرع سبب هلجنس هعع,OFF,HS1,NOT_VLG,NOT_VIO
+9789,عشم بلس لجن نتت ويو شششش لمم روس كوس علم جرد كمم حلم كون نطق حلم,OFF,HS1,NOT_VLG,NOT_VIO
+9790,م تنن عجب قصد فتن لبس ضيق همم ونك خرب ذبب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9791,نسب رصف كثر سفل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9792,ش جمع رول فنل قلل حلو طنو خدع عمم وله ذنب بلل حصل قول لبن ولل ستر ستر ش حسي حسي قول حدد حرش ش نسو ترر حنن بشر نحس عني م حجر حجر ردد حمل لوج وحد قول خلل فكر روق شوي,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9793,ولم زوج,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9794,شفف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9795,ع شتر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9796,هههههههه حمد ربك حسن قسم سهر مره قدم دفع غرم  عزم دره عشش,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9797,صحح بوح وعق  غير غير غير,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9798,جمع صلح قوم درب كور,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9799,وين مرق ظبط عرس سلسل برد بخل نوم لوم كلو خلص تهو عشن متحن خلص وجز جوت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9800,عيب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9801,سءل ليش زوج ليش لهه خذذ لهه فرج همم ورب,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9802,م دوم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9803,عععع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9804,عمم ندف غبر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9805,دوم مزز حبن شنن شنن خذذ مزز وون ولي بهم همم قبل ولي بهم دوم وجه,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9806,بعد  جحش  رتد  وفر  فخر بلد وحد ولل ملك ل سلل ولل نتت عبر حدد ملك ل سلل,OFF,HS1,NOT_VLG,NOT_VIO
+9807,عني ونو ولل جوه فسح ونو صرح وفز عزم بيت برس روح جمم وضف روم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9808,طيب خرر قدم قوم شوف ش وكل جعت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9809,ظهر هيك مرر ونو شهد فبه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9810,كين كرس  حمد لحج حرم د نتت قطط مطلعتكش نزلتهش سلم  جرر رجع خدن مشل لقط,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9811,وحن متي نسل سءل د وضع خصص سلم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9812,دوث ختت صغر بطح طلب وخه حطط فول خرق,OFF,NOT_HS,VLG,NOT_VIO
+9813,ع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9814,بور ولل رضض نتت ولل بدد صررخ عدد عدد لهلدرجه بقر تتحمل عني,OFF,HS6,NOT_VLG,NOT_VIO
+9815,ع ع ورب ثقل دمم مسو جلدددد,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9816,عطن لوك لهه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9817,كلب حون فا جدو صحب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9818,تبب فزز قول سكت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9819,شكل نوه بعد طيب,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9820,ورب موت نتت ولو وكس وحن,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9821,شكل ومه غنطس ش,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9822,ععععععععع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9823,لهه تستح وجه ذرر حوء قلل دبب ولن رجل مكك لهه بلل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9824,ولي خوف سوو شيل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9825,بنن كوم يوم نتت هخبط عرب كوم وني,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9826,مين وحل مين ظبط,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9827,صدق حوج نوع جنب تنن زمم نبه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9828,بنن لكلبببب ودر شيع بقو حلل مكك,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9829,موج غبر قوه قصم عنز لهه رحم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9830,ش روء طلب وكس حلل وجد جلس نفذ سلم حوج ثقف سهم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9831,وجع وفي لحب كبر وجع عءق حبب عدو قلد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9832,تحد حبب وهل لمم حقق وهل ظلم كثر هلل فود قرر غرب ريب صدر دور تمم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9833,ريم حقق زعل شرك بشش لون مقل خفف لحز رجع فكر ضحك حكي حوج,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9834,شوي نبح شنن خنزر وهم وحد ونه كون كوي سوس,OFF,HS1,NOT_VLG,NOT_VIO
+9835,لهه فشل بنت لهه ونه توم روز ولح قصم شفن نفس,OFF,HS6,NOT_VLG,NOT_VIO
+9836,عبد ذكر سنه وول نسو,OFF,HS6,NOT_VLG,NOT_VIO
+9837,يوم قول ومس عشش تعع لوه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9838,مسو رمنس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9839,لحد عمل دمغ ردد ونم ييه خير حلو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9840,شكر شعب لنك فضح عقل كبر ءهه جمع سعد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9841,رخص قلو خذذ مهر رول وحد خذي ش هلرخص,OFF,HS6,NOT_VLG,NOT_VIO
+9842,شكل وهل رضض سكت جول قلو هوه وين رضض ترر رضض م شلل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9843,ءمم قول ستغفرلل ذنب غفر ذنب نتت قول عشق هدرج صلل هزء بلد لهه عذر ولل سبن جلس ولم لهه رجل ولل رفع روس مكن صلح شيح لثث حمد شيح,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9844,جوك درعم صدق هههههههههههههههههههههههههههههههههههه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9845,شوح نقل سرع مكن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9846,بنن حلل زبل خسس كون هلل  علم هلل قول روي لوف نشخ روس روي,OFF,HS5,NOT_VLG,NOT_VIO
+9847,خمممق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9848,مكن رفع ضغط عطط هلبتسم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9849,ممممم لهه ونه كفف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9850,ولج ردد بنت لبس ويه جزم خوي د,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9851,ورب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9852,ش شرر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9853,لهه رحم يوم فنك يوم حلم لند ورء لصب كثر صرح جمع بره شبب لبن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9854,لهه سمح شرف ولو حطط,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9855,موت نتت حطو لمم قول فا  جمل فيد خلص,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9856,شوء قزز لبن وبع كره,OFF,HS6,NOT_VLG,NOT_VIO
+9857,قسم لهه فشل عمر شفت مزز شسلف همج,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9858,لهم تخذ فعل سفه منو,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9859,نوم كلم قصم صحح برض زلت كلم كفن ع خلص,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9860,دمه م لزج حلل دفع مره دون دون فلس قدر عضه لكن لبن ولل فقد تعض,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9861,صرف صرف همم حوج خبو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9862,همم رعو ربن بلشششششش روض خرج يوم خمس فهم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9863,عوذ لهه لهه شوف هلتق كمي حسد علم رتب رتب فرض علم خذذ رتب وعل ولل خذذ ولح ولح علم طور هندس ووو فكم حسد علم وفي علم نكد كره شيل ودي,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9864,خلص زعجت درن كمم خوق خقق جنن نتت وهه لهه تبل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9865,شوء لهه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9866,ءود قرح قدم شرع قنن ضيف درج طلب لثن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9867,حلل عصر قصب بقو في كمر قلش هنسرق زعزع نجر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9868,لهه خذذ ولع مود مبب خوي هذذ عسب سير ولع,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9869,عطن صفف سعد حمل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9870,قلع  خرف وبل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9871,شكل تحد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9872,ظفر تبع رنو ولل طلع نفف خبر نتج فلم جيم فلم جزم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9873,شقل قول شنن فشل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9874,بوس كوس نبي عقل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9875,غفر لهه عظم شعب حفظ مشش,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9876,وعب شذذ خلف ولي,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9877,دخل لهه خذذ ليه ملل شهلم د,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9878,سور ويد نظف شءلل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9879,وصل بقو وصل طول لزم ظرف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9880,عرض,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9881,غير سرح شعر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9882,قطططططع شزن ثور وجه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9883,بعض قول طيع عيش حبب عقد لهج سفر وهم كل هرء,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9884,صحح مكن يبي وسط شيء صلح صرح علم قرف قذر,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9885,كذب لخف حقق ءجل حنن مكج عني,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9886,خدر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9887,خخخخ نتت ملك وعم,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9888,غرب نوس شبح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9889,شبهش حدد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9890,عشن قعد لعب كوس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9891,خوه كره شبب ولل قرف,OFF,HS6,NOT_VLG,NOT_VIO
+9892,فلنز حرم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9893,لهه حضر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9894,زهب خمس جرر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9895,شكل كمم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9896,لهه رقص رقص لهه ص فوه رفع فشل حقن,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9897,يلل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9898,طقع شرب بمن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9899,ليه كده دهه نمر جهر وهب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9900,م عقل صرخ بنن ل صوت عول  ن شعر نور  صدق زعج,OFF,HS6,NOT_VLG,NOT_VIO
+9901,وون ختت لكم ذ غزلت لبن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9902,وعد سخفهمم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9903,هلل لهه ههههههههههههههههههههههههههههههههههههههههههههه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9904,حدث نستقرم سنق منق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9905,قلت زوج حبب قول میی قلت قول وبی قلت قول ختی قلت وون قول ولت عمن حبب سول عمن عشق بسم قلت عشق قول ندو وهل طلب طلق ردد روح لهی وكس لحح حبب رمنس وبو دور وسي,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9906,حمد تسو رتت م سعد نتت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9907,نوس د,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9908,صحح سنگ زمن جمل سلي صلح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9909,شكر شرك عفو شكر هيك كتب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9910,دكتر ولي شرح حدد خرر دقق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9911,شرب موه كثر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9912,لهه يدي صحح  بور رفض جود قعد عسكر مصر ودو فرق يين رجل عسكر رجل ليه قعد عسكر بوي,OFF,HS1,NOT_VLG,NOT_VIO
+9913,ه شذذ جمع م طبع جهه فتح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9914,كلت لحم عدو وكل ضبب ونو وكل شكل سدد نفس لهه ديم نعم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9915,وصل سلف غرد سيء سعد طوح رنمج,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9916,لحج لحد ولل وهل لمم ونو ضيع ومي قول ويه كتر حوج تمن قلتل عيش ومو حدد ونو موت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9917,ذوب ونو مهز حدد,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9918,وحل قوه ولو لهه علي عظم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9919,جهش فضل حبب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9920,ختبر لفز عبر ورق م سول,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9921,بنت نوم وسط ولت م شبص خوس فرش نوم كشش زين صصصط مزح حبب بنت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9922,فقق هلل طلب قرر جوي تحد سعد حمد عقل عقل رعع نتت رءس هيء روض عني حسب لمك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9923,كمل سوع نوم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9924,ولي خلق شغل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9925,سعد دبه,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9926,برز شيء ولل وله زمم برز موم نوس دلل كوف نقص,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9927,وكو ودر ونك قدر عيش  سلم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9928,جلنط  رسل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9929,نتم عبل بعد فكر لهه بلشت علم صيح ينخ ولو جزر لقق حنن حصر حنن حصر هذذ ولل م عود حمم وجل لهه خلص سهو خلل فكك علم شرك درر حصر,OFF,HS1,NOT_VLG,NOT_VIO
+9930,كتب كلم حفز طله خطط جمل طلب لصف لحد نته رمم نته حقق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9931,قفل وضع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9932,خير طول ليل درج حرر عول حلم كمي حلم عجبب عجبب قلش خدد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9933,لهه وني غرد عبر شوف عرد وفق فكر عظم دوم هوش,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9934,حبب شمغ حسس كنن زرر شعبط برس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9935,ولح سرع شتعل جرد ولق حدد قول  سمع طرف رفض قبب وجه ظهر طلع حصل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9936,يوم تهش شرف شكل لبس مهو يوم طبع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9937,خللصصص,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9938,خسو هذو مرت,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9939,ورد نصص سوع تمر صدر وتر بوي كتف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9940,ولم وبغ عمم قول بعض م لبن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9941,وحش مشش هشف كره,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9942,يعع لتم برع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9943,مدر ش سلف بوع كلج لهه عيب عيب قول لبن عدو غزل رجل لبن جمل بحه عفت عفت رجل فرض غضض بصر لهه بشر فكر,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9944,يجي يوم سقط بهلحفر جدن عمل نظر مرض,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9945,حوت علك رتت عوك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9946,نتت شكل فتر,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9947,كمم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9948,وخذ رقم جدد زعج تصل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9949,برو برو لحح سبب خسر طله ريق فضل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9950,نتت وكد خرف بلل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9951,لهه مدر شفف صور كوب م زوج لبن هبل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9952,صغر قرد سعد غوب ومه ثلث سبع علج صوب خطر سوق فرق شهد لحظ شمل قرد عءل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9953,قلك ويه وحن ولل كفن ولل هبق حتن جبل صدع كتءب نكد وهل بيه كده غور قعد شكل وسخ ولل عرف,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9954,نتت سنب خرر,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9955,حقد وبو قلب ركب سود,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9956,حمد لهه لوم لول عيد ولم مرر سلم عفو لعد وطن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9957,ويه عرف ش معن هوو قول يلو جهز ذخر عود,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9958,طوح ذوق لبن عون بوع كلج,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9959,وفق ن لدن جوء جنس رجع وقر زين منف طبع روء جبل لحي فون لحي ذهب هيب جمل روء فلسف ومس ونك حفظ وقف شبب,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9960,ويه لهه عيب لهه م عقل ولل صير,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9961,خرر,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9962,لوم نتت ريق كوب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9963,سفعل زعم عمد فرق فوز هلل بلد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9964,ورب موت جمع وطن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9965,وذو كلم صحح ورث ريح لعب ليه عند ش ضوع دور كوس مشر ولس ضيع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9966,سرتت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9967,كره كره زول خلص شمم شءء وحل بزق فين كمن قدح فين لشء لشء وله سوس قدم نوس حسس ونو دور لدد لوم ليل خ,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9968,حذذ قير سجد فجر بدد جمل توج لكك وءم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9969,قلل دبب,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9970,ليش مءد حكل رسو  نظم عتبر كلم موج لمو بشر رسو مرك خود خلج معع,OFF,HS1,NOT_VLG,NOT_VIO
+9971,حبب شيل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9972,حسس جمع نتت,OFF,HS5,NOT_VLG,NOT_VIO
+9973,سمم وفه دوث يجي خوص ديث دوث دثه حرم كسس,OFF,NOT_HS,VLG,NOT_VIO
+9974,مين سمحل دخل مصر جول بحر فين هيء علم دخل  شبه لقن سيء مصر منع دخل بلد سوس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9975,هيه نجد خبر لهه هلق خيف لحمدلل فرج وضع نشر وتر سنتقرم م طلع خبر بقن خبر,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9976,نفل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9977,ووخ وطن نهر دمع همر سمع وغن ذكر لوم لغز هرب وفد بلد غنءم ركن كفح ب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9978,تقع علق وضع ولل علق خلص سكر وضع لون حوم كبد مره,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9979,وذو عجب عجب قلب وكل بنن عذر كلم ومو صور وشل صوح خرت رند بوع كلج خ عرف ولل صور,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9980,موج غبرق لهم زحهع لدن حفظ لدن حبب قلب نوس ملل لمج لهم زحهع قلبننقهم لكفرلفسق لعص,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9981,خلص رخص شرن سور وبق شهر يجي نتج ,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9982,طيب ورو رفز,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9983,سبع بلغ ومس شيخ نعج شفق قطع ولي,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9984,وول مره عرف ن كلت سمه كلي كعب عول,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9985,كثر قول ضدد خرر دلل كثر عبك نسو رتق كثر لعب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9986,نبه سقط نتت معو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9987,بنن,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9988,بعد بنسخ د طبع,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9989,دلع كلل ونو وحش مين بقو مين جوي قبل ليل قبل مين حبن هعمل رتت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9990,نجز ٣ دور ٠ وسي ٦سن تحد فوز,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9991,وضح شكل صرف ونه شوف فكه حطط كمم غطو جهه طلع حلل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9992,قرد حمر ندر نوع قرد علم تجد زنجبر تمم صور لفد شهر لغب كبر جزر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9993, رده كنه لبس لبس متت جمع حدق وحد بقو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9994,كره,OFF,NOT_HS,NOT_VLG,NOT_VIO
+9995,ولل روح محن درر صنو ولل قول ردن حري وصل مره ولم ولد يوم حطط ومه كوس زبل,OFF,HS6,NOT_VLG,NOT_VIO
+9996,ززز صور عرض  مون,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9997,زوز قرن دكك رسل دور ركك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9998,نظر رجل شبه نشر سحو لعثم شلل وجل هلز وبع كلج معل ترر عيب مبب هدرج لهس صور,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+9999,رحم لهه شكل جيب رضض عمن,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10000,لهه قرف صبح,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10001,ودر حتو قول وضح,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10002,تكك مره سلم وذو خرج علم لدن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10003,موش عند ذوق قول عزم لغد شءء ولت,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10004,لهه وني زنن ٥ حرق حلق ومس نزل حقق زنن ٨ ففففففففففف موت قهر وبي صيح,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10005,خسس سعد نقذ دول ومو ورن عرف هدف تبب حكم علم حمض لبز لهه لمل يمن ولح حكم ورن سرو موت جوع سعد حتو لجء كفل عمر عرق ل عود حكم شرع قرو وخف لهه,OFF,HS1,NOT_VLG,NOT_VIO
+10006,شكر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10007,ظلم حول نتت درر طلم شين,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10008,عسس جبي لحص ولي فلق,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10009,وشك صبر نفذ,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10010,ش قصد عني ولح شين,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10011,لصغ ركك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10012,كبب فعل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10013,عني قطع لبس قلل صفف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10014,حرم ترر عرف نسب,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10015,خرر عقل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10016,ولل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10017,هلو ملك برح قدر لعب شكر ربرف لهه معو نتت قدر ريق وهل نتت دمر وهل د,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10018,بلد روض سبق بلغ رتن سنن وقف قدم عمر سوو شيء ومس زحم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10019,نوس غلط وسف نوس غلط فلسف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10020,نوم جمع سوو رجع لبت جمم سوع دوم دوم لسع ١ ظهر نتت جمع ولح لسع ١٠٠ ٣٠٠ كرس ولي قعد زهق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10021,م مين  وسخ نتت نتت شفه ز مكك ويي لهه رحم يوم كنت بعد درس نجل ومس د نتت فلو ولف لحم بقش لشش ميط,OFF,NOT_HS,VLG,NOT_VIO
+10022,ههههه لسع ونو هوج قعد جمب ومو بقو ونو سفد نتت فدت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10023,وكد عول ولح درس نتت نظر قدم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10024,عني صحح طلع بيت لسع فجر وصل قول وجز ربب عسكر نهرض ملش ونو صحي طلع بيت مشش عوز وجز,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10025,حدث يمن هرب سلح صرخ قتل برء ونم بدو ورن شدد قذر عدعم حكم ملل مثل قول جمل مشف ولو سنم جزر شطن وبق حمد,OFF,HS1,NOT_VLG,NOT_VIO
+10026,رزن تعل خنرجع رجع خير ذكر صحح ولو قلت رجع طيب لهه طلع بند ششش ذ ذ,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10027,تخل يجي يوم وكن خدم درد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10028,ن شوء لهه طلع بشش خبر فيد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10029,شهر وتر نوب محت سيء ردء بعث فكر روء سمم خطء سفف وبع صفق,OFF,HS5,NOT_VLG,NOT_VIO
+10030,لوع ونو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10031,وشو سءل وفق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10032, لهه خير صبح دخن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10033,برح وبع كلج قري روث معو كمت شبب ولل يبي بسط حول,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10034,ونو صدم لبن رجل سحو نتت سحو رفع جول صرو كفف ظرر بقل قلل ربب عيب فشل,OFF,HS6,NOT_VLG,NOT_VIO
+10035,لدغ ءمم جحر مرت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10036,لرح كعب وصل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10037,صدق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10038,بنن روض,OFF,HS6,NOT_VLG,NOT_VIO
+10039,حدر خلق شنع,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10040,خسر رول جود تعب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10041,قطع خرف وجد قطع,OFF,HS3,NOT_VLG,NOT_VIO
+10042,كره كلم صرصر نوم لون شيء ءكد وني حلم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10043,تعرفن خلص,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10044,خلل قزر بتسم لين نشو يضو يضو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10045,علم ن نثو نسر موت فا زوج حزن ومو نسر ولي خلج روح رجع دءر قعد تخذ رتب قول ورك ولو فقر,OFF,HS6,NOT_VLG,NOT_VIO
+10046,ونو زهق حتو بجد لهه جبب خرر عني,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10047,لهه قلل ولح وهل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10048,وبغ رتت لوم جمع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10049,كلو كلم قرش جرم فعل ملو فا نوس متتعشرش عمل بنا دمن شكو رمض,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10050,ردد حظظ وون ختت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10051,نهر هور دور ختبر رقي ذكر مبتر لهه صيب ولي حذف لربع عون صدق ش فزع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10052,نسو عبر خوف,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10053,فيش حوج بوج سهل زمم تعب لول كده جيش برد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10054,طبق بلل عضض جلس دوم وفق طرح هلمضع سمج قسم لهه جلس شلل ستفد رتب فضو,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10055,طيب قصر صوت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10056,زمم حدد عني جيب سعد وجب غرب ودر دخل شرر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10057,ععع قتسف ولح سمع صوح زهم وذو لبب خطط بقل قتسف سبب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10058,لوح طفر,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10059,موت صوب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10060,لوم قبل غلط,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10061,ولل خلل كره فرتش,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10062,مرت ش فشل طلب حقق شلل,OFF,HS1,NOT_VLG,NOT_VIO
+10063,سلط لحح طلع فهه رده,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10064,قمم حرج لما حدد يعط ش نتت سحو قول شكر قلل مبب مسك شوي عنب بلس  كلب سرر خطر فوو,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10065,ووو كفف  غوز خسر قول طلب ش ترر وله تمش مور لعب عرف شحط فيس لهه عفن بتل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10066,ونو عوز طلع لسن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10067,بنن وسط قول حلل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10068,موش لهه قدد قرح بوض فلس ش رجع ولء خلف كشش حظظ,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10069,حول,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10070,هههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10071,ونو لول حبب ركز لول ونو لول ورض بلل كلم لوس حبب طول,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10072,نوع فجر صغر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10073,خلل وري تنقش غسل دكك دعم حسف صدق قدر شكل تعب ردد جهم ليل طنش وسع صدر حسد بدد صحب حفر حفر وقع,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10074,ولي سحو موت م عقل لبن ولح وين لحي,OFF,HS6,NOT_VLG,NOT_VIO
+10075,حفظ قلل ولح ستر,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10076,سقط زله سقط حجب رفع يده لمس حدد سقط ضمر علم سقط صمت سلم فا مكن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10077,ه غفل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10078,حتي نتت ميت روح ولد م,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10079,لهه رزق صبر رجل عمل ولل نتظرلسق نزل عشن فحل لبب ونو فتح لبب وقف سور,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10080,زلم قوه عضل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10081,ن وبي لوس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10082,علق  شبب ولج مره غبر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10083,سنو ولي رحم ولد غرو صمم خلص كثر سنو صمم كثر ش نقص سنو تغر صمم جهز رءد عند دزنر ز لدم صمم سهل تغر علتصمم ولو طفف رغم مرر سنو قرب جهز,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10084,قوه لهه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10085,همم وجر دوم دمن ز ل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10086,طيب حول طيب عطط نوب هههههههههههههه,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10087,رسم رءع غرق رسم سوع طله نهء وتم خرب شكك فسد ويو عدو لفف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10088,خور بنن لمم خنس زهم غرر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10089,لهه نفخ,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10090,بشر ضفو عرض وفد جعل ضيف شرف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10091,قهر لهه شكل طلع حصء ستر جهد كذب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10092,فلم دور حدث فلم فلم درب حول نسي مضو قضء عسل جزر كرب قلب مور كشش جرم ثور ربط شهد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10093,نتت وقف وسو زحم رجل صور نحت بوه شون سلك لهه حين قدد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10094, ترر كمي لمو طشر بلد كوي حتفل وعد وطن تقع عشر لوف لتر هدر كفف سقي شعب قبءل شوه حسس سءل بشر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10095,وسو قرب عمت كلب كلب ولي يبي دخل يسو رتت حطط نقط عمه عمت سدو دير خرف رتت كلب,OFF,NOT_HS,VLG,NOT_VIO
+10096,شزززز ربب حفظ كفف مبب حمر حمر,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10097,كنن دور لدم طرر نبسط ولح بون فرفر شرع زحم دمن,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10098,لهه ديم نعم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10099,صلل دكتر ضوح رفع كوي عقب خلص برد زمل زور صحح قلتل تعع سمم طبب سجل تبب كيف مرك عرف قيم فود فلس ولل قطط كوي قتل حكم كفء وطن هدر ولي بشر ن وحد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10100,ترر صنو هلثن ولذ ربح ضرب لمخ,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10101,فوز يبي يسو ش قدر حرب دره حتي وذو شغل حرب مره ثون ذكر كلم فشل بخل دره رتت ورخ ودي,OFF,HS3,NOT_VLG,NOT_VIO
+10102,نتظر رجل قتل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10103,وبي نصص رتب نزل وجز ن شلل خلص مور مور عول عقد وسم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10104,ههههههه فعل طلع عذر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10105,قتل لبن نته حزن رجل ولو حدد خلو ولي,OFF,HS6,NOT_VLG,NOT_VIO
+10106,شعر حقق لحب لخف خوف مكن ن حبب لحب مكن ن خوف ختر عيش لحب  لخف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10107,لهه شغل عند شغل فتك م عون جبت ذا,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10108,سوم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10109,شتق جنغ بجد صعب ولح م قلب عرن عبت شيء شتق شكل مشش طبع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10110,وكد ونك بوه,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10111,لخرررر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10112,ضحك رفز,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10113,ونو شوف كمي كده طمرش لوم ولل فتت فتت خلل فكر ونو شتر كلب ورب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10114,هو نتت من بقو بشر بشر لا نتت من هلل قمر لوو ن من گگب رضض,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10115,مشش عرف ونو ويش فكر وني نوع عزز ومه نجج روح عدد كلي نبي هتم حضر حضر لغو حتي صحب قلل لوم ولل تبب حضر بلغ عشن نغب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10116,جمل صور جمل ولي صور صور,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10117,بدد كررر حضر لسع,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10118,عبدلل رررض,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10119,وون ههههههههههههههههههه لهه عصب ن شوء لهه متن عقرب سرق فرص ووه ووه,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10120,لبن ولل عطط حبب لوس وهد وين ولق,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10121, لطف لهه بعد بنن هلحرم,OFF,HS6,NOT_VLG,NOT_VIO
+10122,شوف مزز نتت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10123,جيت كتكت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10124,كلب تبب كمل خلل نزل سوو رتت وضف قفل حسب لرح لقق رجل عشن بوس عمه,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10125,ثقف جدد روض فرح ضفدع,OFF,HS3,NOT_VLG,NOT_VIO
+10126,طفش قلب نوخ ف  بشر,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10127,لهه بلل لهه وسم رجل علم قعد صور شهر لحمدلل شكر عني وذو بخق خقق م صرو لهه شفف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10128,وفر وكم قول سحو فين لحي ذحح  نتت رفع قلم قررررف,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10129,شعب حبب سسب طور قتصد نهض دخل خرج حقق لسح سور صبح وحه جره شعب سور,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10130,طيب ش وضع لبن ولي جمع قسم لهه ولق شبه هلل ظرر خرف وكل خرف,OFF,HS6,NOT_VLG,NOT_VIO
+10131,عيل ولل لعب بنت نوس لعب برح حبب كرو ختت بقو درم ورك كمو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10132,بقت خفو,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10133,هههه لهه قلع صور حسب,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10134,غمم قهر شوي نهق,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10135,كون ردد علك ضوع ركل جزز حدد لنت صلح عمر هوي ردد علل شرك ردد,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10136,لسع برك طبخ,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10137,ب ب,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10138,خدد وخك روح كشف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10139,هههههههههه نتت شبو مشرد هللح دءم شرد حصل جنس نبح ليل نهر نتت ومو كلب ندس حدث بسم لبد  مجس لقط  عرق شرد  خلج خنزر نبح سمع لود كفر,OFF,HS1,NOT_VLG,NOT_VIO
+10140,ههههههههههههههههههههههههههههههههههههههههههههههههههه خرب عءل تبع م عنز,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10141, بعد  قرب شغل لجك شفف لجب لسس دهه نفعش,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10142,ههههههههه قول وشي,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10143,وحم,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10144,لهه قلب لمم حقق حسن دكتر لقف موش لهه وحد  حدد نكر ولش فضل وقو شعر ولل دخل بدو قول ضعف,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10145,لهه عكس,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10146,مصص نتت سوك,OFF,NOT_HS,VLG,NOT_VIO
+10147,مرر مرر نتت زبل,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10148,لهه فشل  خرف,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10149,وكد سنو مين عرف حدد هيك,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10150,شمس جمممممله درج ونه طلع ولو يوم ونو قرر طلع متع ولج,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10151,ءسف حطط قلل دبب ولي وصل بعض لهه عيب عيب عقل عرف حوج سمه حوء,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10152,دعن مدن خدم شوك سكك قطع كلج وكل,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10153,روم حظظ درب برت سحب رجل ومس نقل برز,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
+10154,لهه حبب لول جدد م طوق قللللللع قللع,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10155,رنز فوز عنن ووه شوف عرض سطر تفف زبل روم,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10156,ع لهه شيء لوع كبد مرض لهه شفف,OFF,NOT_HS,NOT_VLG,NOT_VIO
+10157,حسي ليج كلت ش وضح صوت,NOT_OFF,NOT_HS,NOT_VLG,NOT_VIO
