@@ -5,8 +5,8 @@ from BertUtilities import BertUtilities
 from ModelsUtilities import ModelsUtilities
 from TfIdfUtilities import TfidfUtilities
 from sklearn.utils.class_weight import compute_class_weight
-import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+# import os
+# os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 task_name = 'taskA'
 train_preprocessed_path = './result/OSACT2022-sharedTask-train.csv'
@@ -17,9 +17,9 @@ tweet_col_index = 0
 label_col_index = 1
 imbalance_handlers = ['none', 'weighted-classes']
 
-batch_size = 32
+batch_size = 64
 num_classes = 2
-num_epochs = 200
+num_epochs = 2000
 
 models_utils = ModelsUtilities(task_name)
 
@@ -61,14 +61,14 @@ print(f'computed class weights: {class_weights}')
 # models_utils.build_and_fit_cnn_weighted(x_train_tfidf, y_train, x_val_tfidf, y_val, batch_size, num_epochs, models_utils.feature_methods[0], imbalance_handlers[1], class_weights, True)
 # models_utils.build_and_fit_cnn_gru_weighted(x_train_tfidf, y_train, x_val_tfidf, y_val, batch_size, num_epochs, models_utils.feature_methods[0], imbalance_handlers[1], class_weights, True)
 
-train_marbert_utils = BertUtilities(task_name, 'train', marbert_model_path, marbert_model_path, train_df, task_dataset_cols[tweet_col_index])
+train_marbert_utils = BertUtilities(task_name, 'train', marbert_model_path, marbert_model_path, train_df, task_dataset_cols[tweet_col_index], save_embeddings=True)
 x_train_embds = train_marbert_utils.read_embeddings_from_disk()
 if type(x_train_embds) == type(None):
     train_marbert_utils.tokenize_dataset()
     train_marbert_utils.forward_to_bert()
     x_train_embds = train_marbert_utils.get_embeddings_holder()
 
-val_marbert_utils = BertUtilities(task_name, 'val', marbert_model_path, marbert_model_path, val_df, task_dataset_cols[tweet_col_index])
+val_marbert_utils = BertUtilities(task_name, 'val', marbert_model_path, marbert_model_path, val_df, task_dataset_cols[tweet_col_index], save_embeddings=True)
 x_val_embds = val_marbert_utils.read_embeddings_from_disk()
 if type(x_val_embds) == type(None):
     val_marbert_utils.tokenize_dataset()
@@ -79,7 +79,7 @@ if type(x_val_embds) == type(None):
 # models_utils.build_and_fit_cnn(x_train_embds, y_train, x_val_embds, y_val, batch_size, num_epochs, models_utils.feature_methods[1], imbalance_handlers[0], True)
 # models_utils.build_and_fit_cnn_gru(x_train_embds, y_train, x_val_embds, y_val, batch_size, num_epochs, models_utils.feature_methods[1], imbalance_handlers[0], True)
 
-# models_utils.build_and_fit_gru_weighted(x_train_embds, y_train, x_val_embds, y_val, batch_size, num_epochs, models_utils.feature_methods[1], imbalance_handlers[1], class_weights, True)
+models_utils.build_and_fit_gru_weighted(x_train_embds, y_train, x_val_embds, y_val, batch_size, num_epochs, models_utils.feature_methods[1], imbalance_handlers[1], class_weights, True)
 # models_utils.build_and_fit_cnn_weighted(x_train_embds, y_train, x_val_embds, y_val, batch_size, num_epochs, models_utils.feature_methods[1], imbalance_handlers[1], class_weights, True)
 # models_utils.build_and_fit_cnn_gru_weighted(x_train_embds, y_train, x_val_emds, y_val, batch_size, num_epochs, models_utils.feature_methods[1], imbalance_handlers[1], class_weights, True)
 

@@ -13,7 +13,7 @@ import numpy as np
 
 class ModelsUtilities:
     feature_methods = ['tfidf', 'marbert_embeddings']
-    models_names = ['dense', 'conv1d', 'conv1d-lstm', 'conv2d', 'conv2d-lstm']
+    models_names = ['gru', 'cnn', 'cnn-gru']
 
     def __init__(self, task:str):
         self.__task = task
@@ -287,12 +287,12 @@ class ModelsUtilities:
             else:
                 for metric in train_metrics:
                     print(f'{metric.name} over epoch: {float(metric.result()):.4f}')
-                print(f'train f1_score:{train_f1_score:.4f}')
+                print(f'train_f1_score:{train_f1_score:.4f}')
                 for metric in val_metrics:
                     print(f'{metric.name} over epoch: {float(metric.result()):.4f}')
-                print(f'val f1_score:{val_f1_score:.4f}')
+                print(f'val_f1_score:{val_f1_score:.4f}')
                 patience = 0
-            if patience == 50:
+            if patience == 100:
                 print('early stopping..')
                 break
             for metric in train_metrics:

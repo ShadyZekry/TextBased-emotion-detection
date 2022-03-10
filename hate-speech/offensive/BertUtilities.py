@@ -135,7 +135,7 @@ class BertUtilities:
         if self.__is_memapped:
             return self.read_embeddings_from_disk()
         else:
-            if self.__embeddings_holder == None:
+            if type(self.__embeddings_holder) == (None):
                 print('dataset not forwarded to bert returning none\nuse forward_to_bert method to be able to get the embeddings')
                 return None
             else:
