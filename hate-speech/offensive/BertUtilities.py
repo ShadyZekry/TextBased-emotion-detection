@@ -12,7 +12,7 @@ class BertUtilities:
     __features_length = 768
     __is_memapped = False
 
-    def __init__(self, task: str, dataset_name: str, tokenizer, bert_model, dataset_df: pd.DataFrame, text_col : str, bert_model_name: str,memory_threshold_percentage = 0.4, save_embeddings = False) -> None:
+    def __init__(self, task: str, dataset_name: str, tokenizer, bert_model, dataset_df: pd.DataFrame, text_col : str, bert_model_name: str,memory_threshold_percentage = 0.5, save_embeddings = False) -> None:
         """BertUtilities\n
         Parameters:\n
             task: str required\n
@@ -56,7 +56,7 @@ class BertUtilities:
             memory_threshold_percentage: float optional\n
             percentage of the total virtual memory size, if the allocation required for the bert embeddings exceeds
             this percentage it'll be saved on disk producing a memory mapped numpy array\n
-            default value is 0.4\n
+            default value is 0.5\n
 
             ----------------
 

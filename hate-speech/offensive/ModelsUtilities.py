@@ -239,7 +239,8 @@ class ModelsUtilities:
         val_num_batches = x_val.shape[0] // batch_size
         val_rem = x_val.shape[0] % batch_size
         for _ in tqdm(range(epochs), desc=f'Training {model.name} with features of {feature_method} and {imbalance_handler} for imbalance handling'):
-
+            x_temp = x_train[0:batch_size]
+            y_temp = y_train[0:batch_size]
             for batch_step in range(1,train_num_batches + 1):
                 i = batch_step - 1
                 x = x_train[i * batch_size : batch_step * batch_size]

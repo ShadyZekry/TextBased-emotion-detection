@@ -66,14 +66,14 @@ print(f'computed class weights: {class_weights}')
 marbert_model = TFAutoModel.from_pretrained(marbert_model_path, output_hidden_states=True)
 tokenizer = AutoTokenizer.from_pretrained(marbert_model_path, from_tf=True)
 
-train_marbert_utils = BertUtilities(task_name, 'train', tokenizer, marbert_model, train_df, task_dataset_cols[tweet_col_index], 'marbert', save_embeddings=True)
+train_marbert_utils = BertUtilities(task_name, 'train', tokenizer, marbert_model, train_df, task_dataset_cols[tweet_col_index], 'marbert')
 x_train_embds = train_marbert_utils.read_embeddings_from_disk()
 if type(x_train_embds) == type(None):
     train_marbert_utils.tokenize_dataset()
     train_marbert_utils.forward_to_bert()
     x_train_embds = train_marbert_utils.get_embeddings_holder()
 
-val_marbert_utils = BertUtilities(task_name, 'val', tokenizer, marbert_model, val_df, task_dataset_cols[tweet_col_index], 'marbert', save_embeddings=True)
+val_marbert_utils = BertUtilities(task_name, 'val', tokenizer, marbert_model, val_df, task_dataset_cols[tweet_col_index], 'marbert')
 x_val_embds = val_marbert_utils.read_embeddings_from_disk()
 if type(x_val_embds) == type(None):
     val_marbert_utils.tokenize_dataset()
