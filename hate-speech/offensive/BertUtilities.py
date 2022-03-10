@@ -12,7 +12,7 @@ class BertUtilities:
     __features_length = 768
     __is_memapped = False
 
-    def __init__(self, task: str, dataset_name: str, bert_path: str, tokenizer_path: str, dataset_df: pd.DataFrame, text_col : str, memory_threshold_percentage = 0.4, save_embeddings = False) -> None:
+    def __init__(self, task: str, dataset_name: str, tokenizer, bert_model, dataset_df: pd.DataFrame, text_col : str, bert_model_name: str,memory_threshold_percentage = 0.4, save_embeddings = False) -> None:
         """BertUtilities\n
         Parameters:\n
             task: str required\n
@@ -80,8 +80,8 @@ class BertUtilities:
             will vary according to the sequence_length_mode specified, and features_length will be 768\n
             **take this into consideration for memory allocation!\n
         """
-        self.__bert = TFAutoModel.from_pretrained(bert_path, output_hidden_states=True)
-        self.__tokenizer = AutoTokenizer.from_pretrained(tokenizer_path, from_tf=True)
+        self.__bert = bert_model
+        self.__tokenizer = tokenizer
         self.__task = task
         self.__dataset = dataset_df
         self.__text_col = text_col
@@ -90,6 +90,7 @@ class BertUtilities:
         self.__save_embeddings = save_embeddings
         self.__embeddings_holder = None
         self.__seq_length = self.__calc_seq_length()
+        self.__bert_model_name = bert_model_name
 
 
     def tokenize_dataset(self) -> None:
@@ -170,7 +171,7 @@ class BertUtilities:
         return 60
 
     def __get_embeddings_holder_path(self) -> str:
-        return f'./{self.__task}/{self.__dataset_name}/{self.__dataset_name}_embeddings.npy'
+        return f'./{self.__task}/{self.__dataset_name}/{self.__bert_model_name}/{self.__dataset_name}_embeddings.npy'
 
     def __set_embeddings_holder(self) -> None:
         self.__embeddings_holder = np.empty(shape=(0, self.__seq_length, self.__features_length), dtype=np.float64)
@@ -180,6 +181,8 @@ class BertUtilities:
                 os.mkdir(f'./{self.__task}')
             if not os.path.isdir(f'./{self.__task}/{self.__dataset_name}'):
                 os.mkdir(f'./{self.__task}/{self.__dataset_name}')
+            if not os.path.isdir(f'./{self.__task}/{self.__dataset_name}/{self.__bert_model_name}'):
+                os.mkdir(f'./{self.__task}/{self.__dataset_name}/{self.__bert_model_name}')
             self.__embeddings_holder = np.memmap(self.__get_embeddings_holder_path(), mode ='w+', shape=(self.__dataset.shape[0], self.__seq_length, self.__features_length), dtype=np.float64)
             self.__is_memapped = True
             print(f'Required memory to allocate {req_mem_aloc} exceeds specified memory threshold {self.__memory_threshold} the bert embeddings will be a memory mapped data.')
@@ -188,6 +191,8 @@ class BertUtilities:
                 os.mkdir(f'./{self.__task}')
             if not os.path.isdir(f'./{self.__task}/{self.__dataset_name}'):
                 os.mkdir(f'./{self.__task}/{self.__dataset_name}')
+            if not os.path.isdir(f'./{self.__task}/{self.__dataset_name}/{self.__bert_model_name}'):
+                os.mkdir(f'./{self.__task}/{self.__dataset_name}/{self.__bert_model_name}')
             self.__embeddings_holder = np.memmap(self.__get_embeddings_holder_path(), mode ='w+', shape=(self.__dataset.shape[0], self.__seq_length, self.__features_length), dtype=np.float64)
             self.__is_memapped = True
             print(f'Save embeddings mode is set to true, embeddings will be memory mapped')

@@ -12,15 +12,17 @@ import time
 import numpy as np
 
 class ModelsUtilities:
-    feature_methods = ['tfidf', 'marbert_embeddings']
+    feature_methods = ['tfidf', 'embeddings']
     models_names = ['gru', 'cnn', 'cnn-gru']
 
-    def __init__(self, task:str):
+    def __init__(self, task:str, bert_model_name: str):
         self.__task = task
         self.__train_metrics = [Precision(name='train_precision'), Recall(name='train_recall')]
         self.__val_metrics = [Precision(name='val_precision'), Recall(name='val_recall')]
         self.__optimizer = Adam()
         self.__loss_fn = BinaryCrossentropy()
+        self.__bert_model_name = bert_model_name
+
 
     def build_and_fit_cnn(self, x_train: np.ndarray, y_train: np.ndarray, x_val: np.ndarray, y_val: np.ndarray, batch_size: int, epochs: int, feature_method: str, imbalance_handler: str, save_best = False) -> tf.keras.models.Sequential:
         cnn_model = self.__build_cnn_model(x_train.shape, feature_method)
@@ -159,7 +161,7 @@ class ModelsUtilities:
         i_shape = ()
         if feature_method == self.feature_methods[0]:
             i_shape = (input_shape[1], 1)
-        elif feature_method == self.feature_methods[1]:
+        elif feature_method == f'{self.__bert_model_name}_{self.feature_methods[1]}':
             i_shape = (input_shape[1], input_shape[2])
         input_layer = Input(shape=i_shape)
         kernel_size= {}
@@ -185,7 +187,7 @@ class ModelsUtilities:
         model = Sequential(name='gru')
         if feature_method == self.feature_methods[0]:
             model.add(Input(shape=(input_shape[1], 1)))
-        elif feature_method == self.feature_methods[1]:
+        elif feature_method == f'{self.__bert_model_name}_{self.feature_methods[1]}':
             model.add(Input(shape=(input_shape[1], input_shape[2])))
         model.add(GRU(250))
         model.add(Dropout(0.2))
@@ -196,7 +198,7 @@ class ModelsUtilities:
         model = Sequential(name='cnn-gru')
         if feature_method == self.feature_methods[0]:
             model.add(Input(shape=(input_shape[1], 1)))
-        elif feature_method == self.feature_methods[1]:
+        elif feature_method == f'{self.__bert_model_name}_{self.feature_methods[1]}':
             model.add(Input(shape=(input_shape[1], input_shape[2])))
         model.add(Conv1D(100, kernel_size=4, activation='relu'))
         model.add(Dropout(0.2))
@@ -232,47 +234,42 @@ class ModelsUtilities:
         f1_train = []
         monitored_f1 = -1
         patience = 0
+        train_rem = x_train.shape[0] % batch_size
+        train_num_batches = x_train.shape[0] // batch_size 
+        val_num_batches = x_val.shape[0] // batch_size
+        val_rem = x_val.shape[0] % batch_size
         for _ in tqdm(range(epochs), desc=f'Training {model.name} with features of {feature_method} and {imbalance_handler} for imbalance handling'):
 
-            train_num_batches = x_train.shape[0] // batch_size 
             for batch_step in range(1,train_num_batches + 1):
                 i = batch_step - 1
                 x = x_train[i * batch_size : batch_step * batch_size]
                 y = y_train[i * batch_size : batch_step * batch_size]
                 self.__train_step(x, y, model, optimizer, loss_fn, train_metrics, apply_softmax)
-
-            # Display metrics at the end of each epoch.
-            # for metric in train_metrics:
-            #     print(f'{metric.name} over epoch: {float(metric.result()):.4f}')
+            if train_rem != 0:
+                    x = x_train[x_train.shape[0] - train_rem : x_train.shape[0]]
+                    y = y_train[y_train.shape[0] - train_rem : y_train.shape[0]]
+                    self.__train_step(x,y, model, optimizer, loss_fn, train_metrics, apply_softmax)
 
             train_precision = float(train_metrics[0].result())
             train_recall = float(train_metrics[1].result())
             train_f1_score = 2 * (train_precision * train_recall) / (train_precision + train_recall)
-            # print(f'train f1_score:{train_f1_score:.4f}')
-            f1_train.append(train_f1_score)
-            # Reset training metrics at the end of each epoch
-            # for metric in train_metrics:
-            #     metric.reset_states()
 
-            val_num_batches = x_val.shape[0] // batch_size
+            f1_train.append(train_f1_score)
 
             # Run a validation loop at the end of each epoch.
-            for batch_step in range(1, val_num_batches):
+            for batch_step in range(1, val_num_batches + 1):
                 i = batch_step - 1
                 x = x_val[i * batch_size: batch_step * batch_size]
                 y = y_val[i * batch_size: batch_step * batch_size]
                 self.__val_step(x, y, model, val_metrics, apply_softmax)
-                
-            # for metric in val_metrics:
-            #     print(f'{metric.name} over epoch: {float(metric.result()):.4f}')
+            if val_rem != 0:
+                x = x_val[x_val.shape[0] - val_rem: x_val.shape[0]]
+                y = y_val[y_val.shape[0] - val_rem: y_val.shape[0]]
+                self.__val_step(x,y, model, val_metrics, apply_softmax)
 
             val_precision = float(val_metrics[0].result())
             val_recall = float(val_metrics[1].result())
             val_f1_score = 2 * (val_precision * val_recall) / (val_precision + val_recall)
-            # print(f'val f1_score:{val_f1_score:.4f}')
-
-            # for metric in val_metrics:
-            #     metric.reset_states()
             
             weights = []
             for layer in model.layers:
@@ -292,11 +289,11 @@ class ModelsUtilities:
                     print(f'{metric.name} over epoch: {float(metric.result()):.4f}')
                 print(f'val_f1_score:{val_f1_score:.4f}')
                 patience = 0
-            if patience == 100:
-                print('early stopping..')
-                break
             for metric in train_metrics:
                 metric.reset_states()
             for metric in val_metrics:
                 metric.reset_states()
+            if patience == 100:
+                print('early stopping..')
+                break
         return (f1_scores, out_weights, f1_train)

@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+from transformers import AutoTokenizer, TFAutoModel
 from tensorflow.keras.utils import to_categorical
 from BertUtilities import BertUtilities
 from ModelsUtilities import ModelsUtilities
@@ -16,12 +17,13 @@ task_dataset_cols = ['tweet','off_label']
 tweet_col_index = 0
 label_col_index = 1
 imbalance_handlers = ['none', 'weighted-classes']
+bert_model_name = 'marbert'
 
 batch_size = 64
 num_classes = 2
 num_epochs = 2000
 
-models_utils = ModelsUtilities(task_name)
+models_utils = ModelsUtilities(task_name, bert_model_name)
 
 train_df = pd.read_csv(train_preprocessed_path, usecols=task_dataset_cols).dropna()
 val_df = pd.read_csv(val_preprocessed_path, usecols=task_dataset_cols).dropna()
@@ -61,25 +63,29 @@ print(f'computed class weights: {class_weights}')
 # models_utils.build_and_fit_cnn_weighted(x_train_tfidf, y_train, x_val_tfidf, y_val, batch_size, num_epochs, models_utils.feature_methods[0], imbalance_handlers[1], class_weights, True)
 # models_utils.build_and_fit_cnn_gru_weighted(x_train_tfidf, y_train, x_val_tfidf, y_val, batch_size, num_epochs, models_utils.feature_methods[0], imbalance_handlers[1], class_weights, True)
 
-train_marbert_utils = BertUtilities(task_name, 'train', marbert_model_path, marbert_model_path, train_df, task_dataset_cols[tweet_col_index], save_embeddings=True)
+marbert_model = TFAutoModel.from_pretrained(marbert_model_path, output_hidden_states=True)
+tokenizer = AutoTokenizer.from_pretrained(marbert_model_path, from_tf=True)
+
+train_marbert_utils = BertUtilities(task_name, 'train', tokenizer, marbert_model, train_df, task_dataset_cols[tweet_col_index], 'marbert', save_embeddings=True)
 x_train_embds = train_marbert_utils.read_embeddings_from_disk()
 if type(x_train_embds) == type(None):
     train_marbert_utils.tokenize_dataset()
     train_marbert_utils.forward_to_bert()
     x_train_embds = train_marbert_utils.get_embeddings_holder()
 
-val_marbert_utils = BertUtilities(task_name, 'val', marbert_model_path, marbert_model_path, val_df, task_dataset_cols[tweet_col_index], save_embeddings=True)
+val_marbert_utils = BertUtilities(task_name, 'val', tokenizer, marbert_model, val_df, task_dataset_cols[tweet_col_index], 'marbert', save_embeddings=True)
 x_val_embds = val_marbert_utils.read_embeddings_from_disk()
 if type(x_val_embds) == type(None):
     val_marbert_utils.tokenize_dataset()
     val_marbert_utils.forward_to_bert()
     x_val_embds = val_marbert_utils.get_embeddings_holder()
 
-# models_utils.build_and_fit_gru(x_train_embds, y_train, x_val_embds, y_val, batch_size, num_epochs, models_utils.feature_methods[1], imbalance_handlers[0], True)
-# models_utils.build_and_fit_cnn(x_train_embds, y_train, x_val_embds, y_val, batch_size, num_epochs, models_utils.feature_methods[1], imbalance_handlers[0], True)
-# models_utils.build_and_fit_cnn_gru(x_train_embds, y_train, x_val_embds, y_val, batch_size, num_epochs, models_utils.feature_methods[1], imbalance_handlers[0], True)
+# models_utils.build_and_fit_gru(x_train_embds, y_train, x_val_embds, y_val, batch_size, num_epochs,f'{bert_model_name}_{models_utils.feature_methods[1]}', imbalance_handlers[1], class_weights, True)
+# models_utils.build_and_fit_cnn(x_train_embds, y_train, x_val_embds, y_val, batch_size, num_epochs,f'{bert_model_name}_{models_utils.feature_methods[1]}', imbalance_handlers[1], class_weights, True)
+# models_utils.build_and_fit_cnn_gru(x_train_embds, y_train, x_val_embds, y_val, batch_size, num_epochs,f'{bert_model_name}_{models_utils.feature_methods[1]}', imbalance_handlers[1], class_weights, True)
 
-models_utils.build_and_fit_gru_weighted(x_train_embds, y_train, x_val_embds, y_val, batch_size, num_epochs, models_utils.feature_methods[1], imbalance_handlers[1], class_weights, True)
-# models_utils.build_and_fit_cnn_weighted(x_train_embds, y_train, x_val_embds, y_val, batch_size, num_epochs, models_utils.feature_methods[1], imbalance_handlers[1], class_weights, True)
-# models_utils.build_and_fit_cnn_gru_weighted(x_train_embds, y_train, x_val_emds, y_val, batch_size, num_epochs, models_utils.feature_methods[1], imbalance_handlers[1], class_weights, True)
+models_utils.build_and_fit_gru_weighted(x_train_embds, y_train, x_val_embds, y_val, batch_size, num_epochs,f'{bert_model_name}_{models_utils.feature_methods[1]}', imbalance_handlers[1], class_weights, True)
+# models_utils.build_and_fit_cnn_weighted(x_train_embds, y_train, x_val_embds, y_val, batch_size, num_epochs,f'{bert_model_name}_{models_utils.feature_methods[1]}', imbalance_handlers[1], class_weights, True)
+# models_utils.build_and_fit_cnn_gru_weighted(x_train_embds, y_train, x_val_embds, y_val, batch_size, num_epochs,f'{bert_model_name}_{models_utils.feature_methods[1]}', imbalance_handlers[1], class_weights, True)
+
 
