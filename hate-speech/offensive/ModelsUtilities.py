@@ -151,7 +151,7 @@ class ModelsUtilities:
         else:
             model = None
             with open(f'{path}/{model_name}.json', 'r') as json_model:
-                model = model_from_json(json_model)
+                model = model_from_json(json_model.read())
             model.load_weights(f'{path}/weights.h5')
             return model
     
@@ -217,6 +217,40 @@ class ModelsUtilities:
         for metric in val_metrics:
             metric.update_state(y, val_logits)
     
+    def evaluate(self, model, x_val, y_val, batch_size, apply_softmax):
+        val_rem = x_val.shape[0] % batch_size
+        val_num_batches = x_val.shape[0] // batch_size
+        for batch in tqdm(range(1, val_num_batches), desc=f'Evaluating {model.name}'):
+            i = batch - 1
+            x = x_val[i * batch_size: batch * batch_size]
+            y = y_val[i * batch_size: batch * batch_size]
+            x = self.__get_bert_embeddings(x)
+            self.__val_step(x, y, model, self.__val_metrics, apply_softmax)
+        if val_rem != 0:
+            x = x_val[x_val.shape[0] - val_rem : x_val.shape[0]]
+            x = self.__get_bert_embeddings(x)
+            y = y_val[y_val.shape[0] - val_rem : y_val.shape[0]]
+            self.__val_step(x, y, model, self.__val_metrics, apply_softmax)
+        precision = float(self.__val_metrics[0].result())
+        recall = float(self.__val_metrics[1].result())
+        f1_score = (2 * precision * recall) / (precision + recall)
+        print(f'Evaluating {model.name}: precision:{precision:.4f}, recall:{recall:.4f}, f1_score:{f1_score:.4f}')
+        for metric in self.__val_metrics:
+            metric.reset_states()
+    
+    def __get_bert_embeddings(self, texts):
+        tokens_ids = []
+        try:
+            if type(texts) != str:
+                for text in texts:
+                    tokens_ids.append(self.__bert_tokenizer(text, padding='max_length', truncation=True, max_length=self.__train_shape[0], add_special_tokens=True)['input_ids'])
+            else:
+                tokens_ids.append(self.__bert_tokenizer(texts, padding='max_length', truncation=True, max_length=self.__train_shape[0], add_special_tokens=True)['input_ids'])
+            hidden_states = self.__bert_model(tf.convert_to_tensor(tokens_ids))[2]
+        except TypeError:
+            tokens_ids.append(tokens_ids.append(self.__bert_tokenizer(texts, padding='max_length', truncation=True, max_length=self.__train_shape[0], add_special_tokens=True)['input_ids']))
+        return tf.reduce_sum(tf.stack(hidden_states[-4:]), axis = 0)
+    
     def __train(self, x_train, y_train, x_val, y_val, epochs, model, train_metrics, val_metrics, batch_size, optimizer, loss_fn, feature_method, imbalance_handler, apply_softmax = False) -> tuple:
         f1_scores = []
         out_weights = []
@@ -231,20 +265,12 @@ class ModelsUtilities:
             for batch_step in range(1,train_num_batches + 1):
                 i = batch_step - 1
                 x = x_train[i * batch_size : batch_step * batch_size]
-                temp = []
-                for text in x:
-                    temp.append(self.__bert_tokenizer(text, padding='max_length', truncation=True, max_length=self.__train_shape[0], add_special_tokens=True)['input_ids'])
-                hidden_states = self.__bert_model(tf.convert_to_tensor(temp))[2]
-                x = tf.reduce_sum(tf.stack(hidden_states[-4:]), axis=0)
+                x = self.__get_bert_embeddings(x)
                 y = y_train[i * batch_size : batch_step * batch_size]
                 self.__train_step(x, y, model, optimizer, loss_fn, train_metrics, apply_softmax)
             if train_rem != 0:
                     x = x_train[x_train.shape[0] - train_rem : x_train.shape[0]]
-                    temp = []
-                    for text in x:
-                        temp.append(self.__bert_tokenizer(text, padding='max_length', truncation=True, max_length=self.__train_shape[0], add_special_tokens=True)['input_ids'])
-                    hidden_states = self.__bert_model(tf.convert_to_tensor(temp))[2]
-                    x = tf.reduce_sum(tf.stack(hidden_states[-4:]), axis=0)
+                    x = self.__get_bert_embeddings(x)
                     y = y_train[y_train.shape[0] - train_rem : y_train.shape[0]]
                     self.__train_step(x,y, model, optimizer, loss_fn, train_metrics, apply_softmax)
 
@@ -258,20 +284,12 @@ class ModelsUtilities:
             for batch_step in range(1, val_num_batches + 1):
                 i = batch_step - 1
                 x = x_val[i * batch_size: batch_step * batch_size]
-                temp = []
-                for text in x:
-                    temp.append(self.__bert_tokenizer(text, padding='max_length', truncation=True, max_length=self.__train_shape[0], add_special_tokens=True)['input_ids'])
-                hidden_states = self.__bert_model(tf.convert_to_tensor(temp))[2]
-                x = tf.reduce_sum(tf.stack(hidden_states[-4:]), axis=0)
+                x = self.__get_bert_embeddings(x)
                 y = y_val[i * batch_size: batch_step * batch_size]
                 self.__val_step(x, y, model, val_metrics, apply_softmax)
             if val_rem != 0:
                 x = x_val[x_val.shape[0] - val_rem: x_val.shape[0]]
-                temp = []
-                for text in x:
-                    temp.append(self.__bert_tokenizer(text, padding='max_length', truncation=True, max_length=self.__train_shape[0], add_special_tokens=True)['input_ids'])
-                hidden_states = self.__bert_model(tf.convert_to_tensor(temp))[2]
-                x = tf.reduce_sum(tf.stack(hidden_states[-4:]), axis=0)
+                x = self.__get_bert_embeddings(x)
                 y = y_val[y_val.shape[0] - val_rem: y_val.shape[0]]
                 self.__val_step(x,y, model, val_metrics, apply_softmax)
 
@@ -301,7 +319,7 @@ class ModelsUtilities:
                 metric.reset_states()
             for metric in val_metrics:
                 metric.reset_states()
-            if patience == 100:
+            if patience == 50:
                 print('early stopping..')
                 break
         return (f1_scores, out_weights, f1_train)

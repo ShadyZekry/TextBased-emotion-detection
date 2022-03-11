@@ -1,1 +1,2 @@
-gru achieved val_f1 score:0.7599 train_f1_score:0.7562 using marbert_embeddings and weighted-classes for imbalance handling
+gru achieved val_f1 score:0.7510 train_f1_score:0.8040 using marbert_embeddings and weighted-classes for imbalance handling
+cnn-gru achieved val_f1 score:0.7557 train_f1_score:0.8372 using marbert_embeddings and weighted-classes for imbalance handling
