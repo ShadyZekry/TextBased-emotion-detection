@@ -1,1 +1,0 @@
-cnn achieved val_f1 score:0.9249 train_f1_score:0.9021 using marbert_embeddings and weighted-classes for imbalance handling
