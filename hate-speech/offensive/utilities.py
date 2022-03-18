@@ -18,34 +18,40 @@ def remove_punctuation(x):
     return ''.join(c for c in x if not ucd.category(c).startswith('P'))
 
 def preprocess(tweet: str) -> str:
-    preprocessed_tweet = ' '.join(araby.tokenize(tweet, morphs=[araby.strip_harakat, araby.strip_tashkeel, araby.strip_lastharaka,araby.strip_diacritics, araby.reduce_tashkeel
-    , araby.strip_tatweel, araby.strip_shadda, araby.normalize_ligature, araby.normalize_hamza, remove_punctuation, stemmer.stem], conditions=[araby.is_arabicrange, check_stopwords]))
+    preprocessed_tweet = ' '.join(araby.tokenize(tweet, morphs=[remove_punctuation]))
     return preprocessed_tweet
 
-def compute_seq_length(texts: np.ndarray) -> int:
-    len_dict = {}
-    for text in texts:
-        seq_len = len(text.split(' '))
-        len_dict[seq_len] = 0
-    for text in texts:
-        seq_len = len(text.split(' '))
-        len_dict[seq_len] += 1
-    temp = list(len_dict.keys())[0]
-    for key in len_dict.keys():
-        if len_dict[key] > len_dict[temp]:
-            temp = key
-    return temp
+# def compute_seq_length(texts: np.ndarray) -> int:
+#     len_dict = {}
+#     for text in texts:
+#         seq_len = len(tokenizer.tokenize(text))
+#         len_dict[seq_len] = 0
+#     for text in texts:
+#         seq_len = len(tokenizer.tokenize(text))
+#         len_dict[seq_len] += 1
+#     temp = list(len_dict.keys())[0]
+#     for key in len_dict.keys():
+#         if len_dict[key] > len_dict[temp]:
+#             temp = key
+#     return temp + 2
 
-def bert_tokenize(text: str, seq_length: int) -> list:
-    tokens = tokenizer(text, padding='max_length', truncation=True, max_length=seq_length, add_special_tokens=True)
+# def bert_tokenize(text: str, seq_length: int) -> list:
+#     tokens = tokenizer(text, padding='max_length', truncation=True, max_length=seq_length, add_special_tokens=True)
+#     return (tokens['input_ids'], tokens['attention_mask'], tokens['token_type_ids'])
+
+def bert_tokenize(texts: str) -> list:
+    max_len = 0
+    for text in texts:
+        max_len = max(len(tokenizer.tokenize(text)), max_len)
+    tokens = tokenizer(texts, padding='max_length', truncation=True, max_length=max_len + 2, add_special_tokens=True)
     return (tokens['input_ids'], tokens['attention_mask'], tokens['token_type_ids'])
 
 def get_embeddings(tokens):
-    ids = tf.convert_to_tensor([tokens[0]])
-    mask = tf.convert_to_tensor([tokens[1]])
-    type_ids = tf.convert_to_tensor([tokens[2]])
+    ids = tf.convert_to_tensor(tokens[0])
+    mask = tf.convert_to_tensor(tokens[1])
+    type_ids = tf.convert_to_tensor(tokens[2])
     hidden_states = marbert_model(input_ids=ids, attention_mask=mask, token_type_ids=type_ids)[2]
-    sentence_embd = tf.reduce_sum(tf.stack(hidden_states[-4:]), axis = 0)
+    sentence_embd = tf.reduce_mean(tf.reduce_sum(tf.stack(hidden_states[-4:]), axis = 0), axis=1)
     return sentence_embd
 
 def get_max_length(tweets):

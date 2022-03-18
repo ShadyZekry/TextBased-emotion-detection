@@ -4,10 +4,10 @@ from keras.models import Sequential
 def build_cnn_model(input_shape : tuple, num_classes: int) -> Sequential:
     model = Sequential(name='cnn')
     model.add(Input(shape=input_shape))
-    model.add(Conv1D(100, 3, data_format='channels_first'))
+    model.add(Conv1D(100, kernel_size=3))
     model.add(MaxPooling1D(pool_size=1))
     model.add(Flatten())
-    model.add(Dense(100))
+    # model.add(Dense(100))
     model.add(Dense(num_classes, activation='sigmoid'))
     return model
 
@@ -40,8 +40,6 @@ def build_cnn_gru_model(input_shape: tuple, num_classes: int) -> Sequential:
 def build_ann_model(input_shape: tuple, num_classes: int) -> Sequential:
     model = Sequential(name='ann')
     model.add(Input(shape=input_shape))
-    model.add(Flatten())
-    model.add(Dense(100))
     model.add(Dense(num_classes, activation='sigmoid'))
     return model
 
