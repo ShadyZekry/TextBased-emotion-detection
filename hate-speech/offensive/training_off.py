@@ -27,11 +27,11 @@ model = build_cnn_model((x_train.shape[1], 1), 2)
 
 model.summary()
 
-model.compile(optimizer='adamax', loss='binary_crossentropy', metrics=['accuracy', Precision(class_id=1), Recall(class_id=1)])
+model.compile(optimizer='adam', loss='binary_crossentropy', metrics=[Precision(class_id=1), Recall(class_id=1)])
 
 early_cb = EarlyStopping(monitor='val_precision', mode='max', restore_best_weights = True, patience=200)
 
-history = model.fit(x_train, y_train, batch_size=64, epochs=500, callbacks=[early_cb], validation_data=(x_val, y_val), class_weight=class_weights).history
+history = model.fit(x_train, y_train, batch_size=64, epochs=2000, callbacks=[early_cb], validation_data=(x_val, y_val), class_weight=class_weights).history
 
 model_json = model.to_json()
 with open(f'./models/{model.name}_off.json', 'w') as json_file:

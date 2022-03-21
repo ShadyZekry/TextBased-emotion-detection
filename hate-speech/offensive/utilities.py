@@ -5,11 +5,35 @@ import numpy as np
 from transformers import AutoTokenizer, TFAutoModel
 import tensorflow as tf
 from nltk.stem import ISRIStemmer
+import re
 
 marbert_model_path = './marbert-model/'
 tokenizer = AutoTokenizer.from_pretrained(marbert_model_path, from_tf=True)
 marbert_model = TFAutoModel.from_pretrained(marbert_model_path, output_hidden_states=True)
 stemmer = ISRIStemmer()
+
+def remove_emoji(string):
+    emoji_pattern = re.compile("["
+                               u"\U0001F600-\U0001F64F"  # emoticons
+                               u"\U0001F300-\U0001F5FF"  # symbols & pictographs
+                               u"\U0001F680-\U0001F6FF"  # transport & map symbols
+                               u"\U0001F1E0-\U0001F1FF"  # flags (iOS)
+                               u"\U00002500-\U00002BEF"  # chinese char
+                               u"\U00002702-\U000027B0"
+                               u"\U00002702-\U000027B0"
+                               u"\U000024C2-\U0001F251"
+                               u"\U0001f926-\U0001f937"
+                               u"\U00010000-\U0010ffff"
+                               u"\u2640-\u2642"
+                               u"\u2600-\u2B55"
+                               u"\u200d"
+                               u"\u23cf"
+                               u"\u23e9"
+                               u"\u231a"
+                               u"\ufe0f"  # dingbats
+                               u"\u3030"
+                               "]+", flags=re.UNICODE)
+    return emoji_pattern.sub(r'', string)
 
 def check_stopwords(x):
     return not stp.is_stop(x)
@@ -42,8 +66,8 @@ def preprocess(tweet: str) -> str:
 def bert_tokenize(texts: str) -> list:
     max_len = 0
     for text in texts:
-        max_len = max(len(tokenizer.tokenize(text)), max_len)
-    tokens = tokenizer(texts, padding='max_length', truncation=True, max_length=max_len + 2, add_special_tokens=True)
+        max_len = max(len(tokenizer.tokenize(f'[CLS] {text} [SEP]')), max_len)
+    tokens = tokenizer(texts, padding='max_length', truncation=True, max_length=max_len)
     return (tokens['input_ids'], tokens['attention_mask'], tokens['token_type_ids'])
 
 def get_embeddings(tokens):
@@ -61,17 +85,17 @@ def get_max_length(tweets):
         max_len = max(len(split), max_len)
     return max_len
 
-def save_train_features(features: np.ndarray):
-    np.save('./train_features.npy', allow_pickle=False, arr=features)
+def save_train_features(features: np.ndarray, name = ''):
+    np.save(f'./{name}train_features.npy', allow_pickle=False, arr=features)
 
-def save_val_features(features: np.ndarray):
-    np.save('./val_features.npy', allow_pickle=False, arr=features)
+def save_val_features(features: np.ndarray, name = ''):
+    np.save(f'./{name}val_features.npy', allow_pickle=False, arr=features)
 
-def load_train_features() -> np.ndarray:
-    return np.load('./train_features.npy', allow_pickle=False)
+def load_train_features(name = '') -> np.ndarray:
+    return np.load(f'./{name}train_features.npy', allow_pickle=False)
 
-def load_val_features() -> np.ndarray:
-    return np.load('./val_features.npy', allow_pickle=False)
+def load_val_features(name = '') -> np.ndarray:
+    return np.load(f'./{name}val_features.npy', allow_pickle=False)
 
 def save_train_labels(labels: np.ndarray, task_name: str):
     np.save(f'./{task_name}_train_labels.npy', allow_pickle=False, arr=labels)

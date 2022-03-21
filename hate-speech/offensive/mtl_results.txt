@@ -1,0 +1,48 @@
+Results for model: ann_mtl
+confusion matrix offensive:
+              precision    recall  f1-score   support
+
+      normal       0.86      0.89      0.87       866
+         off       0.74      0.69      0.71       404
+
+    accuracy                           0.83      1270
+   macro avg       0.80      0.79      0.79      1270
+weighted avg       0.82      0.83      0.82      1270
+confusion matrix hs:
+              precision    recall  f1-score   support
+
+      normal       0.95      0.98      0.96      1161
+          hs       0.63      0.45      0.52       109
+
+    accuracy                           0.93      1270
+   macro avg       0.79      0.71      0.74      1270
+weighted avg       0.92      0.93      0.92      1270
+ann_mtl predicted 2313 offensive from 3172 in training data
+ann_mtl predicted 277 offensive from 404 in validation data
+ann_mtl predicted 525 hate-speech from 959 in training data
+ann_mtl predicted 49 hate-speech from 109 in validation data
+Results for model: cnn_mtl
+confusion matrix offensive:
+              precision    recall  f1-score   support
+
+      normal       0.85      0.91      0.88       866
+         off       0.77      0.65      0.71       404
+
+    accuracy                           0.83      1270
+   macro avg       0.81      0.78      0.79      1270
+weighted avg       0.82      0.83      0.82      1270
+
+confusion matrix hs:
+              precision    recall  f1-score   support
+
+      normal       0.95      0.98      0.96      1161
+          hs       0.64      0.46      0.53       109
+
+    accuracy                           0.93      1270
+   macro avg       0.80      0.72      0.75      1270
+weighted avg       0.92      0.93      0.93      1270
+
+cnn_mtl predicted 2120 offensive from 3172 in training data
+cnn_mtl predicted 264 offensive from 404 in validation data
+cnn_mtl predicted 427 hate-speech from 959 in training data
+cnn_mtl predicted 50 hate-speech from 109 in validation data

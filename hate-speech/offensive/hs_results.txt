@@ -1,88 +1,440 @@
-Confusion matrix for ann model:
+Confusion matrix for cnn model:
               precision    recall  f1-score   support
 
-      normal       0.92      0.98      0.95      7928
-          hs       0.71      0.32      0.45       959
+      normal       0.98      0.92      0.95      7928
+          hs       0.56      0.82      0.67       959
 
     accuracy                           0.91      8887
-   macro avg       0.82      0.65      0.70      8887
-weighted avg       0.90      0.91      0.90      8887
+   macro avg       0.77      0.87      0.81      8887
+weighted avg       0.93      0.91      0.92      8887
 
-ann model predicted 311 hs from 959 hs tweets(training data)
+cnn model predicted 791 hs from 959 hs tweets(training data)
+Confusion matrix for cnn model:
+              precision    recall  f1-score   support
+
+      normal       0.97      0.90      0.93      1161
+          hs       0.40      0.71      0.51       109
+
+    accuracy                           0.89      1270
+   macro avg       0.69      0.80      0.72      1270
+weighted avg       0.92      0.89      0.90      1270
+
+cnn model predicted 77 hs from 109 hs tweets(validation data)
 Confusion matrix for ann model:
               precision    recall  f1-score   support
 
-      normal       0.94      0.97      0.96      1161
-          hs       0.58      0.38      0.46       109
-
-    accuracy                           0.92      1270
-   macro avg       0.76      0.68      0.71      1270
-weighted avg       0.91      0.92      0.92      1270
-
-ann model predicted 41 hs from 109 hs tweets(validation data)
-Confusion matrix for ann model:
-              precision    recall  f1-score   support
-
-      normal       0.92      0.98      0.95      7928
-          hs       0.71      0.31      0.43       959
-
-    accuracy                           0.91      8887
-   macro avg       0.81      0.65      0.69      8887
-weighted avg       0.90      0.91      0.90      8887
-
-ann model predicted 299 hs from 959 hs tweets(training data)
-Confusion matrix for ann model:
-              precision    recall  f1-score   support
-
-      normal       0.94      0.97      0.96      1161
-          hs       0.57      0.37      0.45       109
-
-    accuracy                           0.92      1270
-   macro avg       0.76      0.67      0.70      1270
-weighted avg       0.91      0.92      0.91      1270
-
-ann model predicted 40 hs from 109 hs tweets(validation data)
-Confusion matrix for ann model:
-              precision    recall  f1-score   support
-
-      normal       0.94      0.92      0.93      7928
-          hs       0.43      0.52      0.47       959
+      normal       0.99      0.86      0.92      7928
+          hs       0.45      0.94      0.61       959
 
     accuracy                           0.87      8887
-   macro avg       0.68      0.72      0.70      8887
-weighted avg       0.88      0.87      0.88      8887
+   macro avg       0.72      0.90      0.77      8887
+weighted avg       0.93      0.87      0.89      8887
 
-ann model predicted 497 hs from 959 hs tweets(training data)
+ann model predicted 899 hs from 959 hs tweets(training data)
 Confusion matrix for ann model:
               precision    recall  f1-score   support
 
-      normal       0.96      0.90      0.93      1161
-          hs       0.35      0.56      0.43       109
+      normal       0.99      0.85      0.91      1161
+          hs       0.35      0.86      0.50       109
 
-    accuracy                           0.87      1270
-   macro avg       0.65      0.73      0.68      1270
-weighted avg       0.90      0.87      0.89      1270
+    accuracy                           0.85      1270
+   macro avg       0.67      0.86      0.71      1270
+weighted avg       0.93      0.85      0.88      1270
 
-ann model predicted 61 hs from 109 hs tweets(validation data)
+ann model predicted 94 hs from 109 hs tweets(validation data)
+Confusion matrix for cnn model:
+              precision    recall  f1-score   support
+
+      normal       0.97      0.95      0.96      7928
+          hs       0.67      0.80      0.73       959
+
+    accuracy                           0.94      8887
+   macro avg       0.82      0.87      0.85      8887
+weighted avg       0.94      0.94      0.94      8887
+
+cnn model predicted 764 hs from 959 hs tweets(training data)
+Confusion matrix for cnn model:
+              precision    recall  f1-score   support
+
+      normal       0.96      0.92      0.94      1161
+          hs       0.42      0.62      0.50       109
+
+    accuracy                           0.89      1270
+   macro avg       0.69      0.77      0.72      1270
+weighted avg       0.92      0.89      0.90      1270
+
+cnn model predicted 68 hs from 109 hs tweets(validation data)
+Confusion matrix for cnn model:
+              precision    recall  f1-score   support
+
+      normal       0.89      0.94      0.92      7928
+          hs       0.94      0.88      0.91      7928
+
+    accuracy                           0.91     15856
+   macro avg       0.91      0.91      0.91     15856
+weighted avg       0.91      0.91      0.91     15856
+
+cnn model predicted 6988 hs from 7928 hs tweets(training data)
+Confusion matrix for cnn model:
+              precision    recall  f1-score   support
+
+      normal       0.97      0.92      0.94      1161
+          hs       0.44      0.68      0.53       109
+
+    accuracy                           0.90      1270
+   macro avg       0.70      0.80      0.74      1270
+weighted avg       0.92      0.90      0.91      1270
+
+cnn model predicted 74 hs from 109 hs tweets(validation data)
+Confusion matrix for cnn model:
+              precision    recall  f1-score   support
+
+      normal       0.90      0.97      0.93      7928
+          hs       0.93      0.78      0.85      3964
+
+    accuracy                           0.91     11892
+   macro avg       0.91      0.87      0.89     11892
+weighted avg       0.91      0.91      0.90     11892
+
+cnn model predicted 3081 hs from 3964 hs tweets(training data)
+Confusion matrix for cnn model:
+              precision    recall  f1-score   support
+
+      normal       0.96      0.94      0.95      1161
+          hs       0.46      0.57      0.51       109
+
+    accuracy                           0.91      1270
+   macro avg       0.71      0.75      0.73      1270
+weighted avg       0.92      0.91      0.91      1270
+
+cnn model predicted 62 hs from 109 hs tweets(validation data)
 Confusion matrix for ann model:
               precision    recall  f1-score   support
 
-      normal       0.99      0.84      0.91      7928
-          hs       0.41      0.91      0.57       959
+      normal       0.92      0.95      0.93      7926
+          hs       0.81      0.71      0.75      2378
 
-    accuracy                           0.85      8887
-   macro avg       0.70      0.88      0.74      8887
-weighted avg       0.93      0.85      0.87      8887
+    accuracy                           0.89     10304
+   macro avg       0.86      0.83      0.84     10304
+weighted avg       0.89      0.89      0.89     10304
 
-ann model predicted 877 hs from 959 hs tweets(training data)
+ann model predicted 1684 hs from 2378 hs tweets(training data)
 Confusion matrix for ann model:
               precision    recall  f1-score   support
 
-      normal       0.99      0.83      0.90      1161
-          hs       0.33      0.87      0.48       109
+      normal       0.97      0.93      0.95      1161
+          hs       0.48      0.65      0.55       109
 
-    accuracy                           0.84      1270
-   macro avg       0.66      0.85      0.69      1270
-weighted avg       0.93      0.84      0.87      1270
+    accuracy                           0.91      1270
+   macro avg       0.72      0.79      0.75      1270
+weighted avg       0.92      0.91      0.92      1270
 
-ann model predicted 95 hs from 109 hs tweets(validation data)
+ann model predicted 71 hs from 109 hs tweets(validation data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.89      0.92      0.91      7928
+          hs       0.83      0.78      0.80      3964
+
+    accuracy                           0.87     11892
+   macro avg       0.86      0.85      0.86     11892
+weighted avg       0.87      0.87      0.87     11892
+
+ann model predicted 3099 hs from 3964 hs tweets(training data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.97      0.92      0.94      1161
+          hs       0.45      0.73      0.56       109
+
+    accuracy                           0.90      1270
+   macro avg       0.71      0.83      0.75      1270
+weighted avg       0.93      0.90      0.91      1270
+
+ann model predicted 80 hs from 109 hs tweets(validation data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.73      0.96      0.83      4756
+          hs       0.81      0.30      0.44      2378
+
+    accuracy                           0.74      7134
+   macro avg       0.77      0.63      0.64      7134
+weighted avg       0.76      0.74      0.70      7134
+
+ann model predicted 714 hs from 2378 hs tweets(training data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.94      0.96      0.95      1161
+          hs       0.42      0.31      0.36       109
+
+    accuracy                           0.90      1270
+   macro avg       0.68      0.64      0.65      1270
+weighted avg       0.89      0.90      0.90      1270
+
+ann model predicted 34 hs from 109 hs tweets(validation data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.64      0.98      0.78      2397
+          hs       0.87      0.23      0.36      1677
+
+    accuracy                           0.67      4074
+   macro avg       0.75      0.60      0.57      4074
+weighted avg       0.74      0.67      0.60      4074
+
+ann model predicted 378 hs from 1677 hs tweets(training data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.93      0.97      0.95      1161
+          hs       0.44      0.25      0.32       109
+
+    accuracy                           0.91      1270
+   macro avg       0.69      0.61      0.63      1270
+weighted avg       0.89      0.91      0.90      1270
+
+ann model predicted 27 hs from 109 hs tweets(validation data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.93      0.90      0.92      7927
+          hs       0.90      0.93      0.91      7135
+
+    accuracy                           0.91     15062
+   macro avg       0.91      0.92      0.91     15062
+weighted avg       0.92      0.91      0.91     15062
+
+ann model predicted 6606 hs from 7135 hs tweets(training data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.98      0.90      0.93      1161
+          hs       0.41      0.76      0.53       109
+
+    accuracy                           0.88      1270
+   macro avg       0.69      0.83      0.73      1270
+weighted avg       0.93      0.88      0.90      1270
+
+ann model predicted 83 hs from 109 hs tweets(validation data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.72      0.98      0.83      3196
+          hs       0.83      0.23      0.36      1598
+
+    accuracy                           0.73      4794
+   macro avg       0.77      0.60      0.60      4794
+weighted avg       0.75      0.73      0.67      4794
+
+ann model predicted 374 hs from 1598 hs tweets(training data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.93      0.97      0.95      1161
+          hs       0.47      0.26      0.33       109
+
+    accuracy                           0.91      1270
+   macro avg       0.70      0.61      0.64      1270
+weighted avg       0.89      0.91      0.90      1270
+
+ann model predicted 28 hs from 109 hs tweets(validation data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.70      0.94      0.80      5662
+          hs       0.83      0.44      0.58      3964
+
+    accuracy                           0.73      9626
+   macro avg       0.77      0.69      0.69      9626
+weighted avg       0.76      0.73      0.71      9626
+
+ann model predicted 1744 hs from 3964 hs tweets(training data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.95      0.94      0.94      1161
+          hs       0.40      0.47      0.43       109
+
+    accuracy                           0.90      1270
+   macro avg       0.68      0.70      0.69      1270
+weighted avg       0.90      0.90      0.90      1270
+
+ann model predicted 51 hs from 109 hs tweets(validation data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.85      0.82      0.83      7928
+          hs       0.83      0.85      0.84      7928
+
+    accuracy                           0.84     15856
+   macro avg       0.84      0.84      0.84     15856
+weighted avg       0.84      0.84      0.84     15856
+
+ann model predicted 6756 hs from 7928 hs tweets(training data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.98      0.82      0.89      1161
+          hs       0.30      0.84      0.45       109
+
+    accuracy                           0.82      1270
+   macro avg       0.64      0.83      0.67      1270
+weighted avg       0.92      0.82      0.86      1270
+
+ann model predicted 92 hs from 109 hs tweets(validation data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.52      0.99      0.68      7928
+          hs       0.84      0.08      0.14      7928
+
+    accuracy                           0.53     15856
+   macro avg       0.68      0.53      0.41     15856
+weighted avg       0.68      0.53      0.41     15856
+
+ann model predicted 607 hs from 7928 hs tweets(training data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.92      0.97      0.94      1161
+          hs       0.18      0.08      0.11       109
+
+    accuracy                           0.89      1270
+   macro avg       0.55      0.52      0.53      1270
+weighted avg       0.86      0.89      0.87      1270
+
+ann model predicted 9 hs from 109 hs tweets(validation data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.91      0.88      0.90      7923
+          hs       0.87      0.91      0.89      7131
+
+    accuracy                           0.89     15054
+   macro avg       0.89      0.89      0.89     15054
+weighted avg       0.89      0.89      0.89     15054
+
+ann model predicted 6476 hs from 7131 hs tweets(training data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.98      0.87      0.92      1161
+          hs       0.36      0.82      0.50       109
+
+    accuracy                           0.86      1270
+   macro avg       0.67      0.84      0.71      1270
+weighted avg       0.93      0.86      0.88      1270
+
+ann model predicted 89 hs from 109 hs tweets(validation data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.93      0.91      0.92      7927
+          hs       0.90      0.93      0.91      7135
+
+    accuracy                           0.92     15062
+   macro avg       0.92      0.92      0.92     15062
+weighted avg       0.92      0.92      0.92     15062
+
+ann model predicted 6627 hs from 7135 hs tweets(training data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.98      0.90      0.93      1161
+          hs       0.41      0.77      0.54       109
+
+    accuracy                           0.89      1270
+   macro avg       0.69      0.83      0.73      1270
+weighted avg       0.93      0.89      0.90      1270
+
+ann model predicted 84 hs from 109 hs tweets(validation data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.92      0.90      0.91      7927
+          hs       0.89      0.91      0.90      7135
+
+    accuracy                           0.91     15062
+   macro avg       0.91      0.91      0.91     15062
+weighted avg       0.91      0.91      0.91     15062
+
+ann model predicted 6520 hs from 7135 hs tweets(training data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.98      0.89      0.93      1161
+          hs       0.40      0.82      0.54       109
+
+    accuracy                           0.88      1270
+   macro avg       0.69      0.85      0.74      1270
+weighted avg       0.93      0.88      0.90      1270
+
+ann model predicted 89 hs from 109 hs tweets(validation data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.91      0.92      0.91      7928
+          hs       0.87      0.85      0.86      4959
+
+    accuracy                           0.89     12887
+   macro avg       0.89      0.89      0.89     12887
+weighted avg       0.89      0.89      0.89     12887
+
+ann model predicted 4237 hs from 4959 hs tweets(training data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.97      0.92      0.94      1161
+          hs       0.45      0.73      0.56       109
+
+    accuracy                           0.90      1270
+   macro avg       0.71      0.82      0.75      1270
+weighted avg       0.93      0.90      0.91      1270
+
+ann model predicted 80 hs from 109 hs tweets(validation data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.91      0.92      0.91      7928
+          hs       0.87      0.85      0.86      4959
+
+    accuracy                           0.89     12887
+   macro avg       0.89      0.89      0.89     12887
+weighted avg       0.89      0.89      0.89     12887
+
+ann model predicted 4233 hs from 4959 hs tweets(training data)
+Confusion matrix for ann model:
+              precision    recall  f1-score   support
+
+      normal       0.97      0.92      0.94      1161
+          hs       0.45      0.73      0.56       109
+
+    accuracy                           0.90      1270
+   macro avg       0.71      0.82      0.75      1270
+weighted avg       0.93      0.90      0.91      1270
+
+ann model predicted 80 hs from 109 hs tweets(validation data)
+Confusion matrix for cnn model:
+              precision    recall  f1-score   support
+
+      normal       0.85      0.97      0.91      7928
+          hs       0.95      0.73      0.83      4959
+
+    accuracy                           0.88     12887
+   macro avg       0.90      0.85      0.87     12887
+weighted avg       0.89      0.88      0.88     12887
+
+cnn model predicted 3631 hs from 4959 hs tweets(training data)
+Confusion matrix for cnn model:
+              precision    recall  f1-score   support
+
+      normal       0.95      0.95      0.95      1161
+          hs       0.47      0.48      0.47       109
+
+    accuracy                           0.91      1270
+   macro avg       0.71      0.71      0.71      1270
+weighted avg       0.91      0.91      0.91      1270
+
+cnn model predicted 52 hs from 109 hs tweets(validation data)
