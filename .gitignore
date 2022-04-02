@@ -3,4 +3,17 @@ social_engineering/stanford-parser-4.2.0.zip
 social_engineering/stanford-corenlp-4.2.0-models-english.jar
 social_engineering/jars
 Depression/__pycache__
+hate-speech/__pycache__
+hate-speech/embedding_model
+hate-speech/embedding_temp
+hate-speech/tfidf_model
+hate-speech/tfidf_resampled_model
+hate-speech/tfidf_temp
+hate-speech/tfidf_resampled_temp
+hate-speech/embedding_resampled_temp
+hate-speech/embedding_resampled_model
+hate-speech/offensive/marbert-model
+hate-speech/offensive/*.npy
 __pycache__
+hate-speech/offensive/*.json
+hate-speech/offensive/*.h5
