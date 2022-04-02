@@ -1,3 +1,5 @@
+# import os
+# os.environ['CUDA_VISIBLE_DEVICES'] = "-1"
 import arabicstopwords.arabicstopwords as stp
 import unicodedata as ucd
 from pyarabic import araby
@@ -86,16 +88,16 @@ def get_max_length(tweets):
     return max_len
 
 def save_train_features(features: np.ndarray, name = ''):
-    np.save(f'./{name}train_features.npy', allow_pickle=False, arr=features)
+    np.save(f'./{name}_train_features.npy', allow_pickle=False, arr=features)
 
 def save_val_features(features: np.ndarray, name = ''):
-    np.save(f'./{name}val_features.npy', allow_pickle=False, arr=features)
+    np.save(f'./{name}_val_features.npy', allow_pickle=False, arr=features)
 
 def load_train_features(name = '') -> np.ndarray:
-    return np.load(f'./{name}train_features.npy', allow_pickle=False)
+    return np.load(f'./{name}_train_features.npy', allow_pickle=False)
 
 def load_val_features(name = '') -> np.ndarray:
-    return np.load(f'./{name}val_features.npy', allow_pickle=False)
+    return np.load(f'./{name}_val_features.npy', allow_pickle=False)
 
 def save_train_labels(labels: np.ndarray, task_name: str):
     np.save(f'./{task_name}_train_labels.npy', allow_pickle=False, arr=labels)

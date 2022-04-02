@@ -1,0 +1,307 @@
+lr_offensive_model.sav for offensive task results:
+train data confusion matrix:
+              precision    recall  f1-score   support
+     not_off       0.83      0.88      0.85      3967
+         off       0.87      0.82      0.85      4034
+
+    accuracy                           0.85      8001
+   macro avg       0.85      0.85      0.85      8001
+weighted avg       0.85      0.85      0.85      8001
+
+test data confusion matrix:
+              precision    recall  f1-score   support
+
+     not_off       0.79      0.85      0.82      1748
+         off       0.83      0.76      0.79      1681
+
+    accuracy                           0.81      3429
+   macro avg       0.81      0.81      0.81      3429
+weighted avg       0.81      0.81      0.81      3429
+
+eval data confusion matrix:
+              precision    recall  f1-score   support
+
+     not_off       0.87      0.84      0.85       866
+         off       0.68      0.73      0.70       404
+
+    accuracy                           0.80      1270
+   macro avg       0.77      0.78      0.78      1270
+weighted avg       0.81      0.80      0.81      1270
+--------------------------------------------------
+fine_tuning_marbert for hate-speech task results:
+train data confusion matrix:
+              precision    recall  f1-score   support
+
+      not_hs       0.94      0.94      0.94      5542
+          hs       0.94      0.94      0.94      5557
+
+    accuracy                           0.94     11099
+   macro avg       0.94      0.94      0.94     11099
+weighted avg       0.94      0.94      0.94     11099
+
+test data confusion matrix:
+              precision    recall  f1-score   support
+
+      not_hs       0.92      0.93      0.92      2386
+          hs       0.93      0.92      0.92      2371
+
+    accuracy                           0.92      4757
+   macro avg       0.92      0.92      0.92      4757
+weighted avg       0.92      0.92      0.92      4757
+
+eval data confusion matrix:
+              precision    recall  f1-score   support
+
+      not_hs       0.96      0.91      0.93      1161
+          hs       0.38      0.58      0.46       109
+
+    accuracy                           0.88      1270
+   macro avg       0.67      0.74      0.70      1270
+weighted avg       0.91      0.88      0.89      1270
+--------------------------------------------------
+lr_hs_model.sav for hate-speech task results:
+train data confusion matrix:
+              precision    recall  f1-score   support
+
+      not_hs       0.91      0.91      0.91      5559
+          hs       0.91      0.90      0.91      5540
+
+    accuracy                           0.91     11099
+   macro avg       0.91      0.91      0.91     11099
+weighted avg       0.91      0.91      0.91     11099
+
+test data confusion matrix:
+              precision    recall  f1-score   support
+
+      not_hs       0.90      0.91      0.91      2369
+          hs       0.91      0.90      0.91      2388
+
+    accuracy                           0.91      4757
+   macro avg       0.91      0.91      0.91      4757
+weighted avg       0.91      0.91      0.91      4757
+
+eval data confusion matrix:
+              precision    recall  f1-score   support
+
+      not_hs       0.97      0.91      0.94      1161
+          hs       0.42      0.72      0.53       109
+
+    accuracy                           0.89      1270
+   macro avg       0.70      0.81      0.74      1270
+weighted avg       0.92      0.89      0.90      1270
+--------------------------------------------------
+rf_offensive_model.sav for offensive task results:
+train data confusion matrix:
+              precision    recall  f1-score   support
+
+     not_off       0.97      0.97      0.97      3997
+         off       0.97      0.97      0.97      4004
+
+    accuracy                           0.97      8001
+   macro avg       0.97      0.97      0.97      8001
+weighted avg       0.97      0.97      0.97      8001
+
+test data confusion matrix:
+              precision    recall  f1-score   support
+
+     not_off       0.75      0.80      0.78      1718
+         off       0.79      0.73      0.76      1711
+
+    accuracy                           0.77      3429
+   macro avg       0.77      0.77      0.77      3429
+weighted avg       0.77      0.77      0.77      3429
+
+eval data confusion matrix:
+              precision    recall  f1-score   support
+
+     not_off       0.83      0.80      0.81       866
+         off       0.60      0.66      0.63       404
+
+    accuracy                           0.75      1270
+   macro avg       0.72      0.73      0.72      1270
+weighted avg       0.76      0.75      0.76      1270
+--------------------------------------------------
+rf_hs_model.sav for hate-speech task results:
+train data confusion matrix:
+              precision    recall  f1-score   support
+
+      not_hs       0.98      0.97      0.98      5564
+          hs       0.97      0.98      0.98      5535
+
+    accuracy                           0.98     11099
+   macro avg       0.98      0.98      0.98     11099
+weighted avg       0.98      0.98      0.98     11099
+
+test data confusion matrix:
+              precision    recall  f1-score   support
+
+      not_hs       0.92      0.87      0.89      2364
+          hs       0.88      0.92      0.90      2393
+
+    accuracy                           0.90      4757
+   macro avg       0.90      0.90      0.90      4757
+weighted avg       0.90      0.90      0.90      4757
+
+eval data confusion matrix:
+              precision    recall  f1-score   support
+
+      not_hs       0.97      0.88      0.92      1161
+          hs       0.36      0.73      0.48       109
+
+    accuracy                           0.87      1270
+   macro avg       0.67      0.81      0.70      1270
+weighted avg       0.92      0.87      0.89      1270
+--------------------------------------------------
+fine_tuning_marbert for multiclass task results:
+train data confusion matrix:
+              precision    recall  f1-score   support
+      not_hs       0.54      0.99      0.70      5530
+         hs1       0.51      0.02      0.04       975
+         hs2       0.54      0.02      0.04       959
+         hs3       0.62      0.03      0.05       972
+         hs5       0.51      0.02      0.04      1012
+         hs6       0.52      0.03      0.05       977
+    accuracy                           0.54     10425
+   macro avg       0.54      0.18      0.15     10425
+weighted avg       0.54      0.54      0.39     10425
+test data confusion matrix:
+              precision    recall  f1-score   support
+      not_hs       0.54      0.97      0.69      2398
+         hs1       0.17      0.01      0.01       418
+         hs2       0.10      0.01      0.01       434
+         hs3       0.12      0.00      0.01       421
+         hs5       0.09      0.01      0.01       381
+         hs6       0.11      0.00      0.01       416
+    accuracy                           0.53      4468
+   macro avg       0.19      0.17      0.12      4468
+weighted avg       0.34      0.53      0.38      4468
+eval data confusion matrix:
+              precision    recall  f1-score   support
+      not_hs       0.92      0.98      0.95      1162
+         hs1       0.00      0.00      0.00        28
+         hs2       0.00      0.00      0.00         4
+         hs3       0.12      0.07      0.09        14
+         hs5       0.00      0.00      0.00        10
+         hs6       0.00      0.00      0.00        52
+    accuracy                           0.89      1270
+   macro avg       0.17      0.17      0.17      1270
+weighted avg       0.84      0.89      0.87      1270
+--------------------------------------------------
+fine_tuning_marbert for offensive task results:
+train data confusion matrix:
+              precision    recall  f1-score   support
+
+     not_off       0.82      0.88      0.85      3981
+         off       0.87      0.81      0.84      4020
+
+    accuracy                           0.84      8001
+   macro avg       0.85      0.85      0.84      8001
+weighted avg       0.85      0.84      0.84      8001
+
+test data confusion matrix:
+              precision    recall  f1-score   support
+
+     not_off       0.80      0.85      0.82      1734
+         off       0.83      0.78      0.80      1695
+
+    accuracy                           0.81      3429
+   macro avg       0.81      0.81      0.81      3429
+weighted avg       0.81      0.81      0.81      3429
+
+eval data confusion matrix:
+              precision    recall  f1-score   support
+
+     not_off       0.87      0.81      0.84       866
+         off       0.64      0.75      0.69       404
+
+    accuracy                           0.79      1270
+   macro avg       0.76      0.78      0.76      1270
+weighted avg       0.80      0.79      0.79      1270
+--------------------------------------------------
+lr_multiclass_model.sav for multiclass task results:
+train data confusion matrix:
+              precision    recall  f1-score   support
+
+      not_hs       0.54      1.00      0.70      5584
+         hs1       0.00      0.00      0.00       965
+         hs2       1.00      0.00      0.00       967
+         hs3       0.00      0.00      0.00       935
+         hs5       1.00      0.00      0.00       977
+         hs6       1.00      0.00      0.00       997
+
+    accuracy                           0.54     10425
+   macro avg       0.59      0.17      0.12     10425
+weighted avg       0.57      0.54      0.37     10425
+
+test data confusion matrix:
+              precision    recall  f1-score   support
+
+      not_hs       0.52      1.00      0.69      2344
+         hs1       0.00      0.00      0.00       428
+         hs2       0.00      0.00      0.00       426
+         hs3       0.00      0.00      0.00       458
+         hs5       0.00      0.00      0.00       416
+         hs6       0.00      0.00      0.00       396
+
+    accuracy                           0.52      4468
+   macro avg       0.09      0.17      0.11      4468
+weighted avg       0.28      0.52      0.36      4468
+
+eval data confusion matrix:
+              precision    recall  f1-score   support
+
+      not_hs       0.91      1.00      0.96      1162
+         hs1       0.00      0.00      0.00        28
+         hs2       0.00      0.00      0.00         4
+         hs3       0.00      0.00      0.00        14
+         hs5       0.00      0.00      0.00        10
+         hs6       0.00      0.00      0.00        52
+
+    accuracy                           0.91      1270
+   macro avg       0.15      0.17      0.16      1270
+weighted avg       0.84      0.91      0.87      1270
+--------------------------------------------------
+mnb_multiclass_model.sav for multiclass task results:
+train data confusion matrix:
+              precision    recall  f1-score   support
+
+      not_hs       0.54      0.95      0.68      5527
+         hs1       0.21      0.02      0.03       977
+         hs2       0.28      0.04      0.06       983
+         hs3       0.40      0.01      0.01       991
+         hs5       0.13      0.05      0.07       976
+         hs6       0.49      0.02      0.03       971
+
+    accuracy                           0.52     10425
+   macro avg       0.34      0.18      0.15     10425
+weighted avg       0.43      0.52      0.38     10425
+
+test data confusion matrix:
+              precision    recall  f1-score   support
+
+      not_hs       0.54      0.94      0.68      2401
+         hs1       0.22      0.02      0.03       416
+         hs2       0.12      0.02      0.03       410
+         hs3       0.00      0.00      0.00       402
+         hs5       0.10      0.04      0.06       417
+         hs6       0.00      0.00      0.00       422
+
+    accuracy                           0.51      4468
+   macro avg       0.16      0.17      0.13      4468
+weighted avg       0.33      0.51      0.38      4468
+
+eval data confusion matrix:
+              precision    recall  f1-score   support
+
+      not_hs       0.91      0.96      0.93      1162
+         hs1       1.00      0.04      0.07        28
+         hs2       0.00      0.00      0.00         4
+         hs3       0.00      0.00      0.00        14
+         hs5       0.00      0.00      0.00        10
+         hs6       0.00      0.00      0.00        52
+
+    accuracy                           0.88      1270
+   macro avg       0.32      0.17      0.17      1270
+weighted avg       0.86      0.88      0.86      1270
+
+--------------------------------------------------

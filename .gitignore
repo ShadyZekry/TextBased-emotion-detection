@@ -15,3 +15,5 @@ hate-speech/embedding_resampled_model
 hate-speech/offensive/marbert-model
 hate-speech/offensive/*.npy
 __pycache__
+hate-speech/offensive/*.json
+hate-speech/offensive/*.h5
