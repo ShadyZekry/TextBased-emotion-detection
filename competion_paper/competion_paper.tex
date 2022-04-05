@@ -1,4 +1,4 @@
-\documentclass{IEEEtran}
+\documentclass[conference]{IEEEtran}
 
 \usepackage{hyperref}
 \usepackage{graphicx}
@@ -18,7 +18,7 @@
 \end{abstract}
 
 \section{Introduction}
-The increase in online hate speech is a major cultural threat, as it already resulted in crime against minorities, see e.g. (Williams et al. 2020). To tackle this issue, there has been a rising interest in hate speech detection to expose and regulate this phenomenon. Arabic hate speech detection has been a very challenging field among the hard ways we can get filtered data that are labeled and pre-classified. And how small data that you can find related to hate speech specifically for Arabic language.
+The increase in online hate speech is a major cultural threat, as it already resulted in crime against minorities, see ~\cite{hate2022machine}. To tackle this issue, there has been a rising interest in hate speech detection to expose and regulate this phenomenon. Arabic hate speech detection has been a very challenging field among the hard ways we can get filtered data that are labeled and pre-classified. And how small data that you can find related to hate speech specifically for Arabic language.
 Many resourceful and helpful models have been made available in the recent years by the community, towards the development of automatic hate speech detection for Arabic language, such as ARBERT and MARBERT which are Deep Bidirectional Transformers that are pretrained for Arabic language based on Google's BERT architecture. These models revolutionized the research on NLP and became resourceful in our feature-extraction phase. 
 Another problem that is presented by the dataset is that it’s not balanced. The non-hate speech to hate speech ratio in the corpus is 9:1, our approach to solve this problem was to use data augmentation method, and a tool that helps us in that step is NLPAUG, we used it to solve the unbalancing in dataset by augmenting the sentences that are labeled as hate speech. That will result in a much larger count of how many rows feeded into the machine learning model labeled as hate speech, and that will help in the model learning phase.
 The most popular approach to this problem is to use a deep-learning algorithm which does its own feature extraction, but in this case it’s not suitable because we need a huge dataset, and that is not the case in our Arabic dataset. Instead, we use multiple machine-learning approaches which are not greatly affected by the small size of the dataset. For feature extraction we use MARBERT model, then we feed the output to our two models (Logistic regression, Random Forest).
@@ -56,7 +56,7 @@ detection.
 % Starting bibliography
 %
 
-\bibliographystyle{IEEEtran}
+\bibliographystyle{plain}
 \bibliography{./citations.bib}
 
 \end{document}
