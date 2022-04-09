@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.2)  7 APR 2022 18:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.2)  9 APR 2022 15:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -400,58 +400,46 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
-))
-<graphics//university.png, id=56, 225.84375pt x 225.84375pt>
-File: graphics//university.png Graphic file (type png)
-<use graphics//university.png>
-Package pdftex.def Info: graphics//university.png  used on input line 27.
-(pdftex.def)             Requested size: 56.90533pt x 56.90533pt.
- [1
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./graphics//university.png
->]
-<graphics//01.png, id=80, 396.48125pt x 269.005pt>
-File: graphics//01.png Graphic file (type png)
-<use graphics//01.png>
-Package pdftex.def Info: graphics//01.png  used on input line 62.
-(pdftex.def)             Requested size: 252.00478pt x 174.89632pt.
-<graphics//07.png, id=82, 374.90062pt x 264.23718pt>
-File: graphics//07.png Graphic file (type png)
-<use graphics//07.png>
-Package pdftex.def Info: graphics//07.png  used on input line 68.
-(pdftex.def)             Requested size: 252.00586pt x 184.29143pt.
-<graphics//04.png, id=84, 749.04843pt x 62.48344pt>
-File: graphics//04.png Graphic file (type png)
-<use graphics//04.png>
-Package pdftex.def Info: graphics//04.png  used on input line 78.
-(pdftex.def)             Requested size: 251.99858pt x 26.87497pt.
- [2
+)) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-<graphics//05.png, id=106, 755.82375pt x 202.50656pt>
+<graphics//01.png, id=91, 396.48125pt x 269.005pt>
+File: graphics//01.png Graphic file (type png)
+<use graphics//01.png>
+Package pdftex.def Info: graphics//01.png  used on input line 48.
+(pdftex.def)             Requested size: 252.00478pt x 174.89632pt.
+<graphics//07.png, id=93, 374.90062pt x 264.23718pt>
+File: graphics//07.png Graphic file (type png)
+<use graphics//07.png>
+Package pdftex.def Info: graphics//07.png  used on input line 54.
+(pdftex.def)             Requested size: 252.00586pt x 184.29143pt.
+<graphics//04.png, id=95, 749.04843pt x 62.48344pt>
+File: graphics//04.png Graphic file (type png)
+<use graphics//04.png>
+Package pdftex.def Info: graphics//04.png  used on input line 64.
+(pdftex.def)             Requested size: 251.99858pt x 26.87497pt.
+<graphics//05.png, id=99, 755.82375pt x 202.50656pt>
 File: graphics//05.png Graphic file (type png)
 <use graphics//05.png>
-Package pdftex.def Info: graphics//05.png  used on input line 86.
+Package pdftex.def Info: graphics//05.png  used on input line 72.
 (pdftex.def)             Requested size: 251.99445pt x 87.44691pt.
 File: graphics//05.png Graphic file (type png)
 <use graphics//05.png>
-Package pdftex.def Info: graphics//05.png  used on input line 92.
+Package pdftex.def Info: graphics//05.png  used on input line 78.
 (pdftex.def)             Requested size: 251.99445pt x 87.44691pt.
-
-[3 <./graphics//01.png> <./graphics//07.png (PNG copy)> <./graphics//04.png (PN
-G copy)> <./graphics//05.png (PNG copy)>]
-Overfull \hbox (51.54187pt too wide) in paragraph at lines 153--165
+ [2 <./graphics//01.png> <./graphics//07.png (PNG copy)> <./graphics//04.png (P
+NG copy)> <./graphics//05.png (PNG copy)>]
+Overfull \hbox (51.54187pt too wide) in paragraph at lines 139--151
 [][] 
  []
 
 
-Overfull \hbox (51.54187pt too wide) in paragraph at lines 170--182
+Overfull \hbox (51.54187pt too wide) in paragraph at lines 156--168
 [][] 
  []
 
-[4] (./competion_paper.bbl)
+[3] (./competion_paper.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -463,7 +451,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[5
+[4
 
 
 ] (./competion_paper.aux)
@@ -471,11 +459,11 @@ Package rerunfilecheck Info: File `competion_paper.out' has not changed.
 (rerunfilecheck)             Checksum: 84B700C6E92F93913C9544F2287CBA0D;1681.
  ) 
 Here is how much of TeX's memory you used:
- 9729 strings out of 478353
- 155098 string characters out of 5854636
- 481019 words of memory out of 5000000
- 27705 multiletter control sequences out of 15000+600000
- 436689 words of font info for 86 fonts, out of 8000000 for 9000
+ 9721 strings out of 478353
+ 154886 string characters out of 5854636
+ 484950 words of memory out of 5000000
+ 27699 multiletter control sequences out of 15000+600000
+ 436660 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,12n,63p,2255b,329s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
@@ -484,10 +472,10 @@ c/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy10.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
 exmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on competion_paper.pdf (5 pages, 247457 bytes).
+Output written on competion_paper.pdf (4 pages, 237702 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
- 43 named destinations out of 1000 (max. 500000)
- 130 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 178 PDF objects out of 1000 (max. 8388607)
+ 151 compressed objects within 2 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
