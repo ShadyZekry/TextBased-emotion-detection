@@ -1,103 +1,97 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{}
 
-\bibitem{abdul2020arbert}
-Muhammad Abdul-Mageed, AbdelRahim Elmadany, and El~Moatez~Billah Nagoudi.
-\newblock Arbert \& marbert: deep bidirectional transformers for arabic.
-\newblock {\em arXiv preprint arXiv:2101.01785}, 2020.
-
-\bibitem{abdul-mageed-etal-2021-arbert}
-Muhammad "Abdul-Mageed, AbdelRahim Elmadany, and El~Moatez~Billah" Nagoudi.
+\bibitem[\protect\citename{"Abdul-Mageed \bgroup et al.\egroup
+  }2021]{abdul-mageed-etal-2021-arbert}
+"Abdul-Mageed, M., Elmadany, A., and Nagoudi, E. M.~B.
+\newblock ("2021").
 \newblock "{ARBERT} {\&} {MARBERT}: Deep bidirectional transformers for
   {A}rabic".
 \newblock In {\em "Proceedings of the 59th Annual Meeting of the Association
   for Computational Linguistics and the 11th International Joint Conference on
   Natural Language Processing (Volume 1: Long Papers)"}, pages "7088--7105",
-  "Online", aug "2021". "Association for Computational Linguistics".
+  "Online", aug. "Association for Computational Linguistics".
 
-\bibitem{abuzayed2020quick}
-Abeer Abuzayed and Tamer Elsayed.
+\bibitem[\protect\citename{Abuzayed and Elsayed}2020]{abuzayed2020quick}
+Abuzayed, A. and Elsayed, T.
+\newblock (2020).
 \newblock Quick and simple approach for detecting hate speech in arabic tweets.
 \newblock In {\em Proceedings of the 4th workshop on open-source Arabic Corpora
   and processing tools, with a shared task on offensive language detection},
-  pages 109--114, 2020.
+  pages 109--114.
 
-\bibitem{al2020hate}
-Shaima Al-khalifa, Ibrahim Aljarah, and Mohammad A~M Abushariah.
+\bibitem[\protect\citename{Al-khalifa \bgroup et al.\egroup }2020]{al2020hate}
+Al-khalifa, S., Aljarah, I., and Abushariah, M. A.~M.
+\newblock (2020).
 \newblock Hate speech classification in arabic tweets.
 \newblock {\em Journal of Theoretical and Applied Information Technology},
-  98:1816--1831, 2020.
+  98:1816--1831.
 
-\bibitem{aldjanabi2021arabic}
-Wassen Aldjanabi, Abdelghani Dahou, Mohammed~AA Al-qaness, Mohamed Abd~Elaziz,
-  Ahmed~Mohamed Helmi, and Robertas Dama{\v{s}}evi{\v{c}}ius.
+\bibitem[\protect\citename{Aldjanabi \bgroup et al.\egroup
+  }2021]{aldjanabi2021arabic}
+Aldjanabi, W., Dahou, A., Al-qaness, M.~A., Abd~Elaziz, M., Helmi, A.~M., and
+  Dama{\v{s}}evi{\v{c}}ius, R.
+\newblock (2021).
 \newblock Arabic offensive and hate speech detection using a cross-corpora
   multi-task learning model.
 \newblock In {\em Informatics}, volume~8, page~69. Multidisciplinary Digital
-  Publishing Institute, 2021.
+  Publishing Institute.
 
-\bibitem{alshaalan2020hate}
-Raghad Alshaalan and Hend Al-Khalifa.
+\bibitem[\protect\citename{Alshaalan and Al-Khalifa}2020]{alshaalan2020hate}
+Alshaalan, R. and Al-Khalifa, H.
+\newblock (2020).
 \newblock Hate speech detection in saudi twittersphere: A deep learning
   approach.
 \newblock In {\em Proceedings of the Fifth Arabic Natural Language Processing
-  Workshop}, pages 12--23, 2020.
+  Workshop}, pages 12--23.
 
-\bibitem{devlin2018bert}
-Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\bibitem[\protect\citename{Devlin \bgroup et al.\egroup }2018]{devlin2018bert}
+Devlin, J., Chang, M.-W., Lee, K., and Toutanova, K.
+\newblock (2018).
 \newblock Bert: Pre-training of deep bidirectional transformers for language
   understanding.
-\newblock {\em arXiv preprint arXiv:1810.04805}, 2018.
+\newblock {\em arXiv preprint arXiv:1810.04805}.
 
-\bibitem{farha2021benchmarking}
-Ibrahim~Abu Farha and Walid Magdy.
+\bibitem[\protect\citename{Farha and Magdy}2021]{farha2021benchmarking}
+Farha, I.~A. and Magdy, W.
+\newblock (2021).
 \newblock Benchmarking transformer-based language models for arabic sentiment
   and sarcasm detection.
 \newblock In {\em Proceedings of the sixth Arabic natural language processing
-  workshop}, pages 21--31, 2021.
+  workshop}, pages 21--31.
 
-\bibitem{faris2020hate}
-Hossam Faris, Ibrahim Aljarah, Maria Habib, and Pedro~A Castillo.
+\bibitem[\protect\citename{Faris \bgroup et al.\egroup }2020]{faris2020hate}
+Faris, H., Aljarah, I., Habib, M., and Castillo, P.~A.
+\newblock (2020).
 \newblock Hate speech detection using word embedding and deep learning in the
   arabic language context.
-\newblock In {\em ICPRAM}, pages 453--460, 2020.
+\newblock In {\em ICPRAM}, pages 453--460.
 
-\bibitem{ma2019nlpaug}
-Edward Ma.
-\newblock Nlp augmentation.
-\newblock https://github.com/makcedward/nlpaug, 2019.
-
-\bibitem{mubarak2022emojis}
-Hamdy Mubarak, Sabit Hassan, and Shammur~Absar Chowdhury.
-\newblock Emojis as anchors to detect arabic offensive language and hate
-  speech.
-\newblock {\em arXiv preprint arXiv:2201.06723}, 2022.
-
-\bibitem{radford2018improving}
-Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever.
+\bibitem[\protect\citename{Radford \bgroup et al.\egroup
+  }2018]{radford2018improving}
+Radford, A., Narasimhan, K., Salimans, T., and Sutskever, I.
+\newblock (2018).
 \newblock Improving language understanding by generative pre-training.
-\newblock 2018.
 
-\bibitem{vaswani2017attention}
-Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
-  Aidan~N Gomez, {\L}ukasz Kaiser, and Illia Polosukhin.
+\bibitem[\protect\citename{Vaswani \bgroup et al.\egroup
+  }2017]{vaswani2017attention}
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.~N.,
+  Kaiser, {\L}., and Polosukhin, I.
+\newblock (2017).
 \newblock Attention is all you need.
-\newblock {\em Advances in neural information processing systems}, 30, 2017.
+\newblock {\em Advances in neural information processing systems}, 30.
 
-\bibitem{hate2022machine}
-Burnap P. Javed A. Liu~H. Williams, M.~L. and Ozalp.
-\newblock Hate in the machine: anti-black and anti-muslim social media posts as
-  predictors of offline racially and religiously aggravated crime.
-\newblock {\em The British Journal of Criminology 60(1): 93–117.}, 2020.
-
-\bibitem{yang2019deepening}
-Junjie Yang and Hai Zhao.
+\bibitem[\protect\citename{Yang and Zhao}2019]{yang2019deepening}
+Yang, J. and Zhao, H.
+\newblock (2019).
 \newblock Deepening hidden representations from pre-trained language models.
-\newblock {\em arXiv preprint arXiv:1911.01940}, 2019.
+\newblock {\em arXiv preprint arXiv:1911.01940}.
 
-\bibitem{zhuang2021robustly}
-Liu Zhuang, Lin Wayne, Shi Ya, and Zhao Jun.
+\bibitem[\protect\citename{Zhuang \bgroup et al.\egroup
+  }2021]{zhuang2021robustly}
+Zhuang, L., Wayne, L., Ya, S., and Jun, Z.
+\newblock (2021).
 \newblock A robustly optimized bert pre-training approach with post-training.
 \newblock In {\em Proceedings of the 20th Chinese National Conference on
-  Computational Linguistics}, pages 1218--1227, 2021.
+  Computational Linguistics}, pages 1218--1227.
 
 \end{thebibliography}

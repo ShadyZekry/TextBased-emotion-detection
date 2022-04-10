@@ -1,0 +1,26 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citename{Castor and Pollux}1992]{CastorPollux-92}
+Castor, A. and Pollux, L.~E.
+\newblock (1992).
+\newblock The use of user modelling to guide inference and learning.
+\newblock {\em Applied Intelligence}, 2(1):37--53.
+
+\bibitem[\protect\citename{Strötgen and Gertz}2012]{Martin-90}
+Strötgen, J. and Gertz, M.
+\newblock (2012).
+\newblock Temporal tagging on different domains: Challenges, strategies, and
+  gold standards.
+\newblock In Nicoletta Calzolari~(Conference Chair), et~al., editors, {\em
+  Proceedings of the Eight International Conference on Language Resources and
+  Evaluation (LREC'12)}, pages 3746--3753, Istanbul, Turkey, may. European
+  Language Resource Association (ELRA).
+
+\bibitem[\protect\citename{Superman \bgroup et al.\egroup
+  }2000]{Superman-Batman-Catwoman-Spiderman-00}
+Superman, S., Batman, B., Catwoman, C., and Spiderman, S.
+\newblock (2000).
+\newblock {\em Superheroes experiences with books}.
+\newblock The Phantom Editors Associates, Gotham City, 20th edition.
+
+\end{thebibliography}
