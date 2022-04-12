@@ -1,5 +1,12 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\citename{Abdul-Mageed \bgroup et al.\egroup
+  }2020]{abdul2020arbert}
+Abdul-Mageed, M., Elmadany, A., and Nagoudi, E. M.~B.
+\newblock (2020).
+\newblock Arbert \& marbert: deep bidirectional transformers for arabic.
+\newblock {\em arXiv preprint arXiv:2101.01785}.
+
 \bibitem[\protect\citename{"Abdul-Mageed \bgroup et al.\egroup
   }2021]{abdul-mageed-etal-2021-arbert}
 "Abdul-Mageed, M., Elmadany, A., and Nagoudi, E. M.~B.
@@ -66,6 +73,20 @@ Faris, H., Aljarah, I., Habib, M., and Castillo, P.~A.
   arabic language context.
 \newblock In {\em ICPRAM}, pages 453--460.
 
+\bibitem[\protect\citename{Ma}2019]{ma2019nlpaug}
+Ma, E.
+\newblock (2019).
+\newblock Nlp augmentation.
+\newblock https://github.com/makcedward/nlpaug.
+
+\bibitem[\protect\citename{Mubarak \bgroup et al.\egroup
+  }2022]{mubarak2022emojis}
+Mubarak, H., Hassan, S., and Chowdhury, S.~A.
+\newblock (2022).
+\newblock Emojis as anchors to detect arabic offensive language and hate
+  speech.
+\newblock {\em arXiv preprint arXiv:2201.06723}.
+
 \bibitem[\protect\citename{Radford \bgroup et al.\egroup
   }2018]{radford2018improving}
 Radford, A., Narasimhan, K., Salimans, T., and Sutskever, I.
@@ -79,6 +100,13 @@ Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.~N.,
 \newblock (2017).
 \newblock Attention is all you need.
 \newblock {\em Advances in neural information processing systems}, 30.
+
+\bibitem[\protect\citename{Williams and Ozalp}2020]{hate2022machine}
+Williams, M.~L., B. P. J. A. L.~H. and Ozalp.
+\newblock (2020).
+\newblock Hate in the machine: anti-black and anti-muslim social media posts as
+  predictors of offline racially and religiously aggravated crime.
+\newblock {\em The British Journal of Criminology 60(1): 93–117.}
 
 \bibitem[\protect\citename{Yang and Zhao}2019]{yang2019deepening}
 Yang, J. and Zhao, H.

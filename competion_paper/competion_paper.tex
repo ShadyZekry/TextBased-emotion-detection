@@ -1,11 +1,10 @@
-\documentclass[10pt, a4paper]{article}
+\documentclass[10pt, a4paper, twoside, twocolumn]{article}
 \usepackage{lrec2022} % this is the new LREC2022 Style
 \usepackage{multibib}
 \newcites{languageresource}{Language Resources}
 \usepackage{graphicx}
 \usepackage{tabularx}
 \usepackage{soul}
-\usepackage{times}
 
 \usepackage{titlesec}
 
@@ -14,6 +13,7 @@
 
 \usepackage{hyperref}
 \usepackage{xstring}
+\usepackage{times}
 
 \usepackage{color}
 \usepackage{amsmath}
@@ -21,23 +21,69 @@
 \usepackage{tikz}
 \usepackage{multirow}
 \usepackage{lipsum}
+
+%\usepackage[utf8]{inputenc}
+%\usepackage[T2A,LAE,T1]{fontenc}
+%\usepackage[arabic]{babel}
+
+
+\usepackage{polyglossia}
+\usepackage{bidi}
+\usepackage[T1]{fontenc}
+\usepackage{fontspec}
+
+% Define some repeated tasks, and configurations
+\newcommand{\somemargin}{\vspace{0.2in}}
+\newcommand{\separator}{\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.5pt}}}
+\newcommand{\englishText}[1]{\LR{\englishfont #1}}
+
+\newcommand{\decisionParam}{\englishText{Decision Parameter}}
+
+\newcommand{\mathindent}{\hspace{2cm}}
+
+\newfontfamily{\emoji}[
+Extension=.ttf
+]{SEGUIEMJ}
+
+
+%\newfontfamily{\emoji}{NotoColorEmoji}
+
+%\newfontfamily\Cairo[
+%Extension=.ttf,
+%UprightFont = *-Regular
+%]{Cairo}
+%\setromanfont{Times New Roman}
+
+%\newfontfamily\emojis{NotoColorEmoji}
+%\setmainfont{Times New Roman}
+\newfontfamily\arabicfont[Script=Arabic]{Tajawal}
+
+%\newcommand{\arabicfont}[1]{\RL{\arabicfont #1}}
+
 %\usepackage{biblatex}
 
 %\usepackage[backend=biber]{biblatex}
 %\addbibresource{./citations.bib}
 %\printbibliography
 
+
+
 \graphicspath{{graphics/}}
 
 
-\title{CHILLAX - at Arabic Hate Speech 2022: A Machine Learning With Transformers Approach To Arabic Offensive And Hate Speech Tweets Detection.}
+\title{CHILLAX - at Arabic Hate Speech 2022: A Hybrid Machine Learning and Transformers based Model to Detect Arabic Offensive and Hate Speech}
 
 
 \date{}
 
-\name{Prof Ensaf Hussein} 
+\name{
+	\textnormal{\normalfont Kirollos Hany, Kirollos George, Malak Emad,} \\
+	Shady Zekry, Seif Hesham, Fady Fayek,\\
+	Ensaf Hussein Mohamed} 
 
-\address{Kirollos Hany, Kirollos George, Malak Emad, \\ Shady Zekry, Seif Hesham, Fady Fayek}
+\address{Research Support Center in Computing and Informatics\\
+	Department of Computer Science, Faculty of Computers and Artificial Intelligence,\\ Helwan University, Cairo, Egypt. \\ kirollos\_20180442@fci.helwan.edu.eg, \\ kirollos\_20180437@fci.helwan.edu.eg, Malak\_20180615@fci.helwan.edu.eg, \\ Shady\_20180285@fci.helwan.edu.eg, seif\_20180284@fci.helwan.edu.eg, \\ fady\_20180413@fci.helwan.edu.eg, ensaf\_hussein@fci.helwan.edu.eg
+}
 
 \abstract{Hate speech and offensive language became a crucial problem nowadays due to the large usage of social media by people from different gender, nationality, religion and other types of characteristics allowing anyone to share their thoughts and opinions. In this research paper we experiment the result of using the Arabic pretrained Bert language model MARBERT for feature extraction of the Arabic tweets in the dataset provided by OSACT2022 shared task then feeding the features to classic machine learning models (Logistic Regression, Random Forest). The best results achieved were by the Logistic Regression model with accuracy, precision, recall, and f1-score of 0.8, 0.78, 0.78, and 0.78 for the offensive tweet detection task respectively and for the hate speech tweet detection task results achieved were 0.89, 0.72, 0.8, and 0.76 these results were achieved on the OSACT2022 test dataset. \\ \newline \Keywords{Arabic Tweets, Offensive language, Hate speech, Transformers, Text classification
 }}
@@ -82,34 +128,104 @@ We used the Arabic tweets dataset provided by OSACT2022 shared task which contai
 \end{figure}
 
 \begin{figure}[htbp]
-	\includegraphics[width=\columnwidth, height=0.30\paperwidth]{07.png}
+	\includegraphics[scale=0.5]{07.png}
 	\caption{Hate speech detection task label count plot}
 	\label{fig:hate_speech}
 \end{figure}
 
 The data set we have used we split it into 2 parts. First part is testing data which is 70\%, and testing data which represents 30\%. Worth mentioning that the data set is from the \href{https://sites.google.com/view/arabichate2022/home}{competition}.
 
+\clearpage
+
+\begin{figure*}[ht!]
+	\begin{center}
+		\includegraphics[scale=0.5]{04.png}
+		%	\caption{text}
+	\end{center}
+\end{figure*}
+
 \section{Proposed Model}\label{sec:proposed_model}
 
-\begin{figure}[htbp]
-	\includegraphics[width=\columnwidth, height=0.04\textheight]{04.png}
-%	\caption{text}
-\end{figure}
-
 \subsection{Preprocessing}
-For the preprocessing phase all URLs and user mentions were removed from the tweet text. To tackle the class imbalance problem present in the two tasks contextual word embedding with insert action data augmentation technique using MARBERT Arabic model to generate new tweets of the minority classes (offensive, hate speech) so that the class distribution in both tasks were balanced to prevent the model from biasing towards the majority classes (not offensive, not hate speech). Some of the augmented tweets had an unknown special token generated these tokens were removed from the augmented tweets. The NLP aug ~\cite{al2020hate} data augmentation library were used for the data augmentation. Figure~\ref{fig:aug_off_tweets} and~\ref{fig:aug_hate_tweets} shows a sample of augmented offensive and hate speech tweets respectively.
+For the preprocessing phase all URLs and user mentions were removed from the tweet text. To tackle the class imbalance problem present in the two tasks contextual word embedding with insert action data augmentation technique using MARBERT Arabic model to generate new tweets of the minority classes (offensive, hate speech) so that the class distribution in both tasks were balanced to prevent the model from biasing towards the majority classes (not offensive, not hate speech). Some of the augmented tweets had an unknown special token generated these tokens were removed from the augmented tweets. The NLP aug ~\cite{al2020hate} data augmentation library were used for the data augmentation. Table~\ref{table:aug_off_tweets} and~\ref{table:aug_hate_tweets} shows a sample of augmented offensive and hate speech tweets respectively.
 
-\begin{figure}[htbp]
-	\includegraphics[width=\columnwidth, height=0.11\paperheight]{05.png}
-	\caption{Augmented offensive tweets sample}
-	\label{fig:aug_off_tweets}
-\end{figure}
+\begin{table}[htbp]
+	\begin{center}
+		\fontsize{7pt}{20pt}
+		\begin{tabular}{|p{0.45\columnwidth}|p{0.45\columnwidth}|}
+			\hline
+			Original Tweets & Augmented Tweets \\ \hline
+			\RL{\arabicfont{جمهور الاهلي مضحوك عليهم الحين يصدقو ان عددهم كثير}
+			}
+		
+			\LR{\emoji{🐸😂}}	
+				
+			&
+			\RL{\RL{\arabicfont{جمهور وجمهور الاهلي مضحوك عليهم}}
+				\RL{\arabicfont الحين من يصدقو ان الاهلاويين عددهم كثير}
+				\LR{\emoji{🐸😂}}
+			}
+	
+			\\ \hline
+			\RL{\RL{\arabicfont{#بايع\_الكليجا الله يفشلكم فشلتونا يالمراهقات انا استحيت من تصرفات البنات وتعليقاتهم وانا مالي دخل }}
+				\RL{\emoji{😷}}}
+			& \RL{\RL{\arabicfont واحد [UNK] سعودي بايع [UNK] يبيع الكليجاالله يفشلكم فشلتونا يالمراهقاتانا استحيت من كثر تصرفات البنات وتعليقاتهم وانا مالي فيها دخل}
+				\RL{\emoji{😷}}}
+			\\ \hline
+			\RL{\arabicfont #بايع\_الكليجا من العام اشوفه يبيع ويسترزق الله حاله حال نفسه سالفه التصوير والتشهير فيه قله أدب اللي قاعد يصير البنات م عاد يستحو }
+			\RL{\emoji{😷}}
+			&
+			\RL{\arabicfont [UNK] • بايع [UNK] الكليجا من العام اشوفه يبيع ويسترزق الله حاله حال نفسه ف سالفه التصوير والكلام والتشهير ذي فيه قله وسوء ادب اللي قاعد يصير البنات م عاد يستحو فيه }
+			\LR{\emoji{😷}}
+			\\ \hline
+		\end{tabular}
+	\end{center}
+	\label{table:aug_off_tweets}
+	\caption{Augmented Offensive tweets sample}
+\end{table}
 
-\begin{figure}[htbp]
-	\includegraphics[width=\columnwidth, height=0.11\paperheight]{05.png}
+
+\begin{table}[htbp]
+	\begin{center}
+		\fontsize{7pt}{20pt}
+		\begin{tabular}{|p{0.45\columnwidth}|p{0.45\columnwidth}|}
+			\hline
+			Original Tweets & Augmented Tweets \\ \hline
+			\RL{\RL{\arabicfont{الهندي قاعد يثبت للمعزّب إن الخروف صار صديقه علشان ما يذبحه}
+				} \LR{\emoji 🐑 😂}}
+			
+			&
+			\RL{\RL{\arabicfont{الهندي قاعد يثبت للمعزب ان الخروف صار له صديقه علشان بس ما يذبحه }}
+				\LR{\emoji{ 🐑 😂}}
+			}
+			
+			\\ \hline
+			\RL{\RL{\arabicfont{قلبنا يابنت خلينا حلوين يعني انتم وش يجملكم غير الميك اب}}
+				\RL{\emoji{🙉}}}
+			& \RL{\RL{\arabicfont{قلبنا يابنت خلينا نكون حلوين يعني انتم وش اللي يجملكم من غير الميك اب}}
+				\RL{\emoji{🙉}}}
+			\\ \hline
+			\RL{\arabicfont{عاهات بزمنكم كانوا يصولون ويجولون شرق اسيا، ختاماً بعالمية ضد سوباولو البرازيلي، وانت بعز مستواك حققت الدوري بعد ٣٢ سنه عاجفه بالضحك والطقطقه عليكم؟}}
+			&
+			\RL{\arabicfont{عاهات بزمنكم كانوا يصولون ويجولون شرق قارة اسيا الان ، ختاما فاز بعالمية ضد سوباولو البرازيلي ، تخيل وانت بعز مستواك حققت الدوري بعد ٣٢ سنه سنه عاجفه ، بالضحك عليه والطقطقه شلون عليكم ؟}}
+			\\ \hline
+		\end{tabular}
+	\end{center}
+	\label{table:aug_hate_tweets}
 	\caption{Augmented hate speech tweets sample}
-	\label{fig:aug_hate_tweets}
-\end{figure}
+\end{table}
+
+%\begin{figure}[htbp]
+%	\includegraphics[width=\columnwidth, height=0.11\paperheight]{05.png}
+%	\caption{Augmented offensive tweets sample}
+%	\label{fig:aug_off_tweets}
+%\end{figure}
+%
+%\begin{figure}[htbp]
+%	\includegraphics[width=\columnwidth, height=0.11\paperheight]{05.png}
+%	\caption{Augmented hate speech tweets sample}
+%	\label{fig:aug_hate_tweets}
+%\end{figure}
 
 \subsection{Feature Extraction}
 For the feature extraction phase we used MARBERT pretrained Arabic language model to extract features which will be later fed to the machine learning models Logistic Regression and Random Forest for training. The MARBERT model is a Bert-base model which consists of 12 hidden layers and hidden size of 768 the output of the last four hidden layers where each layer is of dimensions sentence length x hidden size were obtained then the the output of each layer is summed to produce a single vector of sentence length x hidden size dimensions then the mean of this vector was computed to produce a single vector of hidden size length which represents the feature vector for the tweet that will be fed to the machine learning models.

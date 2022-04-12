@@ -3,47 +3,83 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: competion_paper.aux
 The style file: lrec2022-bib.bst
 Database file #1: citations.bib
+Name 1 in "Williams, M. L., Burnap, P., Javed, A., Liu, H., and Ozalp" has a comma at the end for entry hate2022machine
+while executing---line 1303 of file lrec2022-bib.bst
+Too many commas in name 1 of "Williams, M. L., Burnap, P., Javed, A., Liu, H., and Ozalp" for entry hate2022machine
+while executing---line 1303 of file lrec2022-bib.bst
+Too many commas in name 1 of "Williams, M. L., Burnap, P., Javed, A., Liu, H., and Ozalp" for entry hate2022machine
+while executing---line 1303 of file lrec2022-bib.bst
+Too many commas in name 1 of "Williams, M. L., Burnap, P., Javed, A., Liu, H., and Ozalp" for entry hate2022machine
+while executing---line 1303 of file lrec2022-bib.bst
+Too many commas in name 1 of "Williams, M. L., Burnap, P., Javed, A., Liu, H., and Ozalp" for entry hate2022machine
+while executing---line 1303 of file lrec2022-bib.bst
+Too many commas in name 1 of "Williams, M. L., Burnap, P., Javed, A., Liu, H., and Ozalp" for entry hate2022machine
+while executing---line 1303 of file lrec2022-bib.bst
+Name 1 in "Williams, M. L., Burnap, P., Javed, A., Liu, H., and Ozalp" has a comma at the end for entry hate2022machine
+while executing---line 1303 of file lrec2022-bib.bst
+Too many commas in name 1 of "Williams, M. L., Burnap, P., Javed, A., Liu, H., and Ozalp" for entry hate2022machine
+while executing---line 1303 of file lrec2022-bib.bst
+Too many commas in name 1 of "Williams, M. L., Burnap, P., Javed, A., Liu, H., and Ozalp" for entry hate2022machine
+while executing---line 1303 of file lrec2022-bib.bst
+Too many commas in name 1 of "Williams, M. L., Burnap, P., Javed, A., Liu, H., and Ozalp" for entry hate2022machine
+while executing---line 1303 of file lrec2022-bib.bst
+Too many commas in name 1 of "Williams, M. L., Burnap, P., Javed, A., Liu, H., and Ozalp" for entry hate2022machine
+while executing---line 1303 of file lrec2022-bib.bst
+Too many commas in name 1 of "Williams, M. L., Burnap, P., Javed, A., Liu, H., and Ozalp" for entry hate2022machine
+while executing---line 1303 of file lrec2022-bib.bst
 Warning--can't use both volume and number fields in aldjanabi2021arabic
 Warning--empty journal in radford2018improving
-You've used 12 entries,
+Name 1 in "Williams, M. L., Burnap, P., Javed, A., Liu, H., and Ozalp" has a comma at the end for entry hate2022machine
+while executing---line 1372 of file lrec2022-bib.bst
+Too many commas in name 1 of "Williams, M. L., Burnap, P., Javed, A., Liu, H., and Ozalp" for entry hate2022machine
+while executing---line 1372 of file lrec2022-bib.bst
+Too many commas in name 1 of "Williams, M. L., Burnap, P., Javed, A., Liu, H., and Ozalp" for entry hate2022machine
+while executing---line 1372 of file lrec2022-bib.bst
+Too many commas in name 1 of "Williams, M. L., Burnap, P., Javed, A., Liu, H., and Ozalp" for entry hate2022machine
+while executing---line 1372 of file lrec2022-bib.bst
+Too many commas in name 1 of "Williams, M. L., Burnap, P., Javed, A., Liu, H., and Ozalp" for entry hate2022machine
+while executing---line 1372 of file lrec2022-bib.bst
+Too many commas in name 1 of "Williams, M. L., Burnap, P., Javed, A., Liu, H., and Ozalp" for entry hate2022machine
+while executing---line 1372 of file lrec2022-bib.bst
+You've used 16 entries,
             2667 wiz_defined-function locations,
-            639 strings with 7444 characters,
-and the built_in function-call counts, 5930 in all, are:
-= -- 618
-> -- 256
+            656 strings with 8141 characters,
+and the built_in function-call counts, 7205 in all, are:
+= -- 751
+> -- 312
 < -- 8
-+ -- 89
-- -- 88
-* -- 448
-:= -- 912
-add.period$ -- 49
-call.type$ -- 12
-change.case$ -- 92
-chr.to.int$ -- 12
-cite$ -- 14
-duplicate$ -- 258
-empty$ -- 423
-format.name$ -- 104
-if$ -- 1267
++ -- 107
+- -- 106
+* -- 537
+:= -- 1133
+add.period$ -- 65
+call.type$ -- 16
+change.case$ -- 117
+chr.to.int$ -- 16
+cite$ -- 18
+duplicate$ -- 311
+empty$ -- 512
+format.name$ -- 127
+if$ -- 1523
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 12
-newline$ -- 74
-num.names$ -- 36
-pop$ -- 108
+missing$ -- 15
+newline$ -- 98
+num.names$ -- 48
+pop$ -- 137
 preamble$ -- 1
-purify$ -- 104
+purify$ -- 133
 quote$ -- 0
-skip$ -- 218
+skip$ -- 262
 stack$ -- 0
-substring$ -- 296
-swap$ -- 92
+substring$ -- 316
+swap$ -- 100
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 96
+type$ -- 128
 warning$ -- 2
-while$ -- 45
-width$ -- 17
-write$ -- 170
-(There were 2 warnings)
+while$ -- 53
+width$ -- 22
+write$ -- 222
+(There were 18 error messages)
